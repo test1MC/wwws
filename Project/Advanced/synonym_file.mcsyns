@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms>
+    <Directional>
+        <DirectionalSynonym From="improvements" To="new" Stem="true" />
+        <DirectionalSynonym From="community" To="forums" />
+        <DirectionalSynonym From="cplane" To="plane" />
+        <DirectionalSynonym From="boundary" To="loft" />
+        <DirectionalSynonym From="array" To="pattern" />
+        <DirectionalSynonym From="insert" To="derived" />
+        <DirectionalSynonym From="patch" To="fill" />
+        <DirectionalSynonym From="square" To="rectangle" />
+        <DirectionalSynonym From="curve" To="spline" />
+        <DirectionalSynonym From="move" To="transform" />
+        <DirectionalSynonym From="shape" To="polygon" />
+        <DirectionalSynonym From="oval" To="ellipse" />
+        <DirectionalSynonym From="keyway" To="slot" />
+        <DirectionalSynonym From="rigid" To="group" />
+        <DirectionalSynonym From="pattern" To="replicate" />
+        <DirectionalSynonym From="disc" To="swept profile" />
+    </Directional>
+    <Groups>
+        <SynonymGroup>
+            <Word>settings</Word>
+            <Word>preferences</Word>
+            <Word>options</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>draw</Word>
+            <Word>sketch</Word>
+            <Word>layout</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>extrude</Word>
+            <Word>base</Word>
+            <Word>boss</Word>
+            <Word>protrusion</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>fillet</Word>
+            <Word>blend</Word>
+            <Word>round</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>transform</Word>
+            <Word>copy</Word>
+            <Word>rotate</Word>
+            <Word>scale</Word>
+            <Word>move</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="false">
+            <Word>boolean</Word>
+            <Word>subtract</Word>
+            <Word>join</Word>
+            <Word>combine</Word>
+            <Word>union</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>remove</Word>
+            <Word>delete</Word>
+            <Word>cut</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>hollow</Word>
+            <Word>shell</Word>
+            <Word>offset</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>variable</Word>
+            <Word>constant</Word>
+            <Word>expression</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>draft</Word>
+            <Word>taper</Word>
+            <Word>angle</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>helix</Word>
+            <Word>spiral</Word>
+            <Word>curve</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>rib</Word>
+            <Word>reinforcement</Word>
+            <Word>web</Word>
+            <Word>stiffener</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>enclose</Word>
+            <Word>solidify</Word>
+            <Word>knit</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>use</Word>
+            <Word>project</Word>
+            <Word>projection</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>conic</Word>
+            <Word>parabola</Word>
+            <Word>hyperbola</Word>
+        </SynonymGroup>
+    </Groups>
+</MadCapSynonyms>

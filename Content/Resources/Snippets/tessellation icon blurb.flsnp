@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>A part or assembly that has tessellation turned on is indicated by this icon <img src="../Images/icons/tessellation@1x.png" class="InlineImage" alt="Tessellation icon" /> in the  Instances list. For example:</p>
+        <p>
+            <img src="../Images/assembly/tessellation-example.png" class="RoundedCorners" alt="Showing Tessellation in the instance list" />
+        </p>
+    </body>
+</html>

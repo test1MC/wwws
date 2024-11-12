@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Document copies icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADTSURBVHgBzZRRDoMgEEQX0hPpAcrN0JvRf/VI0B0LDRAEW/xwErJg2MfuKBLdXaL0cBxHd5SwrqugimQMiUHOuRnJYWB9tDfWI1ubMBFCaE7SVBb2qSaQq3ghttrCPj5QNYEl1fwchkFv2zb/BPQyoXqIq3tyUBwnhlIMPQUEjJOmqLIJLfMAKIFK6tCyLADPvlLdDYS/rB0EKOJZDxNJKY219rsOnv4N5FYNRd9s8HQ/jC7W5cCkZXiB8qlDuYeqdKVaB/mX8plTQ7Wrl6v1D7iH3pjCXPP3GiqGAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

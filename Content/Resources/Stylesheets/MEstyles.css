@@ -1,0 +1,2079 @@
+/*<meta conditions="Doc.HideFromLingo" />*/
+
+/*importing corporate Flama fonts*/
+
+@font-face 
+{
+	font-family: 'flamabook';
+	src: url('../fonts/Flama-Book.otf');
+	src: url('../fonts/Flama-Book.svg');
+	src: url('../fonts/Flama-Book.woff');
+}
+
+@font-face 
+{
+	font-family: 'flamasemibold';
+	src: url('../fonts/Flama-Semibold.otf');
+	src: url('../fonts/Flama-Semibold.svg');
+	src: url('../fonts/Flama-Semibold.woff');
+}
+
+/* importing corporate PTCRaleway fonts */
+
+@font-face 
+{
+	font-family: 'PTCRaleway';
+	src: url('../fonts/PTCRaleway.ttf');
+	src: url('../fonts/PTCRaleway.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Black';
+	src: url('../fonts/PTCRaleway-Black.ttf');
+	src: url('../fonts/PTCRaleway-Black.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-BlackItalic';
+	src: url('../fonts/PTCRaleway-BlackItalic.ttf');
+	src: url('../fonts/PTCRaleway-BlackItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Bold';
+	src: url('../fonts/PTCRaleway-Bold.ttf');
+	src: url('../fonts/PTCRaleway-Bold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-BoldItalic';
+	src: url('../fonts/PTCRaleway-BoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-BoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraBold';
+	src: url('../fonts/PTCRaleway-ExtraBold.ttf');
+	src: url('../fonts/PTCRaleway-ExtraBold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraBoldItalic';
+	src: url('../fonts/PTCRaleway-ExtraBoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-ExtraBoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraLight';
+	src: url('../fonts/PTCRaleway-ExtraLight.ttf');
+	src: url('../fonts/PTCRaleway-ExtraLight.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraLightItalic';
+	src: url('../fonts/PTCRaleway-ExtraLightItalic.ttf');
+	src: url('../fonts/PTCRaleway-ExtraLightItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Italic';
+	src: url('../fonts/PTCRaleway-Italic.ttf');
+	src: url('../fonts/PTCRaleway-Italic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Light';
+	src: url('../fonts/PTCRaleway-Light.ttf');
+	src: url('../fonts/PTCRaleway-Light.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-LightItalic';
+	src: url('../fonts/PTCRaleway-LightItalic.ttf');
+	src: url('../fonts/PTCRaleway-LightItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Medium';
+	src: url('../fonts/PTCRaleway-Medium.ttf');
+	src: url('../fonts/PTCRaleway-Medium.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-MediumItalic';
+	src: url('../fonts/PTCRaleway-MediumItalic.ttf');
+	src: url('../fonts/PTCRaleway-MediumItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-SemiBold';
+	src: url('../fonts/PTCRaleway-SemiBold.ttf');
+	src: url('../fonts/PTCRaleway-SemiBold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-SemiBoldItalic';
+	src: url('../fonts/PTCRaleway-SemiBoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-SemiBoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Thin';
+	src: url('../fonts/PTCRaleway-Thin.ttf');
+	src: url('../fonts/PTCRaleway-Thin.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ThinItalic';
+	src: url('../fonts/PTCRaleway-ThinItalic.ttf');
+	src: url('../fonts/PTCRaleway-ThinItalic.ttf?#iefix') format('truetype');
+}
+
+/* Begin Stylings -------------------- */
+
+body
+{
+	/*	color: #404040; */
+	font-family: 'flamabook';
+	/*	font-family: 'flamatest';   */
+	font-size: 0.9em;
+	/* reduced font-size from 1em to 0.9em for Flama Book  */
+	/*	line-height: 1.7em;   */
+	line-height: 1.2em;
+	/*	margin-left: 17px;  reduced to 8 to minimize the space between content and gray border*/
+	margin-left: 8px;
+	margin-top: 0px;
+	max-width: auto;
+}
+
+a:link
+{
+	color: #1651B0;
+	font-weight: normal;
+}
+
+a:visited
+{
+	/*	color: #2D8DCC; */
+	color: #1651B0;
+}
+
+a:hover
+{
+	/*	color: #BED230; */
+}
+
+a.footermaster:visited
+{
+	color: #ffffff;
+}
+
+a.footermaster:hover
+{
+	color: #BED230;
+}
+
+a.footermasterurls:visited
+{
+	color: #ffffff;
+}
+
+a.footermasterurls:hover
+{
+	color: #bed230;
+}
+
+a.MCBreadcrumbsLink
+{
+	/* text-decoration: underline; */
+	text-decoration: none;
+	/* color: #1651B0; 
+	changed to paler/grayer version of onshape blue*/
+	color: #5d82ab;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: darkgray;
+}
+
+blockquote
+{
+	background-color: #e1e1e1;
+	/*	background-image: url('../Images/QuotationMark.png'); */
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-bottom: none;
+	border-left-color: #b3b3b3;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #b3b3b3;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #b3b3b3;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-family: 'Century Gothic';
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 18px;
+	margin: 0;
+	padding-bottom: 0px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 12px;
+}
+
+Div.GlossaryPageDefinition
+{
+	
+}
+
+Div.GlossaryPageHeading
+{
+	
+}
+
+Div.GlossaryPageTerm
+{
+	
+}
+
+/* to style the horizontal rule for above the 'was this helpful' */
+
+hr
+{
+	border: 1px solid #d3d3d3;
+}
+
+h1
+{
+	margin-bottom: 8px;
+	/*	margin-left: -17px;
+		margin-right: -17px;  */
+	margin-top: 0px;
+	width: 100%;
+	background-image: none;
+	border-bottom-width: 2px;
+	border-bottom-color: #1651B0;
+	/*	padding-left: 17px;
+		padding-right: 17px; */
+	/* causes horizontal scrolling!*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none 0px;
+	border-bottom: solid 0px;
+	/*	font-weight: bold; */
+	text-decoration: none;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-family: 'flamasemibold';
+	color: #1651B0;
+}
+
+h2
+{
+	margin-bottom: 4px;
+	margin-top: 20px;
+	/*	font-size: 1.40em; */
+	font-size: 1.3em;
+	/*	font-weight: bold; */
+	/*	font-family: 'flamasemibold'; */
+	font-family: flamasemibold;
+	color: #1651B0;
+}
+
+h3
+{
+	font-size: 1.1em;
+	margin-bottom: 4px;
+	margin-top: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #1651B0;
+}
+
+img.ReduceButtonSize
+{
+	max-height: 20px;
+	max-width: 20px;
+}
+
+img.SeventyFivePercent
+{
+	max-width: 95%;
+}
+
+img.NinetyFivePercentGreyBorder
+{
+	max-width: 95%;
+	border: 3px solid #9AA5AF;
+}
+
+li
+{
+	/*	line-height: 1.0em; */
+	orphans: 2;
+	widows: 2;
+	font-size: 12pt;
+	margin-bottom: 9px;
+	margin-top: 9px;
+	font-family: flamabook;
+	border-left: -20;
+	line-height: 23px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	border-top: none;
+	/* color: white;  This removes the topic name from end of breadccrumb (but also removes > between sections)*/
+	color: gray;
+	margin-bottom: 0px;
+	margin-left: -17px;
+	/*  margin-right: -17px;  */
+	mc-breadcrumbs-prefix: '';
+	padding-bottom: 0px;
+	padding-left: 17px;
+	/* padding-right: 17px;  */
+	/* causes horizontal scrolling */
+	padding-top: 0px;
+	font-size: 0.9em;
+	display: block;
+}
+
+MadCap|conceptLink
+{
+	color: #404040;
+	font-size: 0.8em;
+	font-weight: bold;
+	/*	mc-image: url('../Images/ListIcon.png'); */
+	mc-label: 'SEE ALSO';
+	padding-top: 8px;
+	text-decoration: none;
+}
+
+MadCap|conceptLink:hover
+{
+	color: #BED230;
+	font-weight: bold;
+}
+
+MadCap|dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-closed-image: url('../Images/icons/DropDownClosed.png');
+	mc-disabled: false;
+	mc-open-image: url('../Images/icons/DropDownOpen.png');
+}
+
+MadCap|dropDownBody
+{
+	margin-bottom: 10px;
+	/* border-bottom: solid 1px #1651B0; */
+	mc-disabled: false;
+}
+
+MadCap|dropDownHead,
+MadCap|dropDownHead.h2
+{
+	mc-disabled: false;
+	margin-bottom: 4px;
+	margin-top: 16px;
+	/* margin-top 20 > 16 */
+	color: #1651B0;
+	/*	font-size: 1.40em; */
+	font-size: 1.3em;
+	/*	font-weight: bold; */
+	font-family: 'flamasemibold';
+}
+
+MadCap|dropDownHead.h3
+{
+	mc-disabled: false;
+	margin-bottom: 0px;
+	margin-top: 8px;
+	/* margin-top 20 > 16 */
+	color: #1651B0;
+	/*	font-size: 1.40em; */
+	/*	font-weight: bold; */
+	font-family: 'flamabook';
+	font-size: 12pt;
+}
+
+MadCap|dropDownHotspot
+{
+	/*	color: #404040; */
+	color: #1651B0;
+	/*	font-size: 0.9em; */
+	font-weight: bold;
+	mc-disabled: false;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	/*	color: #1651B0; */
+	color: #404040;
+}
+
+MadCap|dropDownHotspot:focus
+{
+	color: #1651B0;
+}
+
+MadCap|dropDownHotspot.Footer:hover
+{
+	color: #BED230;
+}
+
+/* trying to create a 1/3-2/3 drop down*/
+
+/*MadCap|dropDown-onethird
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-closed-image: url('../Images/icons/DropDownClosed.png');
+	mc-disabled: false;
+	mc-open-image: url('../Images/icons/DropDownOpen.png');
+}
+
+MadCap|dropDownBody-twothirds
+{
+	margin-right: 20px;
+	margin-bottom: 10px;
+	mc-disabled: false;
+}
+
+MadCap|dropDownHead-onethird,
+MadCap|dropDownHead-onethird.h2
+{
+	mc-disabled: false;
+	margin-bottom: 4px;
+	margin-top: 16px;
+	color: #1651B0;
+	font-size: 1.3em;
+	font-family: 'flamasemibold';
+}
+
+MadCap|dropDownHead-onethird.h3
+{
+	mc-disabled: false;
+	margin-bottom: 0px;
+	margin-top: 8px;
+	color: #1651B0;
+	font-family: 'flamabook';
+	font-size: 12pt;
+}
+
+MadCap|dropDownHotspot-onethird
+{
+	color: #1651B0;
+	font-weight: bold;
+	mc-disabled: false;
+}
+
+MadCap|dropDownHotspot-onethird:hover
+{
+	color: #404040;
+}
+
+MadCap|dropDownHotspot-onethird:focus
+{
+	color: #1651B0;
+}
+
+MadCap|dropDownHotspot-onethird.Footer:hover
+{
+	color: #BED230;
+}
+*/
+
+/*end of trying to create 1/3-2/3 drop down*/
+
+MadCap|footnoteBlock
+{
+	
+}
+
+MadCap|footnotesBlock
+{
+	
+}
+
+MadCap|glossaryProxy
+{
+	
+}
+
+MadCap|indexProxy
+{
+	
+}
+
+MadCap|miniTocProxy
+{
+	
+}
+
+MadCap|tocProxy
+{
+	
+}
+
+MadCap|popup
+{
+	color: #2D8DCC;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+MadCap|popup:focus
+{
+	color: #2D8DCC;
+}
+
+MadCap|popup:hover
+{
+	color: #2D8DCC;
+}
+
+MadCap|popupHead
+{
+	color: #2D8DCC;
+	font-weight: bold;
+}
+
+MadCap|xref
+{
+	color: #1651B0;
+	font-weight: normal;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+/*----------------- Workaround to force cross-refs to display in normal font ---------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+MadCap|xref:hover
+{
+	/*	color: #BED230; */
+}
+
+MadCap|xref.IndexPageNumber
+{
+	
+}
+
+/*-------------------------------- Remove space above and below list -----------------------------------------*/
+
+ol,
+ul
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------- Set list decoration to be flush left with body text -----------------------*/
+
+ol
+{
+	font-size: 12pt;
+	margin-left: -17px;
+}
+
+ul
+{
+	margin-left: -22px;
+	font-size: 12pt;
+	font-family: flamabook;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+ol ol
+{
+	list-style-type: lower-alpha;
+	margin-left: -16px;
+}
+
+ol ol ol
+{
+	list-style-type: lower-roman;
+}
+
+p
+{
+	/* SK changed from 8px to 10px */
+	font-size: 12pt;
+	line-height: 23px;
+	font-style: normal;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-family: flamabook;
+}
+
+p.IndexHeading
+{
+	
+}
+
+p.MiniTOC1
+{
+	
+}
+
+span.SeeAlsoIndexTerms
+{
+	font-style: italic;
+}
+
+span.SeeIndexTerms
+{
+	font-style: italic;
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+}
+
+th
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+tr
+{
+	
+}
+
+ul
+{
+	list-style-position: outside;
+	list-style-image: url('../Images/concepts/bluebulletsmall.png');
+}
+
+ul.FirstLevelLessIndentation
+{
+	margin-left: -10px;
+}
+
+div.threeCells	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.threeCells::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.threeCells::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.threeCells > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.threeCells > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.threeCells > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+div.threeCells > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.fourCells	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.fourCells::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.fourCells::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.fourCells > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.fourCells > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.fourCells > div:nth-child(2)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.fourCells > div:nth-child(3)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.fourCells > div:nth-child(4)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+span.SearchHighlight
+{
+	background: #ffde7e;
+}
+
+div.NewRowClass1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.NewRowClass1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.NewRowClass1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.NewRowClass1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.NewRowClass1 > div:nth-child(1)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.NewRowClass1 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.primer-2	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.primer-2::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.primer-2::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.primer-2 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.primer-2 > div:nth-child(1)
+{
+	margin-left: 0%;
+	width: 25%;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top: solid 1px #1651b0;
+	padding-top: 3px;
+	border-left: solid 1px #1651b0;
+	padding-right: 5px;
+}
+
+div.primer-2 > div:nth-child(2)
+{
+	margin-left: 0%;
+	width: 65%;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-top: solid 1px #1651b0;
+	border-left: solid 0px #1651b0;
+	padding-top: 3px;
+}
+
+@media print
+{
+	body
+	{
+		/*	font-size: 8pt;  increased for print SK  */
+		margin: 8px;
+		font-size: 12pt;
+		line-height: 1.2em;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+	}
+
+	Div.GlossaryPageDefinition
+	{
+		font-size: 9pt;
+		color: #000000;
+	}
+
+	Div.GlossaryPageHeading
+	{
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		font-size: 11pt;
+		color: #000000;
+		border-bottom-color: #000000;
+	}
+
+	Div.GlossaryPageTerm
+	{
+		font-size: 10pt;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		color: #000000;
+	}
+
+	h1
+	{
+		background-color: transparent;
+		border-bottom: none;
+		font-family: 'Century Gothic';
+		font-size: 22pt;
+		line-height: 24pt;
+		margin-bottom: 20px;
+		margin-left: 0;
+		padding-left: 0px;
+		padding-top: 0px;
+		page-break-before: always;
+		color: #1651B0;
+		page-break-after: avoid;
+		mc-heading-level: 1;
+	}
+
+	h2
+	{
+		line-height: 14pt;
+		page-break-before: auto;
+		font-weight: bolder;
+		font-size: 1.3em;
+		mc-heading-level: 2;
+	}
+
+	h3
+	{
+		line-height: 12pt;
+		font-weight: bold;
+		font-size: 1em;
+		page-break-after: avoid;
+		mc-heading-level: 0;
+	}
+
+	h4
+	{
+		font-size: 9pt;
+		font-weight: normal;
+		line-height: 11pt;
+		mc-heading-level: 0;
+	}
+
+	/*--------------------- Set maximum width for unclassed images to be the available width on the page ----------------------------*/
+
+	img
+	{
+		max-width: 100%;
+	}
+
+	img.SeventyFivePercent
+	{
+		max-width: 75%;
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom: none;
+	}
+
+	MadCap|dropDownHead,
+	MadCap|dropDownHead.h2
+	{
+		line-height: 14pt;
+		mc-heading-level: 3;
+		page-break-before: avoid;
+		font-weight: bolder;
+		font-size: 14pt;
+		color: #1651B0;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-size: 14pt;
+		color: #1651B0;
+	}
+
+	MadCap|footnoteBlock
+	{
+		font-size: 7pt;
+	}
+
+	MadCap|footnotesBlock
+	{
+		border-top-color: #bed230;
+	}
+
+	MadCap|glossaryProxy
+	{
+		border-top: none;
+		color: #000000;
+	}
+
+	MadCap|indexProxy
+	{
+		border-top: none;
+		color: #000000;
+	}
+
+	MadCap|miniTocProxy
+	{
+		border-top-width: 0px;
+		margin-left: 0.25in;
+		margin-right: 0.25in;
+		padding-left: 0px;
+		font-size: 11pt;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top: none;
+		margin-right: 0.25in;
+		font-size: 11pt;
+	}
+
+	MadCap|xref
+	{
+		color: #404040;
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		color: #000000;
+	}
+
+	/*-------------------------------- Set list decoration to be flush left with body text -----------------------*/
+
+	ol
+	{
+		margin-left: 0.7cm;
+	}
+
+	ul
+	{
+		margin-left: 0.55cm;
+	}
+
+	li
+	{
+		
+	}
+
+	/*--------------------------------*/
+
+	p
+	{
+		/*	font-size: 8pt;  increased for print SK  */
+		font-size: 12pt;
+	}
+
+	p.IndexHeading
+	{
+		font-size: 11pt;
+		padding-top: 16px;
+		text-align: left;
+	}
+
+	p.ManualTitle2
+	{
+		color: #1651B0;
+		font-family: 'Century Gothic';
+		font-size: 22pt;
+		line-height: 0;
+		margin-bottom: 0;
+		margin-left: 1in;
+		margin-top: 0;
+	}
+
+	p.MiniTOC1
+	{
+		color: #e1e1e1;
+		font-weight: normal;
+		font-size: 11pt;
+	}
+
+	p.TOC1
+	{
+		color: #1651B0;
+		font-weight: normal;
+		margin-bottom: 6px;
+		margin-top: 12px;
+		mc-leader-format: 'none';
+		mc-pagenum-display: none;
+		page-break-after: avoid;
+		font-size: 12pt;
+	}
+
+	p.TOC2
+	{
+		font-weight: normal;
+		margin-bottom: 2px;
+		margin-left: 0.25in;
+		margin-top: 2px;
+		color: #000000;
+		font-size: 9pt;
+	}
+
+	p.TOC3
+	{
+		font-weight: normal;
+		margin-bottom: 2px;
+		margin-left: 0.35in;
+		margin-top: 2px;
+		color: #000000;
+		font-size: 9pt;
+	}
+
+	p.TOC4
+	{
+		color: #1651B0;
+		font-weight: normal;
+		margin-bottom: 6px;
+		margin-left: 0;
+		margin-top: 12px;
+		font-size: 9pt;
+	}
+
+	tr
+	{
+		page-break-inside: avoid;
+	}
+
+	ul.FirstLevelLessIndentation
+	{
+		margin-left: 30px;
+	}
+
+	ul.SecondLevel
+	{
+		margin-left: 30px;
+	}
+
+	MadCap|dropDownHead.h2
+	{
+		font-size: 14pt;
+		font-weight: bolder;
+		mc-heading-level: 0;
+	}
+
+	p.shortcut
+	{
+		padding-top: 10px;
+	}
+
+	footer
+	{
+		font-size: 9pt;
+	}
+
+	MadCap|pageFooter
+	{
+		font-size: 9pt;
+	}
+
+	div.VideoThumbnails > div:nth-child(4)
+	{
+		width: 100%;
+		mc-printer-page-footer-margin: 10px;
+		mc-toc-depth: 0;
+	}
+
+	div.threeCells > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.threeCells > div:nth-child(2)
+	{
+		width: 100%;
+	}
+
+	div.VideoThumbnails > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.VideoThumbnails > div:nth-child(2)
+	{
+		width: 100%;
+	}
+
+	div.VideoThumbnails > div:nth-child(3)
+	{
+		width: 100%;
+	}
+
+	p.MiniTOC2
+	{
+		font-size: 11pt;
+	}
+
+	p.MiniTOC9
+	{
+		font-size: 11pt;
+	}
+
+	p.MiniTOC8
+	{
+		font-size: 11pt;
+	}
+
+	p.MiniTOC7
+	{
+		font-size: 11pt;
+	}
+
+	p.MiniTOC6
+	{
+		font-size: 11pt;
+	}
+
+	p.MiniTOC5
+	{
+		font-size: 11pt;
+	}
+
+	p.MiniTOC4
+	{
+		font-size: 11pt;
+	}
+
+	p.MiniTOC3
+	{
+		font-size: 11pt;
+	}
+
+	p.TOC5
+	{
+		font-size: 9pt;
+	}
+
+	p.TOC6
+	{
+		font-size: 9pt;
+	}
+
+	p.TOC7
+	{
+		font-size: 9pt;
+	}
+
+	p.TOC8
+	{
+		font-size: 9pt;
+	}
+
+	p.TOC9
+	{
+		font-size: 9pt;
+	}
+
+	h5
+	{
+		mc-heading-level: 0;
+	}
+
+	h6
+	{
+		mc-heading-level: 0;
+	}
+
+	MadCap|dropDownHead
+	{
+		mc-heading-level: 0;
+	}
+}
+
+p.Note1	/*paragraph note*/
+{
+	border-left: solid;
+	margin-left: 0;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-left-color: #ffffff;
+	color: #000000;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	text-align: left;
+	text-indent: 0px;
+	border-color: #90cef1;
+	background-color: #b1dcf5;
+	border: solid 8px #b1dcf5;
+	border-bottom: solid 6px #b1dcf5;
+	padding-left: 0in;
+	font-family: flamabook;
+	font-size: 12pt;
+}
+
+div.Note1	/*multi-paragraph note*/
+{
+	border-left: solid;
+	margin-left: 0;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-left-color: #ffffff;
+	border-radius: 1px;
+	color: #000000;
+	text-align: left;
+	text-indent: 0px;
+	border-color: #90cef1;
+	background-color: #b1dcf5;
+	border: solid 8px #b1dcf5;
+	border-bottom: solid 6px #b1dcf5;
+	padding-left: 0in;
+	font-family: flamabook;
+	font-size: 12pt;
+}
+
+img
+{
+	font-style: italic;
+	margin-bottom: 1px;
+}
+
+@media non-print
+{
+	h2
+	{
+		font-style: normal;
+		font-size: 1.40em;
+	}
+
+	h3
+	{
+		font-size: 1.40em;
+		font-style: normal;
+	}
+
+	h1
+	{
+		font-size: 1.50em;
+	}
+
+	body
+	{
+		font-size: 1.0em;
+		line-height: 1.5em;
+	}
+
+	MadCap|topicToolbarProxy
+	{
+		margin-left: 28%;
+		float: right;
+		/*SK to right align footer toolbar on Master Page*/
+	}
+
+	li
+	{
+		
+	}
+
+	MadCap|dropDownHead
+	{
+		font-size: 12pt;
+		color: #1651B0;
+		text-decoration: underline;
+	}
+
+	p.Note1
+	{
+		background-color: #fff8dc;
+		font-style: italic;
+		padding-left: 8px;
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom-color: #1651B0;
+		border-bottom: dashed 1px #1651B0;
+		border: dashed 1px #1651B0;
+		padding: 0px;
+		background-color: #cfdbe5;
+		padding-left: 6px;
+	}
+
+	MadCap|dropDownHotspot.Footer:hover
+	{
+		color: #1651B0;
+	}
+
+	MadCap|dropDownHotspot:hover
+	{
+		color: #1651B0;
+	}
+
+	MadCap|dropDownHotspot.Footer:focus
+	{
+		color: #1651B0;
+	}
+
+	MadCap|dropDownHotspot:focus
+	{
+		color: #1651B0;
+	}
+
+	p.NoteIndent
+	{
+		background-color: #fff8dc;
+		border-left-color: #ffc20e;
+		border-left-width: 6px;
+	}
+
+	img
+	{
+		padding-bottom: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+
+	p
+	{
+		line-height: 40px;
+	}
+}
+
+p.shortcut	/*below h1*/
+{
+	margin-top: -16px;
+	font-size: 0.9em;
+	margin-bottom: 14px;
+}
+
+b
+{
+	font-family: flamasemibold;
+	font-weight: bold;
+	font-style: normal;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: right;
+}
+
+.MCTopicPopupHotSpot_.MCTopicPopup_Closed
+{
+	/* background-image: url('ExpandingClosed.gif'); */
+	background-image: none;
+	/*  padding-right: 16px;  */
+	padding-right: 0px;
+	padding-left: 0px;
+	/* removes arrow from glossary topic popup hotspot link */
+}
+
+.MCTopicPopup_Open.MCTopicPopupHotSpot_
+{
+	background-image: none;
+	/* removes tacky close-arrow icon and padding from glossary topic links */
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.MCTopicPopupContainer
+{
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+	/*    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px; */
+	/* makes glossary topic popup larger than default 100px. % makes mobile proportionally larger than browser */
+}
+
+.MCTextPopupHotSpot_.MCTextPopup_Closed
+{
+	background-image: none;
+	/* removes tacky close-arrow icon and padding from glossary text links */
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.MCTextPopup_Open.MCTextPopupHotSpot_
+{
+	background-image: none;
+	/* removes tacky close-arrow icon and padding from glossary text links */
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+p.EVP	/*use this for the early visibility program topics*/
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	color: #ffffff;
+	background-color: #1651B0;
+	text-align: center;
+	border: solid 1px;
+	border-color: #1651B0;
+	font-size: 14pt;
+	padding: 3px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+p.shortcut1	/*below h1*/
+{
+	font-size: 0.9em;
+	margin-bottom: 14px;
+	margin-top: 15px;
+}
+
+MadCap|dropDownHead.h2
+{
+	font-weight: bolder;
+}
+
+p.NoteIndent11	/*paragraph note*/
+{
+	border-left: solid;
+	padding-left: 0in;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-left-color: #ffffff;
+	color: #000000;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-radius: 6px;
+	font-size: 10pt;
+	line-height: 12pt;
+	text-align: left;
+	text-indent: 0px;
+	margin-left: 0.25in;
+	border-bottom: solid 6px #b1dcf5;
+	background-color: #b1dcf5;
+	border-color: #b1dcf5;
+	border: solid 8px #b1dcf5;
+	font-family: flamabook;
+}
+
+p.caption
+{
+	font-family: Arial;
+	font-size: 10pt;
+	margin: 0px;
+	margin-bottom: 8px;
+	font-style: italic;
+	text-indent: 0px;
+	padding-left: 5px;
+	margin-left: 0;
+	margin-top: 0px;
+	line-height: 11pt;
+	color: #696969;
+}
+
+@media tablet
+{
+	img
+	{
+		padding-top: 5px;
+	}
+
+	div.threeCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	body
+	{
+		
+	}
+
+	div.fourCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	span.SearchHighlight
+	{
+		
+	}
+
+	span.SearchHighlight1
+	{
+		
+	}
+
+	div.NewRowClass1 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.primer-2 > div:nth-child(1)
+	{
+		margin-left: 0%;
+		width: 25%;
+	}
+
+	div.primer-2 > div:nth-child(2)
+	{
+		margin-left: 0%;
+		width: 65%;
+	}
+}
+
+@media mobile
+{
+	div.threeCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.primer-2 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.primer-2 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		border-left: solid 0px #000000;
+		border-top: solid 0px #000000;
+	}
+}
+
+div.footer-links
+{
+	color: #ffffff;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+p.centered
+{
+	font-size: 12pt;
+	line-height: 23px;
+	font-style: normal;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-family: flamabook;
+	text-align: center;
+}
+
+h1.centered
+{
+	margin-bottom: 8px;
+	margin-top: 0px;
+	width: 100%;
+	color: #1651B0;
+	background-image: none;
+	border-bottom-width: 2px;
+	border-bottom-color: #1651B0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none 0px;
+	border-bottom: solid 0px;
+	text-decoration: none;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-family: 'flamasemibold';
+	text-align: center;
+}
+
+h2#review	/*to ask questions or post review comments*/
+{
+	margin-bottom: 4px;
+	margin-top: 20px;
+	color: #1651B0;
+	font-size: .8em;
+	font-style: italic;
+	font-family: flamabook;
+	font-weight: normal;
+}
+
+p.resources	/*paragraph res link*/
+{
+	font-size: 12pt;
+	line-height: 23px;
+	font-style: normal;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-family: flamabook;
+	color: 606A73;
+	border-radius: 4px;
+	border-bottom: solid 2px #ffc20e;
+	border-color: #ffc20e;
+	background-color: #fed96c;
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-left-color: #fed96c;
+	border-right-style: solid;
+	border-right-width: 4px;
+	border-right-color: #fed96c;
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-top-color: #fed96c;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #fed96c;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+/* Style buttons */
+
+.btn
+{
+	background-color: #d7d7d7;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	font-size: 16px;
+	cursor: pointer;
+	font-size: 20px;
+	font-color: #0a3aa1;
+}
+
+/* Light blue background on mouse-over */
+
+.btn:hover
+{
+	font-size: 16px;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #c4e2f3;
+	border: 1px solid #d3d3d3;
+	border-bottom-color: #d3d3d3;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-left: 16px;
+	padding: 18px 30px;
+}
+
+button
+{
+	cursor: pointer;
+	background-color: #eaeaea;
+	width: 40px;
+	height: 40px;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #13357a;
+	padding: 10px 10px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+button:hover
+{
+	cursor: pointer;
+	background-color: #c4e2f3;
+}
+
+/*  "was this helpful" button at the bottom of each help page, below */
+
+div.helpful-button-class
+{
+	display: flex;
+	height: 25px;
+}
+
+.helpful-button
+{
+	cursor: default;
+	background-color: #eaeaea;
+	width: 40px;
+	height: 100%;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	color: #13357a;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-right: 10px;
+	padding: 0px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.helpful-button:hover
+{
+	cursor: pointer;
+	background-color: #c4e2f3;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.helpful-button[disabled]:hover
+{
+	cursor: not-allowed;
+	background-color: #ddd;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	color: rgba(19, 53, 122, .6);
+}
+
+p.twothirdrightcolumn
+{
+	vertical-align: text-top;
+	font-color: #696969;
+	border-bottom-width: 0px;
+}
+
+p.onethirdleftcolumn
+{
+	vertical-align: text-top;
+	margin-right: 10px;
+	font-weight: bolder;
+	font-family: flamasemibold;
+	border-left: none 0px transparent;
+	color: #1651B0;
+	margin-top: 9px;
+	line-height: 18px;
+}
+
+/* Prevent hover from hiding border */
+
+b.italic	/*for emphasis*/
+{
+	font-style: italic;
+}
+
+.g_btn
+{
+	border: solid 2px #ffc20e;
+	cursor: pointer;
+	font-color: #0a3aa1;
+	font-size: 20px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	color: white;
+	border-top-style: none;
+	background-color: #d7d7d7;
+	border-radius: 2px;
+	padding: 12px 30px;
+}
+
+div.divider
+{
+	display: inline-block;
+	width: 2px;
+	height: inherit;
+}
+
+/*p.hidden
+{
+	font-size: 12pt;
+	line-height: 23px;
+	font-style: normal;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-family: flamabook;
+	background-color: #ffd500;
+	MCconditionaltext: hidden;
+}
+*/
+
+/* Additional Styles 2021
+--------------------------------------------*/
+
+/* alternate ToolIconLarge next to H1. No need for a blank paragraph, just add the icon image next to the H1 -- inside the H1 -- and voila! Instant icon in the H1 tag sized the same as the H1, with no need for a blank <p> tag and only 2 lines of CSS code */
+
+h1 img
+{
+	height: 30px;
+	margin: 0px 12px -3px 0px;
+}
+
+.dropDownHotspot img,
+img.MiniToolIcon
+{
+	height: 20px;
+	margin-bottom: -3px;
+	padding-left: 4px;
+}
+
+/* image border/corner styles and indentation, if you wish 
+img.edges {
+	border: 3px solid #64BC4F;
+	border-radius: 15px;
+	margin-left: 40px;
+}
+*/
+
+/* images 3px grey border to mimic "MadCap Capture */
+
+img.grey
+{
+	border: 3px solid #9AA5AF;
+}
+
+/* copy H2 URL anchor style */
+
+a.imgcopy::after
+{
+	content: url(Images/copy-button-small.png);
+}
+
+/* copy H2 URL anchor tooltip styling /*
+
+/* Tooltip container */
+
+.imgcopy
+{
+	position: relative;
+	display: inline-block;
+	padding-left: 6px;
+}
+
+/* Tooltip text */
+
+.imgcopy .tooltiptext
+{
+	font-family: flamasemibold;
+	visibility: hidden;
+	font-size: 14px;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 14px;
+	line-height: 1.4;
+	width: 80px;
+	background-color: #CFDBE5;
+	color: #000000;
+	text-align: center;
+	padding: 6px;
+	position: absolute;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.imgcopy:hover .tooltiptext
+{
+	visibility: visible;
+	top: -20px;
+	left: 120%;
+}
+
+/* software button styling to replace images */
+
+.SWButton
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: 4px 10px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #ffffff;
+	background-color: #1651b0;
+	overflow: visible;
+}
+

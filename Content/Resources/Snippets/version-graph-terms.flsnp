@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ul>
+            <li>
+                <b>Version</b>
+				- A named and saved state of the document. Versions are immutable and separate from workspaces. Create a version to capture a workspace at a particular point in time. You can open and branch a version.
+			<p>Indicated by normal text and a solid dot on the version graph.</p></li>
+            <li>
+                <b>Workspace</b>
+				- A modeling/design space.
+			<p>The active workspace is indicated by a blue box to the left of it in the version graph list, and an open dot at the end of the associated branch.</p></li>
+            <li>
+                <b>Branch</b>
+				- Where the document is split and a new workspace is created. A branch can have zero or more versions, and up to one workspace. You can open and delete a branch.
+			<p>Indicated by bold and italic text and a dot on the version graph. If the dot is open, the branch has one associated workspace. If the dot is closed, the workspace associated with that branch has been deleted.</p></li>
+        </ul>
+    </body>
+</html>

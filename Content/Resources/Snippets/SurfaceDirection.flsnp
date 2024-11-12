@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Similar to a weave of cloth, every surface is roughly rectangular. Surfaces have three directions: U, V, and Normal. The Boundary surface profiles U and V represent the X and Y directions of the surface, respectively.</p>
+    </body>
+</html>

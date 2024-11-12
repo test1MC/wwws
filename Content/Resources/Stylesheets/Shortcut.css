@@ -1,0 +1,582 @@
+/*<meta conditions="Doc.HideFromLingo" />*/
+
+/* importing corporate Flama fonts */
+
+@font-face 
+{
+	font-family: 'flamabook';
+	src: url('../fonts/Flama-Book.otf');
+	src: url('../fonts/Flama-Book.svg');
+	src: url('../fonts/Flama-Book.woff');
+}
+
+@font-face 
+{
+	font-family: 'flamasemibold';
+	src: url('../fonts/Flama-Semibold.otf');
+	src: url('../fonts/Flama-Semibold.svg');
+	src: url('../fonts/Flama-Semibold.woff');
+}
+
+/* importing corporate PTCRaleway fonts */
+
+@font-face 
+{
+	font-family: 'PTCRaleway';
+	src: url('../fonts/PTCRaleway.ttf');
+	src: url('../fonts/PTCRaleway.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Black';
+	src: url('../fonts/PTCRaleway-Black.ttf');
+	src: url('../fonts/PTCRaleway-Black.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-BlackItalic';
+	src: url('../fonts/PTCRaleway-BlackItalic.ttf');
+	src: url('../fonts/PTCRaleway-BlackItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Bold';
+	src: url('../fonts/PTCRaleway-Bold.ttf');
+	src: url('../fonts/PTCRaleway-Bold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-BoldItalic';
+	src: url('../fonts/PTCRaleway-BoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-BoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraBold';
+	src: url('../fonts/PTCRaleway-ExtraBold.ttf');
+	src: url('../fonts/PTCRaleway-ExtraBold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraBoldItalic';
+	src: url('../fonts/PTCRaleway-ExtraBoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-ExtraBoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraLight';
+	src: url('../fonts/PTCRaleway-ExtraLight.ttf');
+	src: url('../fonts/PTCRaleway-ExtraLight.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraLightItalic';
+	src: url('../fonts/PTCRaleway-ExtraLightItalic.ttf');
+	src: url('../fonts/PTCRaleway-ExtraLightItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Italic';
+	src: url('../fonts/PTCRaleway-Italic.ttf');
+	src: url('../fonts/PTCRaleway-Italic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Light';
+	src: url('../fonts/PTCRaleway-Light.ttf');
+	src: url('../fonts/PTCRaleway-Light.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-LightItalic';
+	src: url('../fonts/PTCRaleway-LightItalic.ttf');
+	src: url('../fonts/PTCRaleway-LightItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Medium';
+	src: url('../fonts/PTCRaleway-Medium.ttf');
+	src: url('../fonts/PTCRaleway-Medium.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-MediumItalic';
+	src: url('../fonts/PTCRaleway-MediumItalic.ttf');
+	src: url('../fonts/PTCRaleway-MediumItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-SemiBold';
+	src: url('../fonts/PTCRaleway-SemiBold.ttf');
+	src: url('../fonts/PTCRaleway-SemiBold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-SemiBoldItalic';
+	src: url('../fonts/PTCRaleway-SemiBoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-SemiBoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Thin';
+	src: url('../fonts/PTCRaleway-Thin.ttf');
+	src: url('../fonts/PTCRaleway-Thin.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ThinItalic';
+	src: url('../fonts/PTCRaleway-ThinItalic.ttf');
+	src: url('../fonts/PTCRaleway-ThinItalic.ttf?#iefix') format('truetype');
+}
+
+/* Begin Stylings -------------------- */
+
+body
+{
+	font-family: PTCRaleway;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	margin-left: 8px;
+	margin-top: 0px;
+	max-width: auto;
+	color: #333333;
+}
+
+a:link
+{
+	color: #0000EE;
+}
+
+a:visited
+{
+	color: #551A8B;
+}
+
+a:active
+{
+	color: #EE0000;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+	font-family: PTCRaleway;
+	font-weight: bold;
+	color: #1651B0;
+}
+
+h2,
+h3
+{
+	margin: 24px 0px 16px 0px;
+}
+
+h1
+{
+	font-family: PTCRaleway-SemiBold;
+	width: 100%;
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+h2
+{
+	font-family: PTCRaleway-SemiBold;
+	font-size: 1.3em;
+}
+
+h3
+{
+	font-size: 1.2em;
+}
+
+h4
+{
+	font-size: 1.1em;
+}
+
+hr.rule1
+{
+	margin-top: -1em;
+	margin-bottom: 1.4em;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #1651B0;
+	color: #1651B0;
+	background-color: #1651B0;
+	box-shadow: 4px 4px 3px #ccc;
+}
+
+hr,
+hr.PageEnd hr.rule2
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #769FCC;
+	margin: 20px 0px 20px 0px;
+}
+
+hr.ShortcutRule
+{
+	margin-top: -10px;
+}
+
+hr.PageEnd
+{
+	margin-top: 2.5em;
+}
+
+/* table-specific stylings 
+----------------------------------------------
+----------------------------------------------
+*/
+
+p
+{
+	margin-bottom: 8px;
+	font-family: PTCRaleway;
+	font-size: 1em;
+}
+
+td
+{
+	margin-bottom: 8px;
+	font-family: PTCRaleway;
+	font-size: 1em;
+	vertical-align: top;
+}
+
+p.p_1
+{
+	font-family: PTCRaleway-SemiBold;
+	font-size: 1.2em;
+	color: #1651b0;
+	vertical-align: top;
+	text-align: left;
+	padding: 8px;
+}
+
+th.th_1
+{
+	background-color: #auto;
+	vertical-align: top;
+	border: 2px solid #333333;
+	text-align: left;
+}
+
+p.p_2
+{
+	color: #000000;
+	font-size: 1em;
+	padding: 8px;
+}
+
+td.td_1
+{
+	background-color: #auto;
+	border: 1px solid #333333;
+}
+
+td.term,
+td.definition,
+td.icon,
+td.key,
+td.context,
+td.plan,
+td.also
+{
+	background-color: #auto;
+	border: 1px solid #333333;
+}
+
+table.table_1
+{
+	border-collapse: collapse;
+}
+
+/* Shortcut style sheet */
+
+div#buttons
+{
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+.bttn
+{
+	font-family: PTCRaleway;
+	float: left;
+	width: 110px;
+	height: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+	display: block;
+	font-size: 1.2em;
+	padding: 6px 10px;
+	margin: 4px 8px 15px 0px;
+	text-decoration: none;
+	box-shadow: 2px 2px 1px #cccccc;
+	border-radius: 6px;
+}
+
+.bttn :hover
+{
+	background-color: #DCF0FC;
+}
+
+.selected
+{
+	background-color: #DCF0FC;
+}
+
+.objects
+{
+	list-style-image: none;
+	margin-left: -15px;
+	display: block;
+}
+
+.context
+{
+	margin: 10px 10px 10px 40px;
+	display: none;
+}
+
+.show
+{
+	display: block;
+}
+
+p.shortcut
+{
+	font-family: PTCRaleway-SemiBold;
+	font-size: 1.3em;
+	margin: 10px 10px 10px 20px;
+}
+
+p.explanation
+{
+	font-family: PTCRaleway;
+	font-size: 1em;
+	margin: 5px 10px 25px 40px;
+}
+
+/* Moving the triangle icons to the left in order to accommodate Safari browsers */
+
+.is-accordion-submenu-parent > a span.submenu-toggle-container
+{
+	right: 6px;
+	outline: none;
+}
+
+/* UI entity coloring */
+
+span.UIEntity,
+input#placeholder
+{
+	font-family: PTCRaleway-Semibold;
+	color: #763834;
+}
+
+/* Styling for the toolbar buttons along the top right of the screen to override the skin */
+
+.button
+{
+	margin-right: 6px;
+}
+
+div.button-group-container-left
+{
+	margin-top: -18px;
+}
+
+p.tooltip
+{
+	font-family: flamasemibold;
+	font-size: 14px;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 12px;
+	line-height: 1.2;
+	background-color: #CFDBE5;
+	color: #333333;
+	text-align: center;
+	padding: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 6px;
+	box-shadow: 1px -1px 2px #ccc;
+	border: 0px;
+}
+
+/* Tooltip definitions */
+
+[tt]
+{
+	position: relative;
+	cursor: default;
+	display: inline-block;
+	border-top: 1px dashed #9CA5AE;
+	margin-top: -1px;
+	line-height: initial;
+}
+
+[tt]::after
+{
+	font-family: flamabook;
+	visibility: hidden;
+	opacity: 0;
+	bottom: 115%;
+	left: calc(50% - 100px);
+	font-size: 14px;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 12px;
+	line-height: 1.2;
+	width: 250px;
+	background-color: #CFDBE5;
+	color: #333333;
+	text-align: center;
+	padding: 4px;
+	padding-bottom: 6px;
+	position: absolute;
+	box-shadow: 1px -1px 2px #ccc;
+	content: attr(tt);
+}
+
+[tt]:hover::after
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+[tt]:hover
+{
+	border-top: 0;
+}
+
+/* End Tooltip definitions */
+
+@media print
+{
+	html
+	{
+		zoom: 100%;
+		-webkit-transform: scale(.99);
+		/* Saf3.1+, Chrome */
+		-moz-transform: scale(0.99);
+		/* FF3.5+ */
+		-ms-transform: scale(0.99);
+		/* IE9 */
+		-o-transform: scale(0.99);
+		/* Opera 10.5+ */
+		transform: scale(0.99);
+	}
+}
+
+/* Hidden styles from style dropdown in Flare */
+
+abbr,
+acronym,
+big,
+cite,
+em,
+ins,
+kbd,
+label,
+nav.sidenav-wrapper,
+nav.title-bar,
+q,
+samp,
+small,
+span.boolean,
+span.state,
+strong,
+tt,
+var,
+address,
+div.body-container,
+div.footer-links,
+div.helpful-button-class,
+div.Note1,
+div.w-captions,
+fieldset,
+h1.centered,
+h5,
+h6,
+h2#review,
+P.EVP,
+p.onethirdleftcolumn,
+p.twothirdrightcolumn,
+p.w-captions-line,
+button,
+img.chevron,
+img.grey,
+img.miniToolicon,
+img.ReduceButtonSize
+{
+	mc-hidden: hidden;
+}
+
+/* styles for the fixed header to work correctly */
+
+div.topicToolbarProxy
+{
+	display: none;
+	padding: 1.3em 0px 2em 0px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	display: none;
+	position: fixed;
+	width: 60vw;
+	color: gray;
+	margin: 0px;
+	mc-breadcrumbs-prefix: '';
+	padding: 1em 0px 30px 0px;
+	font-size: 0.9em;
+	display: block;
+	background-color: #ffffff;
+	border-bottom-width: 0px;
+	margin-bottom: 1em;
+}
+
+div#stickyheader
+{
+	top: 90px;
+}
+
+@media only screen and (min-width: 1280px)
+{
+	div.topicToolbarProxy
+	{
+		padding: 2em 1em 2em 10%;
+	}
+}
+

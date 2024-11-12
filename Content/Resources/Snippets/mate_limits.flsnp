@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Limits are visualized in the graphics area as dashed lines with bars at the ends. The dashed lines represent the direction and distance of the movement and the solid lines represent the limit.</p>
+        <p>If a Mate has one or more applied limits, the Mate limit indicator icon <img src="../Images/icons/mate-contains-limit@1x.png" alt="Mate limit indicator" title="" class="InlineImage" /> is visible to the right of the Mate in the Mate Features list.</p>
+    </body>
+</html>

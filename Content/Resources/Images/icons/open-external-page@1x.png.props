@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Open in Arena icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC4SURBVHgB5ZLRCcMgEEDP6pcuYTfoCl1G/Owo9k/86yRdoRvEEbqAtgZKSA8NZ8hHIA9E8e4eehzA3mHURGPMUDbdCMcQwnk8CELRlLzAVCNaAcxcaq3VOednLV80iputQLJXWZd5/AQdYJmU8opzyMKazDn3XiWkykYERZhSujHGdEMWu4Wcc1ekg1LqgV+GR4ok9N7Hst3x/W9u/6Qk4QIaX3SNDYXNhdUvl958YCX4hRH6iXBsvttcTzEfOfmqAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

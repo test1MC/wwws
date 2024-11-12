@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="Resources/Images/drawings-tools/export-dialog-01.png" alt="Export drawing dialog" class="SimpleEdges" />
+        </p>
+        <ol>
+            <li>Right-click the Drawing tab.</li>
+            <li>Select <i>Export</i>.</li>
+            <li>Specify a name for the export file.</li>
+            <li>Select the desired export format.</li>
+            <li>Select the version and sheets, as appropriate. <ul><li>If selecting <i>Custom sheets</i>, enter a range or the sheet number(s).</li></ul></li>
+            <li>Choose how to treat overridden dimensions: <ol><li style="font-weight: normal;"><b>Show underlines</b></li><li style="font-weight: normal;"><b>Hide underlines</b></li></ol></li>
+            <li>Indicate how to export text and text-based annotations:<![CDATA[ 
+				]]><ul><li>If exporting to a PDF, select one of:<ul><li><b>Normal</b> - Export text normally </li><li><b>Selectable</b> - Export as selectable text</li></ul></li><li>For DWG, DXF, and DWT formats, select one of:
+				<ul><li><b>Export as text</b> - Export the text as shown in the drawing.</li><li><b>Explode into polylines (notes)</b> - Explode the drawing notes into polylines.</li><li><b>Explode all into polylines</b> - Explode all drawing annotations, notes, table cell text, and dimensions into polylines.</li></ul></li></ul></li>
+            <li>If exporting to a PDF, choose to export in color, black and white, or grayscale.</li>
+            <li>Select what to do with the export file:<ol><li><b>Download</b></li><li><b>Download and store file in a new tab</b> </li><li><b>Email  with file download link</b></li><li style="font-weight: normal;"><b>Store file in a new tab </b></li><li><b>Store in an integrated app</b> (Google Drive, for example), if available.</li></ol></li>
+            <li>If multiple drawings are exported at once (see <a href="#Exportin">Exporting multiple drawings</a> below), check <i>Apply export rules to contents</i> to have export rules applied to all the files  within the zip folder. When unchecked, export rules are applied only to the zip folder, and not to individual files inside the zip folder.
+                <p>When this option is available, a <i>View export rules</i> link is provided, which opens the <i>Account &gt;&#160;Preferences &gt;&#160;Export rules</i> in a new browser tab.</p></li>
+            <li>Indicate whether to <i>export splines as polylines</i>, available for all formats except PDF.</li>
+            <li>For DWG, DWT, and DXF exports, you can check the box to <i>Set z-height to zero and normals to positive</i>. This sets the z-height/direction of any hole normals to be positive (+1) for drawings with view geometry.</li>
+            <li>Choose to show or hide inspection items in the export.</li>
+            <li>Click <i>Export</i>.</li>
+        </ol>
+        <h4>
+            <a name="Exportin">
+            </a>Exporting multiple drawings</h4>
+        <p>To export multiple drawings at once, open the <i>Tab manager</i><![CDATA[  ]]><img src="../Images/icons/tab-manager-01.png" class="InlineImage" /> and <i>Ctrl+click</i> to select multiple drawings. Right-click to open the context menu, and select the <i>Export drawings</i> option. Then, follow the steps above, starting at Step 3.</p>
+    </body>
+</html>

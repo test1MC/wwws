@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Once an Mate is created between two explicit or implicit Mate connectors, you can edit either Mate connector:</p>
+        <ol>
+            <li>
+                <p>Open the Mate dialog. In the example below, the Fastened mate is used as an example. The process is similar for all Mates, except Tangent mate which does not use Mate connectors.</p>
+                <p>
+                    <img src="../Images/assembly/edit-mate-connector-01.png" alt="Mate dialog" title="" class="DialogBoxes" />
+                </p>
+            </li>
+            <li>
+                <p>Click the Mate connector icon (<img src="../Images/icons/matepointicon.png" alt="Mate Connector feature icon" height="22" width="21" vspace="0" hspace="0" align="bottom" border="0" class="InlineImage" />). The Mate connector dialog opens, where you can edit the mate connector's origin type, origin entity, alignment, location, primary axis direction, and secondary axis orientation:</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../Images/assembly/edit-mate-connector-02.png" alt="Edit a mate connector from the Mate dialog" title="" class="RoundedCorners" />
+        </p>
+        <div class="troubleshoot-img">
+        </div>
+        <p class="troubleshooting">Editing Mate connectors from the Mate dialog is limited to implicit or explicit connectors located in the current Assembly. Mate connectors from Part Studios, subassemblies, or linked documents must be edited in their original location.</p>
+    </body>
+</html>

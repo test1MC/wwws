@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Configured rigid assembly icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADsSURBVHgBvZTNDYJAEIVnCUfOevJKA9CAHahF0AA3E8OBxHbUCqyABjh64GATmCGZzTL7N0HlSyDDsvN25m121eZ4H0HA+3ZQknkpvs6X/fRxbZ/e2EdRFLqgrutUAkLMRIzpISH6p75tmVcIKEiEYhBWL65w92qtMWoVBXXb0grruh6bptFj3FOKp13enh56VV8cwtyU1GU2rlhV1Wys70FEYorAQqyWXfSspGEYIM9ziKEFTR+QLMtmE1GsLEunCM+1wBZi+Cxaz0NfezGcglFPAuijs1SM58522bySTHF+TXG/KfcvFcKv+QAnguPm0AfF4wAAAABJRU5ErkJggg==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <title>Mate Connector</title>
+        <meta name="description" content="Mate connectors are local coordinate system entities located on or between sketches, parts, curves, or surfaces. They are used within a mate to locate and orient sketch, part, curve, or surface instances with respect to each other. You can also use Mate connectors to create planes." />
+    </head>
+    <body onload="if (isTOCLoaded()) {expand('1912');expand('1369');expand('2541');highlight('1940')}">
+        <MadCap:snippetBlock src="Resources/Snippets/Avail-All3.flsnp" />
+        <p>Mate connectors are local coordinate system entities located on or between entities. They are used within a mate to locate and orient instances with respect to each other. You can also use mate connectors to create planes.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <a name="Mate">
+                    </a>
+                    <MadCap:keyword term="Mate connectors;Mate connectors:hiding, showing;Mate connectors:in Part Studios;showing Mate connectors;assembly plane;add Mate connector to anything;add Mate connector to sketch; attach Mate connector to sketch; attach Mate connector to anything" />
+                    <MadCap:keyword term="" />Mate Connector: Desktop
+				</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="shortcut">Shortcut: Ctrl+m</p>
+                <p class="shortcut">Shortcut:&#160;k (to show/hide mate connectors)</p>
+                <p>
+                    <MadCap:snippetText src="Resources/Snippets/IntroFeatToolbar.flsnp" />
+                </p>
+                <p>
+                    <img src="Resources/Images/icons/matepoint_intoolbar.png" class="GreyEdges" alt="Feature toolbar with Mate Connector feature icon highlighted" />
+                </p>
+                <p>
+                    <MadCap:snippetText src="Resources/Snippets/IntroAsmbToolbar.flsnp" />
+                </p>
+                <p>
+                    <img src="Resources/Images/icons/mateconnector-inassemblytoolbar1.png" class="GreyEdges" alt="Assembly toolbar with Mate Connector feature icon highlighted" />
+                </p>
+                <p>Mate connectors are local coordinate system entities located on or between sketches, parts, curves, or surfaces in&#160;Part&#160;Studios and on or between entities in assemblies. They are used within a mate to locate and orient sketch, part, curve, or surface instances with respect to each other.</p>
+                <p>Two part or surface instances are positioned in an assembly by creating a mate. The two instances are positioned by aligning a mate connector defined on one instance with a mate connector defined on the other instance.</p>
+                <div class="Note1-img">
+                </div>
+                <p class="Note1">The Z-axis of a mate connector can be used for Features that require the selection of an axis. </p>
+                <p>Mate connectors can be defined explicitly or implicitly:</p>
+                <ul>
+                    <li>Explicit mate connectors:
+					<ul><li>Defined using the <i>Mate connector</i> tool in the toolbar in an Assembly or in a Part Studio</li><li>Listed at the highest level in the Feature list</li><li>Can be selected from the Feature list during the creation of a mate</li></ul></li>
+                    <li>Implicit mate connectors:
+					<ul><li>Defined while creating a mate, in an assembly and some features in a Part Studio</li><li>Listed at a sub-level in the Feature list in an assembly, beneath the mate in which it is used</li><li>Cannot be selected from the Feature list during the creation of mate</li><li>Can be created while editing other features</li></ul></li>
+                </ul>
+                <div class="Note1-img">
+                </div>
+                <p class="Note1">When a mate connector is used in more than one mate, it is listed only once in the Feature list, with the first mate that uses it (if implicit) or as its own original top-level feature in the list.</p>
+                <p>
+					Use the shortcut key <i>k</i> to hide/show mate connectors.</p>
+                <p>To learn more about mates, see
+					<a href="mate.htm"><a href="mate.htm">Mates</a></a>. To learn about mates and mate connectors, watch the video below.
+				</p>
+                <div class="ScreenOnly">
+                    <MadCap:dropDown MadCap:conditions="Default.ScreenOnly">
+                        <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                            <MadCap:dropDownHotspot>
+                                <img src="Resources/Images/icons/help-video@2x.png" alt="Video example icon" class="VideoIcon" />
+								Video example
+							<a name="Video" class="imgcopy"></a><MadCap:keyword term="video assembly" /></MadCap:dropDownHotspot>
+                        </MadCap:dropDownHead>
+                        <MadCap:dropDownBody>
+                            <p>
+                                <div class="wistia_responsive_padding" style="padding:57.19% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <iframe src="https://fast.wistia.net/embed/iframe/40fq5u8nu0?videoFoam=true&amp;qualityMin=540" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen="msallowfullscreen" width="100%" height="100%">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <script src="https://fast.wistia.net/assets/external/E-v1.js" async="async">
+                                </script>
+                            </p>
+                            <MadCap:dropDown>
+                                <MadCap:dropDownHead class="h3">
+                                    <MadCap:dropDownHotspot>Video transcript
+									<a name="Transcript" class="imgcopy"></a></MadCap:dropDownHotspot>
+                                </MadCap:dropDownHead>
+                                <MadCap:dropDownBody>
+                                    <p>Let's take a look at adding mates to your assemblies in Onshape. Switch over to this empty Assembly tab and insert everything from the Part Studio. All the parts are completely free to move and have all their degrees of freedom. First, fix one of the parts so that it removes all its degrees of freedom, so all other parts are mated with respect to it. To do this, right click on the part in the graphics area or features list and select Fix. Any part that is fixed has this icon next to it in the features list.</p>
+                                    <p>Onshape defines mates based on the intended behavior that you would like as a result, such as fastened, revolute, slider, planar, cylindrical, pin slot, ball, and parallel. To have this part slide along the base, select the Slider Mate. Onshape prompts you for a mate connector. These are at the heart of adding mates. Roll your pointer over any face, and small dots appear. These are locations on faces where you establish mate connectors. When rolling over one of these dots, a small triad appears. In addition to being locations on faces and edges, mate connectors act as a coordinate system with their own x-, y- and z-axes. The orientation of the axes is important, particularly for certain types of mates. To slide this part along the blue z-axis of the triad, orient the blue axis normal to the edge of the part and click to snap it into place.</p>
+                                    <p>For the second ,ate connector, roll over the faces of the other part and the same principle applies. Pay attention to the orientation of the triad. When clicked, the part snaps into place. Notice there are icons to flip the primary and secondary axes in case you need to make any adjustments and obtain the correct results. With this single mate added using mate connectors, you can remove several degrees of freedom in just a few steps.</p>
+                                    <p>The Slider Mate is now listed in the features list. Double-click to open it and make adjustments to the mate. For example, use the dropdown to change this mate to any other mate type, or to redefine any of the mate connectors.</p>
+                                    <p>To fasten the spindle inside the shaft, click the Fastened Mate. This mate type removes all degrees of freedom between any two mate connectors, so they are bonded together. For these mate connectors, select the point on the face inside the shaft and on the face of the spindle. Rotating one of the parts rotates them both.</p>
+                                    <p>Next, mate the screw with the sliding jaw. Use the Revolute or Cylindrical Mate. Revolute removes an additional degree of freedom than Cylindrical does. Click Cylindrical Mate. Roll over the cylindrical face of the jaw. There are three default mate connector locations along its axis. Select the point at the rear of the cylinder and repeat the process for the shaft. When the parts snap into position, you may notice that previously added mates are not solved. In these instances, click the Solve button. Finally, click the checkmark to close the Mate dialog.</p>
+                                    <p>At this point, the spindle is free to rotate about the mate connector and is also free to move along the axis. This is the way the Cylindrical Mate operates. Double-click the Cylindrical Mate to open its dialog and change it to Revolute. Now, moving the spindle rotates it without moving it away from the mate point on the jaw.</p>
+                                    <p>Keep in mind that you can use the mate connector tool to precisely define the location and orientation of mate points ahead of time, without having to create the ,ates. You can even add mate connectors to parts in your Part Studio so they are available when those parts are inserted into your assemblies.</p>
+                                </MadCap:dropDownBody>
+                            </MadCap:dropDown>
+                        </MadCap:dropDownBody>
+                    </MadCap:dropDown>
+                </div>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Steps
+						<a name="StepsDesktop" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Click
+								<img src="Resources/Images/icons/matepointicon.png" alt="Mate Connector feature icon" height="22" width="21" vspace="0" hspace="0" align="bottom" border="0" class="InlineImage" />.
+							<p><img src="Resources/Images/mate-connector-dialog-partstudio.png" class="DialogBoxes" alt="Mate connector dialog" /></p></li>
+                            <li>Choose between creating a mate connector on a sketch or part (entity) or between sketches/parts:
+								<ul><li><b>On entity</b>
+										- Create a mate connector on a part or sketch:
+									<p><img src="Resources/Images/assembly/mcdefault.png" alt="Example of the option to choose between creating a Mate connector on a part entity or between parts" title="" class="RoundedCorners" /></p></li><li><b>Between entities</b>
+										- Create a mate connector halfway between two entities on the part or sketch:
+							<p><img src="Resources/Images/assembly/mcbtwentities.png" alt="Example of  creating a Mate connector halfway between two entities on the part" title="" class="RoundedCorners" /></p></li></ul></li>
+                            <li>Select a point on the part or sketch for the mate connector:
+							<ul><li>Roll over any face to activate the potential mate connectors and select a point.</li><li>Or click anywhere on a face to automatically place the mate connector at the centroid point.<br /><div class="Note1-img"></div><p class="Note1">You are also able to select the Origin as an entity; select the Origin in the graphics area, or in the Instances list.</p></li></ul></li>
+                            <li>Specify options, if desired (as shown in options examples below).</li>
+                            <li>
+								Click
+								<img src="Resources/Images/icons/greencheck.png" alt="Accept checkmark icon" height="16" width="18" vspace="0" hspace="0" align="bottom" border="0" class="InlineImage" />.
+							</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Visualize mate connector points
+						<a name="VisualizeDesktop" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>With the <i>Mate connector</i> dialog open, moving the cursor over a part "wakes up" default inference points and the inference point closest to the cursor highlights as a mate connector. As you continue to mouse over the sketch or part, different default inference points appear.</p>
+                        <div class="Note1-img">
+                        </div>
+                        <p class="Note1">To lock mate inferences when you see the one you want to select, hold the Shift key when mousing.</p>
+                        <p>Each face and edge of a part or sketch has default inference points:</p>
+                        <ul>
+                            <li>At the centroid</li>
+                            <li>At the midpoints</li>
+                            <li>At the corners</li>
+                            <li>At the virtual sharps of conical faces:
+                <p><img src="../Images/assembly/mate-connector-virtual-sharp.png" alt="Example of Mate Connectors on Virtual Sharps" class="RoundedCorners" /></p><p class="caption">Inference points at the top, middle, bottom, and at the virtual sharp (where the sides of the conical face would meet if extended) of the conical face</p></li>
+                            <li>At the centroids of any region contained in a planar face (for example, holes, and slots)</li>
+                        </ul>
+                        <p>Before the default Mate connector is highlighted at the centroid (left), you might see the centroid point icon (right):</p>
+                        <p>
+                            <img src="Resources/Images/assembly/mateconnector-planarpoints.png" class="RoundedCorners" alt="Example of how each face and edge of a part has default inference points" vspace="1" hspace="1" align="bottom" border="0" /> <img src="Resources/Images/assembly/mateconnector-planarcentroid.png" class="RoundedCorners" alt="Example shows centroid point icon" vspace="1" hspace="1" align="bottom" border="0" /></p>
+                        <p>For cylindrical faces, inference points appear on the axis of the cylindrical and partial cylindrical face:</p>
+                        <p>
+                            <img src="Resources/Images/assembly/mateconnector-cylindricalpoints.png" class="RoundedCorners" alt="Example of how on cylindrical faces, inference points appear on the axis of the cylindrical and partial cylindrical face" vspace="1" hspace="1" align="bottom" border="0" />
+                            <img src="Resources/Images/assembly/mateconnector-cylindricalpartial.png" class="RoundedCorners" alt="Example of how on cylindrical faces, inference points appear on the axis of the cylindrical and partial cylindrical face" vspace="1" hspace="1" align="bottom" border="0" />
+                        </p>
+                        <p>Select a planar face that has a partial cylindrical edge, and the Mate connector inference points include the centroid of the axis:</p>
+                        <p>
+                            <img src="Resources/Images/assembly/mateconnector-planarcylindricalcentroid.png" class="RoundedCorners" alt="Example of selecting a planar face that has a partial cylindrical edge and the Mate connector inference points including the centroid of the axis" vspace="1" hspace="1" align="bottom" border="0" />
+                        </p>
+                        <p>Hover over the edge of the partial cylindrical face, and the default Mate connector appears at the centroid of the axis:</p>
+                        <p>
+                            <img src="Resources/Images/assembly/mateconnector-cylindricalpartialdefault.png" class="RoundedCorners" alt="Example of hovering over the edge of the partial cylindrical face, and the default Mate connector appears at the centroid of the axis" vspace="1" hspace="1" align="bottom" border="0" />
+                        </p>
+                        <p>If you select a curve endpoint or control point, the Mate connector is aligned with the global Z-axis (shown in blue):</p>
+                        <p>
+                            <img src="Resources/Images/assembly/mateconnector-curve-endpoint-01.png" class="RoundedCorners" alt="" />
+                        </p>
+                        <p>If you select the curve itself, the Mate connector is aligned tangent to the curve at the closest inferred end, control, or midpoint</p>
+                        <p>
+                            <img src="Resources/Images/assembly/mateconnector-curve-tangent-01.png" class="RoundedCorners" alt="" />
+                        </p>
+                        <div class="Note1-img">
+                        </div>
+                        <p class="Note1">To zero in on a specific inferenced point or default mate connector without waking up others as you move the cursor, use the SHIFT key to prevent other mate connectors from appearing.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Realign mate connectors
+						<a name="RealignD" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Check <i>Realign</i> to change the orientation of the mate connector along a primary and (optionally) a secondary axis.</p>
+                        <p>
+                            <img src="Resources/Images/assembly/mateconnector_realign1.png" alt="Example of how to change the orientation of the Mate connector along a primary and a secondary axis" class="DialogBoxes" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Move mate connectors
+						<a name="MoveD" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>
+
+		 Move the mate connector a specified distance in a specified direction. The fields are presented in this order:
+							</p>
+                        <ul>
+                            <li style="font-weight: bold;">X translation</li>
+                            <li style="font-weight: bold;">Y translation</li>
+                            <li style="font-weight: bold;">Z translation</li>
+                        </ul>
+                        <p>You can also use the <i>Rotate</i> field to specify a rotation of a specified number of degrees.</p>
+                        <div class="Note1-img">
+                        </div>
+                        <p class="Note1">
+							You can use
+							<a href="numeric-fields.htm">expressions and trigonometric functions</a>
+							in numeric fields in assemblies.
+						</p>
+                        <h3 style="font-weight: normal;">Flip primary axis of Mate connectors</h3>
+                        <p>Flip the primary axis 180 degrees.</p>
+                        <p>
+                            <img src="Resources/Images/assembly/matepointflipprimaryaxis.png" class="SeventyFivePercent" alt="Flip Mate connector icon" />
+                        </p>
+                        <h3 style="font-weight: normal;">Reorient secondary axis of Mate connectors</h3>
+                        <p>Move the primary axis one quadrant at a time through the X/Y coordinates.</p>
+                        <p>
+                            <img src="Resources/Images/assembly/matepointreorientsecondaryaxis.png" class="RoundedCorners" alt="Example of moving the primary axis one quadrant at a time through the X/Y coordinates" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Inference points and defaults
+						<a name="InferenceD" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The inference points for potential mate connectors available when you select an edge or face are:</p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <b>Planar face -</b>
+
+									Parallel to the face at every vertex, arc center, edge midpoint, and the face centroid
+								<br /><img src="Resources/Images/assembly/planarfacemateconnectors.png" class="RoundedCorners" alt="Planar face inference icon" height="138" width="235" vspace="1" hspace="1" align="bottom" border="0" /><br /></p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Cylindrical face -</b>
+
+									Perpendicular to the face axis at the middle and ends
+								<br /><img src="Resources/Images/assembly/cylindricalmateconnectors.png" class="RoundedCorners" alt="Cylindrical face inference icon" /><br /></p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Linear edge or sketch line -</b>
+
+									Perpendicular to the line at the middle and ends
+								<br /><img src="Resources/Images/assembly/linearedgemateconnectors.png" class="RoundedCorners" alt="Linear edge or sketch line inference icon" /><br /></p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Circular edge or sketch circle -</b>
+
+									Perpendicular to the line at the middle and ends
+								<br /><img src="Resources/Images/assembly/circularmateconnectors.png" class="RoundedCorners" alt="Circular edge or sketch circle inference icon" /><br /></p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Curve endpoint and control point</b> - Aligned with the global Z-axis<br /><img src="Resources/Images/assembly/mateconnector-curve-endpoint-01.png" class="RoundedCorners" alt="Curve endpoint inference icon" /><br /></p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Curve</b> - Tangent to the curve at the closest end, control, or midpoint<br /><img src="Resources/Images/assembly/mateconnector-curve-tangent-01.png" class="RoundedCorners" alt="Curve inference icons" /><br /></p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Vertex</b> - Normal to the given face<br /><br /><img src="Resources/Images/assembly/mate-connector-vertex-normal-01.png" class="RoundedCorners" alt="Mate connector on a vertex whose primary direction is normal to the given face" /></p>
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Hide and show mate connectors
+						<a name="HideShowD" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Once created, you are able to hide or show mate connectors in both Part Studios and assemblies:</p>
+                        <ul>
+                            <li>Use the context menu in the Feature list (<i>Hide, Hide other Mate connectors/Show, Show all Mate connectors</i>) <ul><li><i>Hide other Mate connectors</i> hides all Mate connectors except the one you have selected.</li></ul></li>
+                            <li>
+								Use the
+								<img src="Resources/Images/icons/eyeicontool.png" alt="visibility eye icon" height="17" width="22" vspace="1" hspace="1" align="bottom" border="0" class="InlineImage" />
+								icon in the Feature list to hide a specific mate connector.
+							</li>
+                            <li>Hiding/showing mate connectors in a Part Studio or assembly is exclusive to the Part Studio or assembly. Mate connectors hidden in a Part Studio are visible when inserted into the assembly. You have the ability to view mate connectors in a Part Studio and keep them hidden in the assembly, and vice versa.</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Tips
+						<a name="TipsD" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>If the behavior is not what you expected, try flipping the primary and/or secondary axis on the mate connector.</li>
+                            <li>Use the <i>SHIFT</i> key to keep the mate connectors you want visible as you move the pointer to select one. This can be useful when the inferenced point for potential mate connector you want is on or near an edge.</li>
+                            <li>All mate connectors are listed in the Feature list; you are able to hide/show them, edit and adjust, change, and use different orientations of the connectors. </li>
+                            <li>You can also select and hide/show mate connectors when working in context.</li>
+                            <li>A mate connector may be created in both the assembly and the Part Studio. Creating a mate connector in the Part Studio has three advantages:
+							<ul><li>You are able to select the origin from the Feature list in a Part Studio when defining a mate connector.</li><li>You are able to reference sketch entities in the Part Studio. This gives you the ability to define the mate connector in more positions than are possible in an assembly.</li><li>A mate connector defined in a Part Studio is available for reuse on every instance of that part in every assembly in which it is instanced.</li></ul></li>
+                            <li>When creating a mate connector in the Part Studio, there is an additional option in the Mate connector dialog called Owner Entity.
+								<table width="595" cellpadding="2" cellspacing="0" border="0" style="border-collapse: collapse;"><tr align="left" valign="top"><td width="283"><p>Mate connector dialog in Assembly
+										<br /><img src="Resources/Images/assembly/mate-connector-dialog-assembly.png" class="DialogBoxes" alt="Mate Connector dialog in Assembly" height="188" width="197" vspace="1" hspace="1" align="bottom" border="0" /></p></td><td width="312"><p>Mate connector dialog in Part Studio
+							<br /><img src="Resources/Images/mate-connector-dialog-partstudio.png" alt="Mate Connector dialog in Part Studio" title="" class="DialogBoxes" /></p></td></tr></table><p>In a Part Studio with multiple parts , it can be unclear which part owns the Mate connector. Use the Owner Entity field to specify which sketch, part, or curve owns the Mate connector, or leave the Owner Entity field blank to create an ownerless Mate connector.</p></li>
+                            <li>If Mate connectors are Part patterned in a Part Studio, they will all be added to the Assembly when the Part Studio is inserted. If you don't see your Mate connectors when the Part Studio is inserted into the Assembly, make sure the Part is listed as the Mate connector owner entity. <p><img src="Resources/Images/mate-connector-part-pattern.png" alt="Part patterned Mate connectors in an Assembly." title="" class="DialogBoxes" /></p></li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>
+                    <span>Mate Connector: iOS</span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Mate connectors are local coordinate system entities located on or between sketches, parts, curves, and surfaces. They are used within a mate to locate and orient sketch, part, curve, and surface instances with respect to each other. You can also use mate connectors to create planes.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Steps
+						<a name="StepsI" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Tap Mate connector tool.
+							<p><img src="Resources/Images/m-Icons/mateconnectorTool.png" class="SeventyFivePercent" alt="Mate connector tool icon" /></p><p><img src="Resources/Images/m-feature-tools/mateconnector_dialog_ios.png" class="RoundedCorners" alt="Mate connector dialog" /></p></li>
+                            <li>Select origin type:
+								<ul><li><b>On entity</b>
+										- Create a Mate connector on a part or sketch.
+									</li><li><b>Between entities</b>
+										- Create a Mate connector halfway between two entities on the sketch, part, curve, or surface.
+							</li></ul></li>
+                            <li>Select origin entity.</li>
+                            <li>Optionally, toggle to realign.
+							<p>If you do realign, select primary and secondary axis entities.</p></li>
+                            <li>Optionally, toggle to move.
+							<p>If you do move, specify X,Y, and Z values.</p><p>Also select rotation axis and specify rotation angle.</p></li>
+                            <li>Select the owner entity.</li>
+                            <li>Tap the checkmark.</li>
+                        </ol>
+                        <p class="Note1">You can also create mate connectors in&#160;Part Studios while editing other features. See the appropriate feature tool topic for more information.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Visualize mate connector points
+						<a name="VisualizeI" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>
+							Each
+							<b>face and edge</b>
+							of sketches, parts, curves, and surfaces have default inference points:
+						</p>
+                        <ul>
+                            <li>At the centroid</li>
+                            <li>At the midpoints</li>
+                            <li>At the corners</li>
+                        </ul>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid1.png" class="RoundedCorners" alt="Example showing Mate connector inference points on a face" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid2.png" class="RoundedCorners" alt="Example showing Mate connector inference points on an edge" />
+                        </p>
+                        <p>
+							For
+							<b>cylindrical faces</b>, inference points appear on the axis of the cylindrical and partial cylindrical face:
+						</p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid3.png" class="RoundedCorners" alt="Example showing Mate connector inference points on a cylinder" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid4.png" class="RoundedCorners" alt="Example showing mate conenctor inference points on a partial cylindrical face" />
+                        </p>
+                        <p>
+							Select or hover over a planar face that has a
+							<b>partial cylindrical edge</b>
+							and the Mate connector inference points include the centroid of the axis:
+						</p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid5.png" class="RoundedCorners" alt="Example of inference points on a partial cylindrical edge" />
+                        </p>
+                        <p>Select or hover over the edge of the partial cylindrical face and default Mate connector inference points appear:</p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid6.png" class="RoundedCorners" alt="Showng the default Mate connector inference points on a partial cylindrical edge while hovering" />
+                        </p>
+                        <h3 style="font-weight: normal;">On entity
+						<a name="OnI" class="imgcopy"></a></h3>
+                        <p>Select the origin entity then select the Mate connector inference point on which to place the Mate connector.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_onentity.png" class="RoundedCorners" alt="Mate connector example" />
+                        </p>
+                        <h3 style="font-weight: normal;">Between entities
+						<a name="BetweenI" class="imgcopy"></a></h3>
+                        <p>Select an origin entity and the Mate connector inference point in line with where you want to place the Mate connector. Select another entity and the Mate connector is placed in line with the Mate connector inference point, between the two entities you selected.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_betweenentities.png" class="RoundedCorners" alt="Example of Inference point between two endities" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Realign mate connectors
+						<a name="RealignI" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Toggle on <i>Realign</i> to change the orientation of the mate connector along a primary and (optionally)&#160;a secondary axis.</p>
+                        <p>Select a primary and secondary axis along which to realign the mate connector.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_realign1.png" class="RoundedCorners" alt="Selecting a primary and secondary axis along which to realign the Mate connector" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_realign2.png" class="RoundedCorners" alt="Example showing the realigned Mate connector" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Move mate connectors
+						<a name="MoveI" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Move the mate connector to a specified distance in a specified direction. The fields are presented in this order:</p>
+                        <ul>
+                            <li style="font-weight: bold;">X translation</li>
+                            <li style="font-weight: bold;">Y translation</li>
+                            <li style="font-weight: bold;">Z translation</li>
+                        </ul>
+                        <p>You are also able to use a rotation axis and specify a number of degrees to rotate the Mate connector.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_realign1.png" class="RoundedCorners" alt="Mate connector example showing how to rotate the connector" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_move.png" class="RoundedCorners" alt="Example showing the moved Mate connector" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Hide and show mate connectors
+						<a name="HideShowI" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Once created, you are able to hide or show mate connectors in both Part Studios and assemblies:</p>
+                        <ul>
+                            <li>Use the context menu in the Feature list (<i>Hide, Hide other Mate connectors/Show, Show all Mate connectors</i>) <ul><li><i>Hide other Mate connectors</i> hides all mate connectors except the one you have selected.</li></ul></li>
+                            <li>Use the Hide/Show icon (the eye icon) in the Feature list to hide a specific mate connector.</li>
+                            <li>Hiding/showing mate connectors in a Part Studio or assembly is exclusive to the Part Studio or assembly. Mate connectors hidden in a Part Studio are visible when inserted into the assembly. You are able to view mate connectors in a Part Studio and keep them hidden in the assembly, and vice versa.</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>
+                    <span>Mate Connector: Android</span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Mate connectors are local coordinate system entities located on or between sketches, parts, curves, and surfaces. They are used within a mate to locate and orient sketch, part, curve, and surface instances with respect to each other. You can also use mate connectors to create planes.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Steps
+						<a name="StepsAndroid" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>Tap Mate connector tool.
+							<p><img src="Resources/Images/m-Icons/mateconnectorTool.png" class="SeventyFivePercent" alt="Mate Connector tool icon" /></p><p><img src="Resources/Images/m-feature-tools/mateconnector_dialog_android.png" class="RoundedCorners" alt="Example of Mate connector tool dialog" /></p></li>
+                            <li>Select origin type:
+								<ul><li><b>On entity</b>
+										- Create a Mate connector on a sketch, part, curve, or surface
+									</li><li><b>Between entities</b>
+										- Create a Mate connector halfway between two entities on the sketch, part, curve, or surface.
+							</li></ul></li>
+                            <li>Select origin entity.</li>
+                            <li>Optionally, toggle to realign.
+							<p>If you do realign, select primary and secondary axis entities.</p></li>
+                            <li>Optionally, toggle to move.
+							<p>If you do move, specify X,Y, and Z values.</p><p>Also select rotation axis and specify rotation angle.</p></li>
+                            <li>Select the owner entity.</li>
+                            <li>Tap the checkmark.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Visualize mate connector points
+						<a name="VisualizeA" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>
+							Each
+							<b>face and edge</b>
+							of a sketch or part has default inference points:
+						</p>
+                        <ul>
+                            <li>At the centroid</li>
+                            <li>At the midpoints</li>
+                            <li>At the corners</li>
+                        </ul>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid1.png" class="RoundedCorners" alt="Example of visualizing Mate connector points on a part face" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid2.png" class="RoundedCorners" alt="Example of visualizing Mate connector points on an edge" />
+                        </p>
+                        <p>
+							For
+							<b>cylindrical faces</b>, inference points appear on the axis of the cylindrical and partial cylindrical face:
+						</p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid3.png" class="RoundedCorners" alt="Example of visualizing Mate connector points for cylindrical faces" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid4.png" class="RoundedCorners" alt="Example of visualizing Mate connector points for a partial cylindrical face" />
+                        </p>
+                        <p>
+							Select or hover over a planar face that has a
+							<b>partial cylindrical edge</b>
+							and the Mate connector inference points include the centroid of the axis:
+						</p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid5.png" class="RoundedCorners" alt="Example of visualizing Mate connector points for a partial cylindrical edge" />
+                        </p>
+                        <p>Select or hover over the edge of the partial cylindrical face and default Mate connector inference points appear:</p>
+                        <p>
+                            <img src="Resources/Images/m-Sketch Captures/MateConnectorVisualizingAndroid6.png" class="RoundedCorners" alt="Example of visualizing Mate connector points for a partial cylindrical edge on hover" />
+                        </p>
+                        <h3 style="font-weight: normal;">On entity
+						<a name="OnA" class="imgcopy"></a></h3>
+                        <p>Select the origin entity then select the Mate connector inference point on which to place the Mate connector.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_onentity.png" class="RoundedCorners" alt="Example of using Mate connector tool on an entity" />
+                        </p>
+                        <h3 style="font-weight: normal;">Between entities
+						<a name="BetweenA" class="imgcopy"></a></h3>
+                        <p>Select an origin entity and the Mate connector inference point in line with where you want to place the Mate connector. Select another entity and the Mate connector is placed in line with the Mate connector inference point, between the two entities you selected.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_betweenentities.png" class="RoundedCorners" alt="Example of using Mate connector tool between entities" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Realign mate connectors
+						<a name="RealignA" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Toggle on <i>Realign</i> to change the orientation of the mate connector along a primary and (optionally)&#160;a secondary axis.</p>
+                        <p>Select a primary and secondary axis along which to realign the mate connector.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_realign1.png" class="RoundedCorners" alt="Example of realigning Mate connectors" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_realign2.png" class="RoundedCorners" alt="Example of realigning Mate connectors showing the realigned connector" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Move mate connectors
+						<a name="MoveA" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Move the mate connector to a specified distance in a specified direction. The fields are presented in this order:</p>
+                        <ul>
+                            <li style="font-weight: bold;">X translation</li>
+                            <li style="font-weight: bold;">Y translation</li>
+                            <li style="font-weight: bold;">Z translation</li>
+                        </ul>
+                        <p>You are also able to use a rotation axis and specify a number of degrees to rotate the mate connector.</p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_realign1.png" class="RoundedCorners" alt="Mate connector example showing how to move the connector" />
+                        </p>
+                        <p>
+                            <img src="Resources/Images/m-feature-tools/mateconnector_move.png" class="RoundedCorners" alt="Example showing the moved Mate connector" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Hide and show mate connectors
+						<a name="HideShowA" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Once created, you can hide or show mate connectors in both Part Studios and assemblies:</p>
+                        <ul>
+                            <li>Use the context menu in the Feature list (<i>Hide, Hide other Mate connectors/Show, Show all Mate connectors</i>) <ul><li><i>Hide other Mate connectors</i> hides all mate connectors except the one you have selected.</li></ul></li>
+                            <li>Use the Hide/Show icon (the eye icon) in the Feature list to hide a specific mate connector.</li>
+                            <li>Hiding/showing mate connectors in a Part Studio or assembly is exclusive to the Part Studio or assembly. Mate connectors hidden in a Part Studio are visible when inserted into the assembly. You are able to view mate connectors in a Part Studio and keep them hidden in the ssembly, and vice versa.</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <div class="resources-img">
+        </div>
+        <p class="resources">
+			For an additional Learning center resource, follow the technical briefing article here:
+			<a href="https://learn.onshape.com/learn/article/all-the-ways-to-use-mate-connectors" target="_blank">All the ways to use Mate connectors (Onshape account required)</a>.
+		</p>
+        <hr class="PageEnd" />
+    </body>
+</html>

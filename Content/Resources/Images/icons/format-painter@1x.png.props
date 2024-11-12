@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableCropRectangle="true" CropRectangle="0,0,20,20" EnableGrayScaleFormat="false" ExportFormat="png" DPI="120" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Format painter drawing icon" ComputedWidth="20" ComputedHeight="20" Format="tiff">SUkqADABAACAACBQOCQWDQeEQmFQuGQ2HQ+IRGJROKQ4XxcYASNL+BrBmx8wxWRREZyUgQNXwMIP+WOBnS8QyOZQkZTUvgGcKCCSx/vB+z8gtGhNCZ0UATUZTecwgBU0wsuoTqjTKkH+cAFAQirnFmV1IVOqTWrTiswpAx9m2WwRWq1e1Qizx+32uJW2yQu42m6RUY31P00BGCFpG0HC9xS+jG/03BQpQ2jG4eGxcXhDAK+rhCVVcQTxoT9+0GhPDJQqkG+3SqeHGrh+eFDQDGhNHSaWEUjIo+rmGebqcZ2W6DRNFwbaEZQQRoCL+eICXs5QyUZlCBp9+dfZULi8aDZQgcpPv7xODlHHxP4Iec/4BwWiQ9yE8gB/OTwLUTgYTx4Z7zlHZtq+EAwFAcAoCBAA/gAEAAEAAAAAAAAAAAEEAAEAAAAUAAAAAQEEAAEAAAAUAAAAAgEDAAQAAAD2AQAAAwEDAAEAAAAFAAAABgEDAAEAAAACAAAAEQEEAAEAAAAIAAAAFQEDAAEAAAAEAAAAFgEEAAEAAAAUAAAAFwEEAAEAAAAoAQAAGgEFAAEAAAD+AQAAGwEFAAEAAAAGAgAAHAEDAAEAAAABAAAAKAEDAAEAAAACAAAAPQEDAAEAAAACAAAAUgEDAAEAAAACAAAAAAAAAAgACAAIAAgAwNQBAOgDAADA1AEA6AMAAA==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

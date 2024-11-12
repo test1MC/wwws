@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>Toggle on constraints while you make selections. Each pair of entities selected are constrained to each other. Click to toggle off, or select another tool to toggle off automatically.</p>
+    </body>
+</html>

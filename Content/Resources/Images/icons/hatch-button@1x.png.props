@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableCropRectangle="true" CropRectangle="0,0,20,20" EnableGrayScaleFormat="false" ExportFormat="png" DPI="120" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Hatch region button" ComputedWidth="20" ComputedHeight="20" Format="tiff">SUkqADABAACAACBQOCQWDQeEQmFQuGQ2HQ+IRGHjOKP+JReMQNmxsAwyKDN/yF/oAAyVAQNAxtmoAZS0/yUAyeBSmNyyXTCZACaSuWjKXyaCSqOwuPxaDTubT6cSiVUmfzGmTWe0+coGBn+hR6K1GeTegTOm1Ol2CpV6oWSV0Ws0SK0KxV+dWGzVW5Uq4Ui3zG1wqiyKSXe61SuU6x3Gy3azwK9wmiwe8XPB3m6YfBTOr4uEY20YTAZTC4/EZO022OVqQW7IZvJZHU4au6HMQe+yG/4nQZXXZzbYHCgDYwbNQXb5/eZ3X7irQKsaW2SDWaHn8ji7ua2rmXzSM0A6vVa3h8bdIDfwXZyPiZ7wdzc+rfdfGVuj9PReHo5/L+7M/CM/uH+P+P/AEAwFAaBoCBAA/gAEAAEAAAAAAAAAAAEEAAEAAAAUAAAAAQEEAAEAAAAUAAAAAgEDAAQAAAD2AQAAAwEDAAEAAAAFAAAABgEDAAEAAAACAAAAEQEEAAEAAAAIAAAAFQEDAAEAAAAEAAAAFgEEAAEAAAAUAAAAFwEEAAEAAAAoAQAAGgEFAAEAAAD+AQAAGwEFAAEAAAAGAgAAHAEDAAEAAAABAAAAKAEDAAEAAAACAAAAPQEDAAEAAAACAAAAUgEDAAEAAAACAAAAAAAAAAgACAAIAAgAwNQBAOgDAADA1AEA6AMAAA==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

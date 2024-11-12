@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Mutual trim icon" ComputedWidth="20" ComputedHeight="20" Format="png" DPI="72.009">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHDSURBVHgBzVPNjYJgEB1x49ntQCoQtQHtwK1ASIzG02oFQgXiSRONSAXagWwBCh3IduDZ332DHwQ2EvTmJBPGmfnevPmR6N0l98g5m82G1+tVDxJyOQ/2z+12M3u9nk+vAk4mk5IkSfuUfLNQKBiaph1S4iQ98OmULv3j8ehyUXqGYQa7uDBDo9vtmlmASwC26HnxMWPncrn8wnYwY+cjBqa+CMZSwrL4HdtBZ4kZIrimezuvio/27QQg6C4hAwQ+cSYaJz2LJvIpAVitVkfY4KZWq+0Xi4UHYBmJhmDuwG5YliWfz+dKvBhmuOTZJQAVRSkioOx2OxlfDY9HgrXOQNPpdDCfz4en04mLrVzXbZAYDRZixNlGW2ZmCAaJ+XyeB7zGsMfwtVCkL5jyVgftdvuAmIViNheNA0YtI+ELuhFgRaiKByoAPkXKGL8rnU6nzHnwH/6DJRhy2wDjs5GhZWgd7Cqi2Ipb9zzPpwyJGAKMr16h+z3V0R63zjdmgU2JmWNxwyzAXMiO28BSAkbhPJkRYgymwx0evb/dbuU0wOifAhZFAH3DbMK2w/bEVwWwiaJNqENZDAVLZsLbdMHApneRP/ci4VJe/5KfAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

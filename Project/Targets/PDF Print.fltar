@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="2" Comment="New Target" Type="PDF" Destinations="" ShowMadCapBacklink="true" GlossaryTermConversion="marked" MasterToc="/Project/TOCs/CombinedHelp.fltoc" MasterStylesheet="/Content/Resources/Stylesheets/RA-Lighter-Blue-v2.css" DisableAutoSync="true" OutputFolder="C:\FlareOutput\Output\PDF" ConditionTagExpression="exclude[Default.ScreenOnly or Doc.Hide or OSConditionTags.zh_TW]">
+    <PrintedOutput CollapseMargins="true" GenerateTOCProxy="true" GenerateIndexProxy="true" GenerateGlossaryProxy="true" OutputFormat="docx" />
+    <PDF Tagged="true" TitleBar="DocumentTitle" />
+</CatapultTarget>

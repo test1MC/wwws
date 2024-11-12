@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary conditions="Doc.HideFromLingo">
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term0" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>assembly</Term>
+        </Terms>
+        <Definition Link="">A collection of instances of parts, sketches, surfaces, or subassemblies that defines both position and movement.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term1" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>administrator</Term>
+        </Terms>
+        <Definition Link="">A user with the ability to add and remove users to an organization and to change permissions for users within an organization.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term2" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>assembly toolbar</Term>
+        </Terms>
+        <Definition Link="">A series of tools for creating mate connectors, mates, patterns, and relations for use in assembling parts.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term3" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>branch</Term>
+        </Terms>
+        <Definition Link="">A  named fork in the Version Manager graph of a document. Branches fork at a version, end with a workspace, and can have zero to N sequentially stored versions on the branch.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term4" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>branched editing</Term>
+        </Terms>
+        <Definition Link="">The ability for multiple users to edit two different branches of the same document without impacting each others' work. When desired, two branches can be merged.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term5">
+        <Terms>
+            <Term>collaboration cue</Term>
+        </Terms>
+        <Definition Link="">The social cue icon with a user identifier that appears at the top of the page in a document, and on the tab or feature when more than one user is editing a document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term6" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>collaborator</Term>
+        </Terms>
+        <Definition Link="">A user viewing or editing a document that other users are also viewing or editing.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term7">
+        <Terms>
+            <Term>direct edit</Term>
+        </Terms>
+        <Definition Link="">Editing a feature directly in the 3D form; especially necessary when the part is imported (uploaded and translated) or the existing parametric history does not support the change needed.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term8" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>document</Term>
+        </Terms>
+        <Definition Link="">A collection of design data organized in Onshape tabs. Tabs may contain Part Studios, Assemblies, Drawings, Tutorials, Applications, Feature Studios, and imported files like CAD files, PDF files, Word files, etc.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term9" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>Documents page</Term>
+        </Terms>
+        <Definition Link="">The Onshape page that lists documents and allows the user to open, create, filter, label, and import documents.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term10" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>drag manipulator</Term>
+        </Terms>
+        <Definition Link="">A manipulator used to resize resulting geometry.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term11" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>properties</Term>
+        </Terms>
+        <Definition Link="">Sometimes called meta data, properties are a way of attaching important information to design entities, such as parts, assemblies, and versions. Properties include: Part Number, Description, Revision, State, Comments, and more. The Property command is available on context and actions menus.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term12">
+        <Terms>
+            <Term>entity</Term>
+        </Terms>
+        <Definition Link="">An Onshape system object or an item built in Onshape: mates, mate connectors, sketch curves, parts, edges, and faces are all examples of entities.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term13" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>face</Term>
+        </Terms>
+        <Definition Link="">A portion of a part, surface, or closed sketch region having area and bounded by edges; a simple rectangular part has six faces.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term14">
+        <Terms>
+            <Term>Feature list</Term>
+        </Terms>
+        <Definition Link="">The parametric history contained in a Part Studio.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term15">
+        <Terms>
+            <Term>Feature toolbar</Term>
+        </Terms>
+        <Definition Link="">The series of tools available for creating features of a part.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term16">
+        <Terms>
+            <Term>features</Term>
+        </Terms>
+        <Definition Link="">The operations that are used to build parts, such as Extrude, Fillet, Shell, Revolve, Sweep, Chamfer, Draft, Patterns, Mirror, Modify fillet, and Move face.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term17">
+        <Terms>
+            <Term>fix</Term>
+        </Terms>
+        <Definition Link="">To make a sketch entity or an assembly instance unmoveable.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term18">
+        <Terms>
+            <Term>graphics area</Term>
+        </Terms>
+        <Definition Link="">The large rectangular portion of the user interface in which a Part Studio or Assembly is displayed.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term19" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>inference</Term>
+        </Terms>
+        <Definition Link="">An automatic indication during sketching that a constraint may be applied; appears as an orange dotted line as well as orange boxes highlighting related entities.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term20" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>instance</Term>
+        </Terms>
+        <Definition Link="">A part, sketch, surface, or subassembly used in an Assembly.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term21" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>mate</Term>
+        </Terms>
+        <Definition Link="">An Onshape feature used to position instances in an assembly and define how they move.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term22">
+        <Terms>
+            <Term>mate connector</Term>
+        </Terms>
+        <Definition Link="">A local coordinate system entity located on or between entities (parts or solid models) that can be used within a mate to locate and orient instances with respect to each other.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term23" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>merge</Term>
+        </Terms>
+        <Definition Link="">The ability to apply edits to a workspace from one branch into a workspace on another branch of the same document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term24">
+        <Terms>
+            <Term>navigation bar</Term>
+        </Terms>
+        <Definition Link="">The top bar of the user interface window that contains the Document name and User ID/profile menu.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term25" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>owner</Term>
+        </Terms>
+        <Definition Link="">State of user or company who has full access to a document. Ownership can be transferred to and from users and companies.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term26">
+        <Terms>
+            <Term>part</Term>
+        </Terms>
+        <Definition Link="">A single, simply closed solid body created by Onshape features or by uploading and translating (also referred to as importing) another CAD file.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term27">
+        <Terms>
+            <Term>Part Studio</Term>
+        </Terms>
+        <Definition Link="">A parametric, feature-based geometric model that creates parts.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term28">
+        <Terms>
+            <Term>parts list</Term>
+        </Terms>
+        <Definition Link="">The list of parts created in the current Part Studio. They are listed in the bottom portion of the Feature list.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term29">
+        <Terms>
+            <Term>permissions</Term>
+        </Terms>
+        <Definition Link="">Control over the actions that users can perform on a document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term30">
+        <Terms>
+            <Term>planes</Term>
+        </Terms>
+        <Definition Link="">Planar construction geometry created using the Plane feature.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term31">
+        <Terms>
+            <Term>Preview slider</Term>
+        </Terms>
+        <Definition Link="">A slide bar on feature dialogs that allows you to vary the opacity of the edited feature between the state before the feature was added to after it was added.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term32">
+        <Terms>
+            <Term>private</Term>
+        </Terms>
+        <Definition Link="">The state of a document that is not shared, or shared only with specified users.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term33" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>public</Term>
+        </Terms>
+        <Definition Link="">The state of a document that is visible to all Onshape users. Public documents are view--only if users do not have edit permissions.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term34">
+        <Terms>
+            <Term>region</Term>
+        </Terms>
+        <Definition Link="">A finite area in a sketch defined by a bounding set of sketch curves. Sketch regions are used in features like Extrude, Revolve, and Sweep to create or edit parts in a Part Studio.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term35">
+        <Terms>
+            <Term>rollback</Term>
+        </Terms>
+        <Definition Link="">The ability to see and edit an earlier state of the Part Studio's parametric history. This is done by repositioning (by click+drag) the rollback bar in the Feature list.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term36">
+        <Terms>
+            <Term>rollback bar</Term>
+        </Terms>
+        <Definition Link="">The rollback bar in the Feature List enables you to temporarily revert to an earlier state in the feature history. You can also add new features or edit existing features while the model is rolled back.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term37">
+        <Terms>
+            <Term>share</Term>
+        </Terms>
+        <Definition Link="">The action of giving other users access to an individual document with a specified permission level.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term38">
+        <Terms>
+            <Term>simultaneous editing</Term>
+        </Terms>
+        <Definition Link="">The ability for multiple users to edit an active workspace of a document at the same time.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term39">
+        <Terms>
+            <Term>sketch</Term>
+        </Terms>
+        <Definition Link="">A set of curves drawn on a plane with sketch constraints on those curves.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term40">
+        <Terms>
+            <Term>sketch constraints</Term>
+        </Terms>
+        <Definition Link="">Relations between sketch entities that define their shape and behavior, such as Dimension, Coincident, Concentric, Parallel, Tangent, Horizontal, Vertical, Perpendicular, Normal, Equal, Midpoint, and Fix.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term41">
+        <Terms>
+            <Term>sketch curve</Term>
+        </Terms>
+        <Definition Link="">A line, arc, circle, or spline in a sketch.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term42">
+        <Terms>
+            <Term>sketch toolbar</Term>
+        </Terms>
+        <Definition Link="">The series of tools available for creating a sketch.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term43">
+        <Terms>
+            <Term>sketch tools</Term>
+        </Terms>
+        <Definition Link="">Tools in the Sketch toolbar such as Line, Corner rectangle, Center point rectangle, Center point circle, 3 point circle, Tangent arc, 3 point arc, Spline, Point, and Construction.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term44">
+        <Terms>
+            <Term>social cue icon</Term>
+        </Terms>
+        <Definition Link="">The icon with a user identifier that appears at the top of the page in a document, or on a tab or feature when more than one user is editing a document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term45" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>surface</Term>
+        </Terms>
+        <Definition Link="">An Onshape entity that may have one or many faces but no volume. Surfaces are listed independently of parts in the Feature list and are not parts; surfaces can be inserted into an Assembly. In some traditional CAD systems, Onshape surfaces are similar to Sheet Bodies.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term46" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>tab</Term>
+        </Terms>
+        <Definition Link="">An entity in Onshape that can contain a Part Studio, Assembly, Drawing, image file, PDF file, document file (PDF, Word), Applications, Tutorials, Feature Studios, and even Gcode. Tabs are displayed at the bottom of an Onshape document in the tab bar.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term47">
+        <Terms>
+            <Term>tab bar</Term>
+        </Terms>
+        <Definition Link="">The bottom bar of the Onshape document that contains all Onshape tabs.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term48" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>toolbar</Term>
+        </Terms>
+        <Definition Link="">A set of tools displayed at the top of the Onshape document tab.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term49">
+        <Terms>
+            <Term>traditional CAD</Term>
+        </Terms>
+        <Definition Link="">Older desktop CAD systems like SOLIDWORKS, Pro/ENGINEER, CATIA, and Inventor.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term50" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>triad manipulator</Term>
+        </Terms>
+        <Definition Link="">A manipulator that appears in a Part Studio Transform operation and in an Assembly when an instance is selected. Use the manipulator to move the part in any direction and angle in relation to the selected face(s) or edge(s).</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term51">
+        <Terms>
+            <Term>user</Term>
+        </Terms>
+        <Definition Link="">An individual account that provides access to Onshape; the user name can be seen in Navigation bar, in the right corner.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term52" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>version</Term>
+        </Terms>
+        <Definition Link="">A snapshot of a document at a particular time. A version is created using the Create version command and appears in the Version Manager. Versions are immutable and can never be changed. Versions may have properties (meta data) assigned to them.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term53" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>Version Manager</Term>
+        </Terms>
+        <Definition Link="">A graphical representation of the document's versions and workspaces in a branch/tree diagram. There is a menu from which to choose actions such as: open, properties, compare, delete, merge, and branch to create a new workspace.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term54" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>View cube</Term>
+        </Terms>
+        <Definition Link="">The cube appearing in the top right corner of the graphics area when the user opens a document. Click on a face to view the model from that perspective. Click the arrows to turn the model in increments.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry TermClass="Popup" glossTerm="Glossary.Term55">
+        <Terms>
+            <Term>workspace</Term>
+        </Terms>
+        <Definition Link="">The editable iteration of an Onshape document. There can be multiple workspaces for a document and a branch can end in either a version or a workspace.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry glossTerm="Glossary.Term56" Stem="" IgnoreCase="false">
+        <Terms>
+            <Term>virtual edges</Term>
+        </Terms>
+        <Definition Link="">Curves in a drawing that are drawn at the places where parts intersect.</Definition>
+    </GlossaryEntry>
+</CatapultGlossary>

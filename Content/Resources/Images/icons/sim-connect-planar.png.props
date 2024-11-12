@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="120" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Simulation connection, planar icon" ComputedWidth="51" ComputedHeight="30" Format="png">iVBORw0KGgoAAAANSUhEUgAAADMAAAAeCAYAAACBkybCAAAACXBIWXMAABJ0AAASdAHeZh94AAAAB3RJTUUH5goEEyIBB862VgAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tInAAACTUlEQVRYhe1YMa6qQBQ9/rwSiCWwAFiAr9cFQP/l9xNLI26ABWDvmNA9+D0uAHtjLwsYKIlD7y8MREXEl/iE/Hgq5nJuuCf33rkz9I7H4xH/CX61HcAz8RbTVbzFdBVvMa9CFEXf4n/g75/nRvD7q5Gy3W4bOXEcY7FYYDabQdO0Rv7n5yc+HgrwB5Cm6d33nucBAHzfx2QyucuVZRkA2hMDAIZh3LRTSpFlGYCT6MPhAMuybnLX63X53LmeYYwhCIIL22q1Aue80bdzYlzXrQTOOYfruo2+rZbZNTjn0HUduq4jDEMkSQJFUWCaZvleFMVa/86IKQIlhAA47XiFmMJ2zruF1suMMYb5fF7pkzoEQQDHcW72UKuZoZQiCAJwzh+aJQXCMEQURSCEXGSpdwys517OHhiavu/D87xy+wUAVVWhKEq5juO4LKlzoUmSgDFWrmVZhmVZsCzr9WLCMITjOE/9JAAsl8vXl5lpmuCcVzKjKEolM3meQxCESmaSJCnXRWYGg0E7PaNpGqbTKRhj8H0feZ7DNM2LXYsQgt1uB03TQCkt7ZRSUEohCAIIIZAkqTzOtLqbEULg+z6Gw+G3/AzDQBiGlSNO63NGVdWbU78O4/G4ds60LqaAKIrgnJfzpjhVp2laltk9IUCHxAAnQfv9HpvNprQxxkAphWEYd4UAHTgBXMO2bQiCcGETBAG2bTf6dk6MqqqVxr6e9HVotczOL1bnUFUV/X4fWZZBlmVIklTLPUevjX/NP/UPoBUxjyKKIoxGo4f5/wDc8ASMvGNsVwAAAABJRU5ErkJggg==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

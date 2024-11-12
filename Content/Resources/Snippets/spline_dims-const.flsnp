@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <p>You can use the spline handles (or any spline points) with dimensions:</p>
+        <p>
+            <img src="../Images/sketch-tools/spline-dimension.png" alt="spline dimension" class="RoundedCorners" />
+        </p>
+        <p>You can use spline handles (or any spline points) with constraints:</p>
+        <p>
+            <img src="../Images/sketch-tools/spline-constraint.png" alt="spline constraints" class="RoundedCorners" />
+        </p>
+    </body>
+</html>

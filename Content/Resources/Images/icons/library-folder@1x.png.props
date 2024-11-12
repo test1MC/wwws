@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Library folder icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgB5ZKxkYMwEEX/3VxKARBxCTEDFAANUAbELoECmHEXFEAbQAEkdgKEDiCX9TUjRwKZcegXsGJH+vq7K+Dr+OEnjuObDL5pgxDiMgzDFWeQgsLENE0iy7JHGIb+u1raoei6zrihaRrUdY03uPd9/3/o8AzUoNav7do8z5EkiTWn+YOFKIrguq41ZxUsyxLrumJZFhXbtkVVVSiKAnLqmOfZeM5YMgVIEARwHEetPc9jr1U8wig4jiPkxLBt2ytHR8ztOTsU5EFCR2fZ7SHF0jRV4hwAS2eOa7Zibyi7Dlk2D+ny2VdGDknncOBGfIp+2Kpk+X+XD9XHB1AD38kTPpkJn+CPqQUAAAAASUVORK5CYII=</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

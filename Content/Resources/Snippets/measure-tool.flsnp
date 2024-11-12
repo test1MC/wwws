@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The Onshape Measure tool is available in Part Studios and assemblies, for measuring sketches, parts, assemblies, curves, and surfaces as well. The Measure tool appears in the bottom right corner of the interface in Part Studios and assemblies.</p>
+        <p>You can filter which measurements are shown by selecting a <i>Measure type</i> from the first dropdown. If pre-selections are made, the tool displays some information. For more information, click the icon to open the dialog:</p>
+        <p>
+            <img src="Resources/Images/concepts/measuretoolwindow-00.png" class="RoundedCorners" alt="Assembly Measure tool icon at lower right corner of the window" />
+            <img src="Resources/Images/concepts/measuretoolwindow-02.png" class="DialogBoxes" alt="Measure dialog" />
+            <img src="Resources/Images/assembly/measurement-assembly-01.png" class="RoundedCorners" alt="Measure dialog with an example of an Assembly" />
+        </p>
+        <div class="Note1-img">
+        </div>
+        <p class="Note1">In addition, selecting any entity from the graphics area also automatically shows the pertinent measurements without having to explicitly open the Measure dialog.</p>
+        <div class="Note1-img">
+        </div>
+        <p class="Note1">You can also use the Measure tool on  faces, edges, and vertices while in a Section view.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>Measure Tool: Desktop
+				<a name="Desktop" class="imgcopy"></a></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The Measure tool displays measurements dynamically whenever you select entities.</p>
+                <div class="ScreenOnly" MadCap:conditions="Default.ScreenOnly">
+                    <MadCap:dropDown>
+                        <MadCap:dropDownHead class="h3">
+                            <MadCap:dropDownHotspot>
+                                <img src="Resources/Images/icons/help-video@2x.png" class="VideoIcon" alt="Video example icon" />Video example
+							<a name="VideoDesktop" class="imgcopy"></a></MadCap:dropDownHotspot>
+                        </MadCap:dropDownHead>
+                        <MadCap:dropDownBody>
+                            <p>
+                                <div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <iframe src="https://fast.wistia.net/embed/iframe/37g4dvnzrs?videoFoam=true&amp;qualityMin=540" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen="msallowfullscreen" width="100%" height="100%">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <script src="https://fast.wistia.net/assets/external/E-v1.js" async="async">
+                                </script>
+                            </p>
+                            <MadCap:dropDown>
+                                <MadCap:dropDownHead class="h4">
+                                    <MadCap:dropDownHotspot>Video transcript
+									<a name="TranscriptDesktop" class="imgcopy"></a></MadCap:dropDownHotspot>
+                                </MadCap:dropDownHead>
+                                <MadCap:dropDownBody>
+                                    <p>This video explains how the Onshape Measure tool is used. The Measure tool is available in the Part Studio, for sketches and parts, and in Assemblies, for parts and assemblies. The Measure tool appears in the bottom right corner of the interface.</p>
+                                    <p>The Measure tool displays measurements dynamically whenever you select entities. Select any entity and the Measure tool shows measurements for the single entity. Use the dropdowns to select measurement type, measurement length, and measurement angle unit.</p>
+                                    <p>Optionally, select another entity. The Measure tool shows center-to-center, maximum-to-maximum, and minimum-to-minimum measurements between the two entities. Hovering over the measurement information displays the measurement in the graphics area. Sketch entity icons indicate the entity type. Center, maximum, and minimum distances between entities are shown as bold dotted lines. Changes in x are shown in red, changes in y are shown in green, and changes in z are shown in blue. Center distances between the two entities are shown as a black dotted line. The same with maximum distance, and the same with the minimum distance between the two entities.</p>
+                                </MadCap:dropDownBody>
+                            </MadCap:dropDown>
+                        </MadCap:dropDownBody>
+                    </MadCap:dropDown>
+                </div>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Steps
+					<a name="DesktopSteps" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p class="shortcut">Shortcut: [</p>
+                        <ol>
+                            <li>Select the entity or entities you want to measure.</li>
+                            <li>Click the Measure tool icon <img src="Resources/Images/icons/measure-button@1x.png" alt="Measure tool icon" /> in the bottom-right corner of the page. The Measure tool shows measurements for the selected entity or entities:
+					<p><img src="Resources/Images/concepts/measuretoolwindow-01.png" class="DialogBoxes" alt="Measure dialog with an example of a Part Studio" vspace="1" hspace="1" align="bottom" border="0" /></p></li>
+                            <li>Use the dropdowns to select <i>Measure type</i>, <i>Length unit</i>, and/or <i>Angle unit</i>.
+						These can all be changed at any time.
+					<p><img src="Resources/Images/concepts/measure-dialog-02-02.png" alt="Measure dialog showing Measure type dropdown options" title="" class="DialogBoxes" /><img src="Resources/Images/concepts/measure-dialog-03.png" class="DialogBoxes" alt="Measure dialog showing Length unit dropdown options" /><img src="Resources/Images/concepts/measure-dialog-04.png" class="DialogBoxes" alt="Measure dialog showing Angle unit dropdown options" /></p></li>
+                            <li>Optionally, select another entity. The Measure tool shows center-to-center, maximum-to-maximum, and minimum-to-minimum measurements between the entities.</li>
+                            <div class="Note1-img">
+                            </div>
+                            <p class="Note1">When a sketch entity is selected in a Part Studio, a sketch entity icon indicates the type.</p>
+                            <div class="Note1-img">
+                            </div>
+                            <p class="Note1">Measuring more than two entities in an assembly will provide you with the minimum distance, maximum distance, total area, center axes distance, or length of those entities.</p>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Measure dialog options<a name="measure_options" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ul>
+                            <li>
+                                <p>
+                                    <b>Measure type</b> - Filters the type of measurements displayed in the Measure dialog. Options are <i>Show all, Position, Center position, Min distance, Max distance, Length, Diameter, Radius, Angle, Face tangent angle, Curvature deviation</i>, or <i>Surface area</i>.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Length unit</b> - Select the length unit. Options are <i>Centimeter, Foot, Inch, Meter, Millimeter</i>, or <i>Yard</i>.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Angle unit</b> - Select the angle unit type:&#160;<i>Degree</i> or <i>Radian</i>.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Diameter</b> - Diameter of an arc or circle.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Radius</b> - Radius of an arc.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Center Dist.</b> - The center distance between two entities.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Perp axes angle</b> - Perpendicular axes angle between two entities.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Area</b> - Area of a surface.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Face tangent angle</b> - Tangent angle between a selected surface and a line that meets the surface.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Curvature deviation</b> - Deviation between a selected surface and a line that meets the surface.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Center</b> - The center dimensions for an arc or circle (X, Y, Z).</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Center Dist.</b> - Center distance between two entities (X, Y, Z).</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Min Dist.</b> - Minimum distance between two entities (X, Y, Z).</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Max Dist.</b> - Maximum distance between two entities (X, Y, Z).</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Max Rad Pt.</b> - Minimum elliptical radial point (X, Y, Z).</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Max Rad Pt.</b> - Maximum elliptical radial point (X, Y, Z).</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Length</b> - Length of an entity; for example, the length of a line, or circumference of a circle.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Point</b> - Location of a point, vertex, or mate connector (X, Y, Z).</p>
+                            </li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Using values
+					<a name="Using" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>You can use the information displayed in the Measure tool to enter values elsewhere in the system, for example, as a dimension:</p>
+                        <ol>
+                            <li>With the Measure tool open, click to highlight the value you want to copy. <ul><li>Click once to capture the maximum precision value.</li><li>Click a second time to capture the lower precision.</li></ul></li>
+                            <li>Use keyboard shortcuts to copy the value.</li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Interpreting the measure information<a name="Interpre" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>When you hover over measurement information in the Measure tool, the measurement is visualized in the graphics area, depicting the exact measurement referred to. For example:</p>
+                        <table width="883" cellpadding="2" cellspacing="0" border="0" style="border-collapse: collapse;">
+                            <col style="width: 312px;" />
+                            <col />
+                            <tr align="left" valign="top">
+                                <td>
+                                    <p style="font-weight: bold;">Sketch entity icon</p>
+                                    <p>Indicates the type of entity selected</p>
+                                </td>
+                                <td width="576">
+                                    <p>
+                                        <img src="Resources/Images/sketch-tools/measure-entityarc.png" alt="Sketch entity icons indicate the entity selected" class="RoundedCorners" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr align="left" valign="top">
+                                <td>
+                                    <p style="font-weight: bold;">Bold dotted line</p>
+                                    <p>Center, maximum, or minimum distance between entities:</p>
+                                    <ul>
+                                        <li>Center, min, or max distances are shown in <b>black</b></li>
+                                        <li>Changes in X are shown in <b style="color: #ff0000;">red</b></li>
+                                        <li>Changes in Y are shown in <b style="color: #00a700;">green</b></li>
+                                        <li>Changes in Z are shown in <b style="color: #2e73ff;">blue</b></li>
+                                    </ul>
+                                    <p>Note that when measuring to the center of a circle, you can select a planar face, edge, or edge of a cylinder</p>
+                                </td>
+                                <td width="576">
+                                    <p>
+                                        <img src="Resources/Images/concepts/measure-center-a.png" class="RoundedCorners" alt="Measure tool dialog showing black dotted line for Center distance" />
+                                    </p>
+                                    <p class="caption">Center distance</p>
+                                    <p>
+                                        <img src="Resources/Images/concepts/measure-center-b.png" class="RoundedCorners" alt="Showing distance between entities using red, green, and blue dotted lines" />
+                                    </p>
+                                    <p class="caption">Center distance X, Y, and Z</p>
+                                    <p>
+                                        <img src="Resources/Images/concepts/measure-max-a.png" class="RoundedCorners" alt="Example showing max distance between entities using a black dotted line" />
+                                    </p>
+                                    <p class="caption">Maximum distance</p>
+                                    <p>
+                                        <img src="Resources/Images/concepts/measure-max-b.png" class="RoundedCorners" alt="Example showing max distance between entities along x axis using red dotted line" />
+                                    </p>
+                                    <p class="caption">Maximum distance X, Y, and Z</p>
+                                    <p>
+                                        <img src="Resources/Images/concepts/measure-min-a.png" class="RoundedCorners" alt="Example showing min distance between entities using a black dotted line" />
+                                    </p>
+                                    <p class="caption">Minimum distance</p>
+                                    <p>
+                                        <img src="Resources/Images/concepts/measure-min-b.png" class="RoundedCorners" alt="Example showing distance between entities along the Z axis using a blue dotted line" />
+                                    </p>
+                                    <p class="caption">Minimum distance X, Y, and&#160;Z</p>
+                                </td>
+                            </tr>
+                            <tr align="left" valign="top">
+                                <td>
+                                    <p>
+                                        <b>Thin dotted line</b>
+                                    </p>
+                                    <p>Indicates an angle</p>
+                                </td>
+                                <td width="576">
+                                    <p>
+                                        <img src="Resources/Images/sketch-tools/Capture1.png" alt="Example of angles appearing as thin dotted lines" class="RoundedCorners" />
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr align="left" valign="top">
+                                <td>
+                                    <p>
+                                        <b>Star</b> (✱)</p>
+                                    <p>Indicates the value is within the coincident/tangent tolerance, even though it's non-zero.</p>
+                                    <p>Note that non-zero values can still affect the quality of downstream geometry, even if they are within tolerance.</p>
+                                </td>
+                                <td width="576">
+                                    <p>
+                                        <img src="Resources/Images/concepts/measure-dialog-star-03.png" class="RoundedCorners" alt="Example showing distance between entities along the Z axis using a blue dotted line">
+                                        </img>
+                                    </p>
+                                    <p class="caption">Star next to non-zero value within tangent tolerance.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Adding a variable<a name="Add-variable" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>
+                            <em>Part Studios only</em>
+                        </p>
+                        <p>To add a variable for the current measurement, click the variable icon to the right of the measurement (shown below to the left of the blue arrow):</p>
+                        <p>
+                            <img src="Resources/Images/concepts/addvariable-viameasuretool.bmp" alt="Image highlighting add variable option in Measure tool dialog" class="RoundedCorners" />
+                        </p>
+                        <p>
+							This opens the <i>Variable</i> dialog, pre-populated with your selections to get the listed measurement . See the
+							<a href="variable.htm">Variable</a>
+							topic for more information on variables.
+						</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Dynamic updating of measurement values<a name="measure_dynamic" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>
+                            <em>Assemblies only</em>
+                        </p>
+                        <p>If the Measure tool is opened, measurement values are updated dynamically as parts are dragged on screen. Some examples are:</p>
+                        <ul>
+                            <li>
+                                <p>If a circular edge or mate connector of a part is selected, the center or point location relative to the origin point updates as the part is moved. </p>
+                            </li>
+                            <li>
+                                <p>If the origin point and a part entity (edge, face, vertex, mate connector)&#160;are both selected, the distance between the entity and the origin point updates as the part is moved.</p>
+                            </li>
+                            <li>
+                                <p>If one part is fixed and another is not, selecting an entity from the fixed part (edge, face, vertex, mate connector) and an entity from the non-fixed part (edge, face, vertex, mate connector)&#160;updates the distance values between the two selected entities as the non-fixed part is moved.</p>
+                            </li>
+                        </ul>
+                        <div class="Note1-img">
+                        </div>
+                        <p class="Note1">Dynamic updating does not work when using Section view.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>
+                    <span>Measure Tool: iOS
+					<a name="iOS" class="imgcopy"></a></span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="Resources/Images/icons/measure-button@3x.png" alt="Measure tool icon" />
+                </p>
+                <h3>Steps
+				<a name="iOSSteps" class="imgcopy"></a></h3>
+                <p>The Measure tool displays measurements dynamically whenever you select entities.</p>
+                <ol>
+                    <li>Tap the Measure tool
+						<img src="Resources/Images/icons/measure-button@1x.png" class="InlineImage" alt="Measure tool icon" />
+						to active it.
+					<p>With the Measure tool active:</p></li>
+                    <li>Tap to select an entity or entities to measure.
+					<p>The relevant measurement information appears in the dialog at the bottom of the screen. Tap the top of the dialog to collapse or expand it. Swipe inside the dialog to scroll up or down.</p><p><img src="Resources/Images/m-UI/MeasureToolSelection.png" class="RoundedCorners" alt="Measurement info dialog" /></p></li>
+                    <li>
+                        <p>Use the dropdowns to specify <i>Measure type, Length unit</i>, and <i>Angle unit</i> (these can be changed at any time). </p>
+                    </li>
+                    <li>Tap the X in the upper right corner of the Measure dialog to close it and exit the measurement tool.</li>
+                </ol>
+                <div class="Note1-img">
+                </div>
+                <p class="Note1">
+					The measurement tool displays information using the units of measurement that you have set for your document. To change the units of measurement, select
+					<b>Units</b>
+					from the document info panel and select desired unit.
+				</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>
+                    <span>Measure Tool: Android
+					<a name="Android" class="imgcopy"></a></span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="Resources/Images/icons/measure-button@3x.png" alt="Measure tool icon" />
+                </p>
+                <p>The Onshape Measure tool is available in Part Studios, for sketches and parts, and in Assemblies for parts and assemblies; it appears in the far right of the main toolbar at the top of the screen. It displays measurement dynamically whenever you select an entity. The tool shows all possible measurements for the selected entity/entities including, but not limited to, minimum distance between entities, total surface area, angles, length, parallel distance, etc.</p>
+                <h3>Steps
+				<a name="AndroidSteps" class="imgcopy"></a></h3>
+                <ol>
+                    <li>Tap the Measure tool
+						<img src="Resources/Images/icons/measure-button@1x.png" class="InlineImage" alt="Measure tool icon" />
+						to active it.
+					<p>With the Measure tool active:</p></li>
+                    <li>Tap to select desired entities to measure.
+					<p>The relevant measurement information appears in the dialog at the bottom of the screen. Tap the top of the dialog to collapse or expand it. Swipe inside the dialog to scroll up or down. </p><p><img src="Resources/Images/m-assembly/measuretooldialog-01.png" alt="Android Measure tool dialog" title="" class="RoundedCorners" /></p></li>
+                    <li>Select <i>Measure type</i> to filter the type. Select <i>Length unit</i> or <i>Angle unit</i> to change the unit used.</li>
+                    <li>Tap the <i>X</i> in the upper right corner of the <i>Measure</i> dialog to close it and exit the measurement tool.</li>
+                </ol>
+                <p>
+                    <img src="Resources/Images/MeasureTool.Android.bmp" alt="Measure tool dialog" class="RoundedCorners" MadCap:conditions="Doc.Hide" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <hr class="PageEnd" />
+    </body>
+</html>

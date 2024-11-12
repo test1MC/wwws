@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>qtresources/icons/sheet-property</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="qtresources/icons/sheet-property">
+            <rect id="Bounds" x="0" y="0" width="20" height="20"></rect>
+            <g id="sheet-property" transform="translate(1.000000, 1.000000)">
+                <rect id="Rectangle-55" fill="#FFFFFF" x="0" y="2" width="18" height="16"></rect>
+                <polygon id="Rectangle-3" fill="#333333" points="13 2 18 2 18 18 0 18 0 2 3 2 3 3 1 3 1 17 8 17 8 12.5 9.5 11 17 11 17 3 13 3"></polygon>
+                <rect id="Rectangle" fill="#FFFFFF" x="9" y="12" width="8" height="5"></rect>
+                <rect id="Rectangle" fill="#333333" x="10" y="13" width="6" height="1"></rect>
+                <rect id="Rectangle-Copy" fill="#333333" x="10" y="15" width="6" height="1"></rect>
+                <path d="M7,3 C7,1 4,1 2,1 L2,3.99680289e-15 C4,-3.84462542e-14 9,0 9,3 L12,3 L8,7 L4,3 L7,3 Z" id="Fill-418-Copy" fill="#333333"></path>
+            </g>
+        </g>
+    </g>
+</svg>

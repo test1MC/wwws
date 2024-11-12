@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" ComputedWidth="20" ComputedHeight="20" Format="png" DPI="72.009">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGQSURBVHgB1VS9SgNBEJ65S4KlhSiKRQqrNF6M2sTCgJaij5A8QdKl9FJGEJInSB7Bn1LBgIKgRK9KJRiwEAXBUmOScXeTO/d2L2cQC/1gubnd2W+/25nvAP46cNRCsXa93ifcQcTtcnYpLubqTYcAHQOMUjmXbI9FWKjdTsagvwtABQjXUukw4kou+TqScEDWO2OhJc+XsykYKlRZnQ6YGZnUkFcHyvxk38Aa7tEVFmuXcYLoPfwAPaDMfm6lweOIN0mmbQSUaNOahbXEjIibdy9wdPWg5URY8dijwWPvkxGNRTVxa3UeNqw5mIiZYqQT0+IAFcQ6wY2/CAPubnlhStucHqpVKOMa4W9BIsS2unjeetI28HsMgKMREtGhmnXqPMJF6xneOl0xTtj7cUBRkLnHjb0q95EOTMC8mswJgkj8MEqaQt5HRFANSudOcd2iq4Oq7GtfUT7QtEm6jzHgvINpKwf4wf0cpZ6NCPkwJq6Mk4X+HGQIKzL3EGv4vWxK9GixftNGVrwuu2/Xav8Pn1pGiVE9Mz9GAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

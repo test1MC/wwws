@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="List view icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACuSURBVHgB7ZTRCQMhDIZz4Abu4JsL+OQAzqEz6RwO4Js7OIPOYEnBwxNpbQ/aUu57UgnxT/KTTQhRKaWA5JyBcw4pJQghbPAGBJMppe4X7z1Ya8EYgwn3IK11XUnmnNvIaiAsQrBMVIaUUqZBzxQePsTgkdUSpwpxANizHnz7Xw7Tk1JWxtg5H/YXTPZ7PmxlNoUzLh9+lr2Z416MMZ7z4bgXe77rw3Z4tBdf8eENZ6KOOGnJ9CEAAAAASUVORK5CYII=</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

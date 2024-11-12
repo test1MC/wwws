@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <p>If a material library document has been shared with you (you need View permission on that document), you can simply add the material library to your Preferences list in your account settings.</p>
+        <ol>
+            <li>Click your name in the top right corner of the Onshape window.</li>
+            <li>Select <b>My account</b>.</li>
+            <li>Select the <b>Preferences</b> tab on the left.</li>
+            <li>Scroll to the bottom of the displayed page to see Material libraries:<p><img src="../Images/accounts/add-custom-mat-lib-02.png" alt="My account Preferences selected, to show an example of adding a material library" class="RoundedCorners" /></p></li>
+            <li>
+                <p>Click the <b>Add material library</b> button.</p>
+            </li>
+            <li>In the Add material library dialog, use the filters to help find the material library you wish to add.</li>
+            <li>Select the material library and click <b>Add</b>.</li>
+        </ol>
+        <p>The new material library is added to the list on the Preferences page. This new library will be available through the Material library dialog in all other documents to which you have access.</p>
+        <h3>Removing a library<a name="RemoveLibrary" class="imgcopy"></a></h3>
+        <p>Be aware that the Remove action is immediate. No confirmation is required.</p>
+        <ol>
+            <li>On the <b>Preferences</b> tab of your account settings, scroll to the bottom of the page to <b>Material libraries</b>.</li>
+            <li>Click the <b>Remove</b> button next to the library you wish to remove.</li>
+        </ol>
+        <p>You can remove the Onshape material library if you wish. To add it back, use this document: <a href="https://cad.onshape.com/documents/2718281828459eacfeeda11f/w/97628b48cc974c2681faacfc/e/6bbab304a1f64e7d640a2d7d" target="_blank">Onshape standard material library</a> (std.mat)</p>
+    </body>
+</html>

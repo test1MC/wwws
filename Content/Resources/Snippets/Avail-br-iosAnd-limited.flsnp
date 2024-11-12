@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../Images/icons-master/help-platform-browser@1x.png" class="rightpad" />
+            <img class="rightpad" src="../Images/icons-master/help-platform-iOS-limited@1x.png" />
+            <img src="../Images/icons-master/help-platform-android-limited@1x.png" />
+        </p>
+    </body>
+</html>

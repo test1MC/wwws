@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileTagSet Type="Status" Comment="My set of status tags">
+    <FileTag Name="In Progress" Comment="in progress for the current sprint" />
+    <FileTag Name="Complete" Comment="ready for build/pub/trans" />
+    <FileTag Name="Ready for Review" Comment="writing finished; feedback needed" />
+</CatapultFileTagSet>

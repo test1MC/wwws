@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="6" SkinType="Component" Comment="HTML5 Search Results skin" ComponentType="SearchResults" conditions="Doc.HideFromLingo" EnableResponsiveOutput="true">
+    <Stylesheet>
+        <Styles>
+            <Style Name="Search Heading">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                    <Property Name="Color">#1b5faa</Property>
+                    <Property Name="FontWeight">normal</Property>
+                    <Property Name="LineHeight">20px</Property>
+                    <Property Name="FontSize">12pt</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Abstract">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                    <Property Name="FontSize">14px</Property>
+                    <Property Name="FontWeight">bold</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Path">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                    <Property Name="Color">#a9a9a9</Property>
+                    <Property Name="FontSize">12px</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Glossary Result">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Glossary Term">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Glossary Definition">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Pagination Item">
+                <Properties>
+                    <Property Name="FontFamily">flamabook</Property>
+                    <Property Name="BorderTop">none 0px #fafafc</Property>
+                    <Property Name="Color">#1b5faa</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Pagination Item (selected)">
+                <Properties>
+                    <Property Name="BorderTop">none 0px #e2e2e6</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Pagination Item (hover)">
+                <Properties>
+                    <Property Name="BorderTop">none 1px #e2e2e6</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link (focus)">
+                <Properties>
+                    <Property Name="Color">#1b5faa</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link (hover)">
+                <Properties>
+                    <Property Name="Color">#1b5faa</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Result Link (visited)">
+                <Properties>
+                    <Property Name="Color">#c0c0c0</Property>
+                </Properties>
+            </Style>
+            <Style Name="Search Micro Content Response Button">
+                <Properties>
+                    <Property Name="BackgroundRepeat">no-repeat</Property>
+                </Properties>
+            </Style>
+        </Styles>
+    </Stylesheet>
+    <Strings />
+</CatapultSkin>

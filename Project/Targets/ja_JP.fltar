@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="2" Comment="Japanese OnshapeWebTarget" Type="WebHelp2" Destinations="" Skin="/Project/Skins/RA-Lighter-Blue-v2.flskn" MasterToc="/Project/TOCs/CombinedHelp.fltoc" MasterStylesheet="/Content/Resources/Stylesheets/RA-Lighter-Blue-v2.css" MasterPage="/Content/Resources/MasterPages/MasterPage-ja_JP.flmsp" OutputFile="index.htm" MoveOutputContentToRoot="false" ConditionTagExpression="exclude[Default.PrintOnly or Doc.Hide] " ExcludeUnreferencedContent="false" EnableSitemap="true" SitemapWebUrl="https://cad.onshape.com/help/" PreMergeSearchDatabase="false" TargetLanguage="en" ChunkGlossary="true" ExcludeIndexEntriesFromSearch="false" AutoSizeCaptureCaptions="false" DisableAutoSync="true" PartialWordSearch="true" OutputFolder="C:\FlareOutput" EquationsOutputType="PNG" DefaultUrl="/Content/EnterpriseHelp/Content/home.htm" SearchResultsSkin="/Project/Skins/SearchResults.flskn" TopNavTocPath="true" PreCompileScaledImages="false" GenerateWebSafeImages="true" WebSafeFileExtension="png" ReplaceSpacesWithUnderscores="true" CentralLinkIds="" SearchDatabaseChunkSize="1000000">
+    <PrintedOutput CollapseMargins="true" GenerateTOCProxy="true" GenerateIndexProxy="true" GenerateGlossaryProxy="true" />
+    <Destinations>
+        <Destination Link="/Project/Destinations/OnshapeHelp-ja_JP.fldes" Publish="true" IsResource="false" />
+    </Destinations>
+</CatapultTarget>

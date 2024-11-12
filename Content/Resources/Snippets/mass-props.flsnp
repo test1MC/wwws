@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <title>Mass and Section Properties Tool</title>
+        <meta name="description" content="The Onshape Mass and section properties tool is available in Part Studio and Assemblies for parts and assemblies. Find the Mass properties tool in the bottom right corner of the interface, the scales icon, when you have parts selected." />
+    </head>
+    <body onload="if (isTOCLoaded()) {expand('1369');expand('2541');highlight('3445')}">
+        <div id="stickyheader">
+            <h1>
+                <img src="Resources/Images/icons/MassProps3x.png" alt="Mass properties tool icon" />
+                <span>Mass Properties Tool</span>
+            </h1>
+            <hr class="rule1" />
+        </div>
+        <MadCap:snippetBlock src="Resources/Snippets/Avail-br-iosAnd-limited.flsnp" />
+        <p>The Onshape <i>Mass properties</i> tool is available in Part Studios and assemblies. Find the <i>Mass properties</i> tool in the bottom-right corner of the desktop interface or on the main mobile toolbar.</p>
+        <p>You can also use this tool to override properties and supply your own values for mass.</p>
+        <p>
+            <img src="Resources/Images/sketch-tools/Capture2.png" class="RoundedCorners" alt="Example of location of Mass and section properties tool" />
+        </p>
+        <p>Properties are additive: for each additional part you select, its properties are added to the calculations in the dialog (desktop) or panel (iOS and Android). When you apply materials to parts, the density of the material is used in the calculations in the <i>Mass and section properties</i> dialog/panel. If a part has no material assigned, no figure for that part is used in the calculation (and a note is displayed in the dialog/panel to that effect).</p>
+        <p>Results of mass property calculations are approximate. The calculation of the properties may vary in accuracy, depending on the complexity of the geometry.</p>
+        <p>Enabling <i>Show calculation variance</i> displays the value and the difference between the lower and upper bound of the calculated value. If <i>Show calculation variance</i> is not enabled, the computed value without the bounds is displayed. The computations of the values are not affected by the state of the <i>Show calculation variance</i> checkbox.</p>
+        <div class="Note1-img">
+        </div>
+        <p class="Note1">
+			Apply
+			<a href="material_library.htm">Materials</a>
+			to parts through the context menu on a part in the Parts list (or the graphics area).
+		</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Mass properties tool;measurement information:Part Studio mass properties tool;Properties tool, mass;tools, Mass properties;measuring" />
+                    <span>Mass Properties Tool: Desktop
+					<a name="Desktop" class="imgcopy"></a></span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="ScreenOnly" MadCap:conditions="Default.ScreenOnly">
+                    <MadCap:dropDown>
+                        <MadCap:dropDownHead class="h3">
+                            <MadCap:dropDownHotspot>
+                                <img src="Resources/Images/icons/help-video@2x.png" class="VideoIcon" alt="Video example icon" />
+								Video example
+							<a name="Video" class="imgcopy"></a></MadCap:dropDownHotspot>
+                        </MadCap:dropDownHead>
+                        <MadCap:dropDownBody>
+                            <p>
+                                <div class="wistia_responsive_padding" style="padding:50.63% 0 0 0;position:relative;">
+                                    <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                        <iframe src="https://fast.wistia.net/embed/iframe/i8m5drgo5b?videoFoam=true&amp;qualityMin=540" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen="msallowfullscreen" width="100%" height="100%">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <script src="https://fast.wistia.net/assets/external/E-v1.js" async="async">
+                                </script>
+                            </p>
+                            <MadCap:dropDown>
+                                <MadCap:dropDownHead class="h3">
+                                    <MadCap:dropDownHotspot>Video transcript
+									<a name="Transcript" class="imgcopy"></a></MadCap:dropDownHotspot>
+                                </MadCap:dropDownHead>
+                                <MadCap:dropDownBody>
+                                    <p>The <i>Mass properties</i> tool allows you to view and override mass, volume, surface area, center of mass, and inertia for parts in Part Studios and assemblies. First, parts must have a material assigned to them. Right-click the part and select <i>Edit material</i>. Then assign a pre-made material from the library or select <i>Custom</i> and enter values. The density of the material is used in the mass properties calculations. Next, click the <i>Mass properties</i> tool at the bottom right corner. Select the parts to include in the calculations. If a part has no material assigned, it is not used in the calculations and displays red (for example, the Spindle here). Properties are additive: each additional part selected adds to the calculations in the dialog. Click the red <i>x</i> to exit the <i>Mass properties</i> dialog.</p>
+                                    <p>Mass properties are also available from assemblies. Click the <i>Mass properties</i> tool and then select the parts to make up the calculations. Click the red <i>x</i> to exit the dialog.</p>
+                                </MadCap:dropDownBody>
+                            </MadCap:dropDown>
+                        </MadCap:dropDownBody>
+                    </MadCap:dropDown>
+                </div>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3" style="font-weight: bold;">
+                        <MadCap:dropDownHotspot>Steps
+						<a name="StepsDesktop" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol>
+                            <li>
+                                <p> To open the <i>Mass and section properties</i> dialog, click the small scale icon
+									<img src="Resources/Images/icons/MassProps1x.png" alt="Mass properties tool icon" class="InlineImage" />
+								in the bottom-right corner of the interface.</p>
+                                <p>
+                                    <img src="Resources/Images/assembly/mass-section-props-01.png" class="RoundedCorners" alt="Making selections in the graphics area and showing the Mass properties dialog" />
+                                </p>
+                            </li>
+                            <li>Select either the <i>Part</i> tab to get the mass properties for an entire part(s) or the <i>Face</i> tab to get the mass properties for a cross section or face(s).
+							</li>
+                            <li>Make your selections in the graphics area.
+							</li>
+                            <div class="Note1-img">
+                            </div>
+                            <p class="Note1">
+								The center of mass is marked with
+								<img src="Resources/Images/icons/center-of-mass@1x.png" class="InlineImage" />
+								on the model when the Mass and section properties dialog is open, as shown in the image above and in the image below.
+							</p>
+                            <li>If you wish to override calculations and enter your own mass values, select the entire part or assembly in the <i>Features</i> or <i>Instances</i> list on the left. Then, check the <i>Override</i> box and enter the desired value. Appropriate recalculations are made once a new value is entered.
+							<p><img src="Resources/Images/assembly/mass-section-override-01.png" class="RoundedCorners" alt="Example of overriding calculations for mass" /></p></li>
+                        </ol>
+                        <div class="Note1-img">
+                        </div>
+                        <p class="Note1">For any intersecting parts, the properties are calculated for each individual whole part and added together.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Dialog breakdown<a name="dialog" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The <i>Mass and section properties</i> dialog provides the following information, presented from top down as shown in the tool:
+								<ul><li>Parts/faces/instances to measure - Click a face or part in the graphics area or Features/Instances list to add it to the calculations. </li><li>Select a mate connector, inferred or existing (optional), to calculate the moments of inertia more accurately (instead of to the common centroid of the selected parts):</li></ul><p><img src="Resources/Images/assembly/mass-props-dialog-mate-connector-01.png" class="RoundedCorners" alt="Example of using Values, selecting a Mate connector in the Mass properties dialog" /></p><ul><li>Mass of all parts that have a material applied </li><li>Volume of all selected parts</li><li>Surface area of all selected parts or faces</li><li>Perimeter of all selected faces </li><li>Center of mass of all parts that have a material applied</li><li>Moments of inertia <ul><li>Calculated&#160;with respect to the common centroid of the selected parts/faces (not the Part Studio/assembly origin)</li><li>For parts, calculated using the densities of the assigned materials assigned. Any selected parts without materials assigned are omitted from the calculation. If no materials are assigned to any selected parts, no calculation is made. 								
+							</li></ul></li></ul></p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead class="h3">
+                        <MadCap:dropDownHotspot>Using values <a name="Using" class="imgcopy"></a></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>You can use the information shown in the <i>Mass and section properties</i> dialog to enter values elsewhere in the system (for example, as a dimension).</p>
+                        <ol>
+                            <li>
+                                <p>With the <i>Mass and section properties</i> dialog expanded, click the value to view and highlight the max precision. </p>
+                            </li>
+                            <li>
+                                <p>Click again to toggle the view to value with default decimal place setting.</p>
+                            </li>
+                        </ol>
+                        <p>Use native shortcut keys to copy values to the clipboard.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>
+                    <span>Mass Properties Tool: iOS
+					<a name="iOS" class="imgcopy"></a></span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="Resources/Images/m-UI/MassPropertiesPartStudioAndroid.png" class="GreyEdges" alt="Mass Properties tool icon circled in orange" />
+                </p>
+                <p>
+                    <img src="Resources/Images/m-UI/MassPropertiesAssemblyAndroid.png" class="GreyEdges" alt="Mass Properties tool icon circled in orange" />
+                </p>
+                <p>If you want to override calculations and enter your own values for Mass, select the entire assembly in the Instances list on the left. Then place a check in the Mass Override box and enter the desired value. Appropriate recalculations are made once a new value is entered:</p>
+                <p>
+                    <img src="Resources/Images/m-part_studio/mass-props-ios.png" class="RoundedCorners" alt="Switching to enable Override in the Mass properties dialog" />
+                </p>
+                <ul>
+                    <li>To use the Mass properties tool; either select the tool and the parts/faces/instances to measure. You can also select the parts/faces first, then select the tool.</li>
+                    <li>You can select multiple parts/faces at a time.</li>
+                    <li>Parts and faces may be selected in both the graphics area and the Features, Parts, and Instances lists.</li>
+                </ul>
+                <p>The Mass Properties dialog provides the following information, presented from top down as shown in the dialog.</p>
+                <div class="Note1-img">
+                </div>
+                <p class="Note1">
+					The information is presented in the default units that you have set for your document. The image above is displaying mass property information in terms of inches (the default unit for this document).
+					<br />          To change the default units for your document, tap the Document menu icon the upper left, select
+					<b>Units</b>, and select desired length, angle, and mass units.
+				
+					</p>
+                <ul>
+                    <li>Parts/faces/instaces to measure - Tap to view the list of selected entities. Swipe left on an entity in the list to reveal a delete option.
+						</li>
+                    <li>Mass of all parts that have a material applied </li>
+                    <li>Volume of all selected parts</li>
+                    <li>Surface area of all selected parts or faces</li>
+                    <li>Perimeter of all selected faces </li>
+                    <li>Center of mass of all parts that have a material applied</li>
+                    <li>Moments of inertia <ul><li>Calculated&#160;with respect to the common centroid of the selected parts/faces (not the Part Studio/assembly origin)</li><li>For parts, calculated using the densities of the assigned materials assigned. Any selected parts without materials assigned are omitted from the calculation. If no materials are assigned to any selected parts, no calculation is made. </li></ul></li>
+                </ul>
+                <p>If you select more than one part/face at a time, the combined properties of the parts/faces are calculated. Any intersecting parts/faces have the properties of each individual whole part/face calculated and added together.							
+										</p>
+                <p>If you want to override calculations and enter your own values for Mass, select the entire part, face, or assembly, then check the <i>Mass Override</i> box and enter the desired value. Appropriate recalculations are made once a new value is entered.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="h2">
+                <MadCap:dropDownHotspot>
+                    <span>Mass Properties Tool: Android
+					<a name="Android" class="imgcopy"></a></span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="Resources/Images/m-UI/MassPropertiesPartStudioAndroid.png" class="GreyEdges" alt="Example of Mass Properties tool icon circled in red" />
+                </p>
+                <p class="caption">Mass Properties tool shown in Part Studios toolbar on Android application.</p>
+                <p>
+                    <img src="Resources/Images/m-UI/MassPropertiesAssemblyAndroid.png" class="GreyEdges" alt="Example of Mass Properties tool icon circled in red" />
+                </p>
+                <p class="caption">Mass Properties tool shown in Assemblies toolbar on Android application.</p>
+                <ul>
+                    <li>To use the Mass properties tool; either select the tool and then select the part(s) OR select the part(s) first and then the tool.</li>
+                    <li>You can select multiple parts/faces at a time.</li>
+                    <li>Parts and faces may be selected in both the graphics area and the Parts/Features/Instances lists.</li>
+                </ul>
+                <p>
+                    <img src="Resources/Images/m-UI/masspropertiesdialogPartStudioAndroid.png" class="RoundedCorners" alt="Example of Mass Properties tool in use in an Assembly" />
+                </p>
+                <p>The Mass Properties dialog provides the following information, presented from top down as shown in the dialog.</p>
+                <div class="Note1-img">
+                </div>
+                <p class="Note1">
+					The information is presented in the default units that you have set for your document. The image above is displaying mass property information in terms of inches (the default unit for this document).
+					<br />          To change the default units for your document, tap the Document menu icon the upper left, select
+					<b>Units</b>, and select desired length, angle, and mass units.
+				</p>
+                <ul>
+                    <li>Parts/faces/instances to measure - Tap to view the list of selected entities. Swipe left on an entity in the list to reveal a delete option.
+						</li>
+                    <li>Mass of all parts that have a material applied </li>
+                    <li>Volume of all selected parts</li>
+                    <li>Surface area of all selected parts or faces</li>
+                    <li>Perimeter of all selected faces </li>
+                    <li>Center of mass of all parts that have a material applied</li>
+                    <li>Moments of inertia <ul><li>Calculated&#160;with respect to the common centroid of the selected parts/faces (not the Part Studio/assembly origin)</li><li>For parts, calculated using the densities of the assigned materials assigned. Any selected parts without materials assigned are omitted from the calculation. If no materials are assigned to any selected parts, no calculation is made. </li></ul></li>
+                </ul>
+                <p>If you select more than one part/face at a time, the combined properties of the parts/faces are calculated. Any intersecting parts/faces have the properties of each individual whole part/face calculated and added together.							
+										</p>
+                <p>If you want to override calculations and enter your own values for Mass, select the entire part, face, or assembly, then check the <i>Mass Override</i> box and enter the desired value. Appropriate recalculations are made once a new value is entered.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <hr class="PageEnd" />
+    </body>
+</html>

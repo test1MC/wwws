@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" ComputedWidth="20" ComputedHeight="20" Format="png" DPI="72.009">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACSSURBVHgB7VSxCYAwEMzHxtYymcA6aRzHDdTOztpK3EA3cYBkjqxgF1+x1NdCUIIHD8lzd/D38Iy9Aa21X+sOl7MgENbIcEVQSjUAUG5kgMEYU1H86MKsQ5Man/FemRACnHPTmYbMEM3yg15BaR5fCmnove8P2iOlITNcs5JSJmic4nfmnLfW2pp9Dv9xIPH9kRfkUifiETUPyAAAAABJRU5ErkJggg==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

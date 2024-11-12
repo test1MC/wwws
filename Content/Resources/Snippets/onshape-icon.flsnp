@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>If the user is an Onshape employee, an Onshape logo icon is displayed to the left of the User's name under the <i>Modified</i> column in the graph:</p>
+        <p>
+            <img src="../Images/history/onshape-user-01.png" alt="Onshape user icon example" title="" class="RoundedCorners" />
+        </p>
+    </body>
+</html>

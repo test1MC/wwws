@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>This lists the collection of curve feature tools. This is not an exhaustive list. Additional <a href="../../featuretools.htm">Feature tools</a> may be used when manipulating curves.</p>
+        <ul>
+            <li>
+                <a href="../../sketch-tools.htm">Sketch tools</a> - Tools in the Sketch toolbar such as Line, Corner rectangle, Center point rectangle, Center point circle, 3 point circle, Tangent arc, 3 point arc, Spline, Point, and Construction used to create a sketch in a Part Studio.</li>
+            <li>
+                <img src="../Images/icons-master/helix-button@1x.png" class="InlineImage" /> <a href="../../helix.htm">Helix</a> - Create a helix using a conical or cylindrical face, single axis or z-axis of a mate connector, or circular edge.</li>
+            <li>
+                <img src="../Images/icons-master/fit-spline-button@1x.png" class="InlineImage" /> <a href="../../3d_fit_spline.htm">3D fit spline</a> - Create a 3D fit spline through a series of vertices. Creates a curve which is listed in the Parts list under Curves.</li>
+            <li>
+                <img src="../Images/icons-master/project-curves-button@1x.png" class="InlineImage" /> <a href="../../projectedcurve.htm">Projected curve</a> - Create a curve from the projection of two sketches (Two sketches option) or from the projection of a curve on a face (Curve to face option).</li>
+            <li>
+                <img src="../Images/icons-master/bridging-curve-button@1x.png" class="InlineImage" /> <a href="../../bridgingcurve.htm">Bridging curve</a> - Create a Curve connecting any two points, vertices, or Mate connectors. The resulting Curve is listed in the Feature list and the Parts list.</li>
+            <li>
+                <img src="../Images/icons-master/composite-curve-button@1x.png" class="InlineImage" /> <a href="../../compositecurve.htm">Composite curve</a> - Represent multiple edges as one Curve. Select multiple adjacent edges, sketch entities, and other curves. Selecting non-contiguous edges may result in multiple Curves created. Selections for each Curve must meet at their vertices. (Curves are listed in the Parts &gt; Curves list.)</li>
+            <li>
+                <img src="../Images/icons-master/intersection-curve-button@1x.png" class="InlineImage" /> <a href="../../intersectioncurve.htm">Intersection curve</a> - Create a curve at the intersection of two or more surfaces or faces. The selections must intersect.</li>
+            <li>
+                <img src="../Images/icons-master/trim-curve-button@1x.png" class="InlineImage" /> <a href="../../trim_curve.htm">Trim curve</a> - Trim or extend a curve by a distance or to a bounding entity.</li>
+            <li>
+                <img src="../Images/icons-master/isocline-button@1x.png" class="InlineImage" /> <a href="../../isocline.htm">Isocline</a> - Create an isocline on a sloped face. An isocline runs on a face at positions where the face has a certain slope compared to its reference definition. The resulting isocline is listed in the Feature list and Parts list.</li>
+            <li>
+                <img src="../Images/icons-master/offset-curve-button@1x.png" class="InlineImage" /> <a href="../../offset_curve.htm">Offset curve</a> - Create and extend and/or split a new curve by offsetting edges on surrounding faces.</li>
+            <li>
+                <img src="../Images/icons-master/isoparametric-curve-button@1x.png" class="InlineImage" /> <a href="../../isoparametriccurve.htm">Isoparametric curve</a> - Create smooth curves that run along a face or surface in the U or V direction.</li>
+        </ul>
+    </body>
+</html>

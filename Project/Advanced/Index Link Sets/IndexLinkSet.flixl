@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultIndexLinkSet conditions="Doc.HideFromLingo">
+    <IndexLink Term="mini toolbars:Sketch" LinkType="see" LinkedTerm="Other Term:Subterm">
+    </IndexLink>
+    <IndexLink Term="views" LinkType="see" LinkedTerm="Other Term:Subterm">
+    </IndexLink>
+</CatapultIndexLinkSet>

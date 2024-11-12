@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>All merges are displayed explicitly in the Versions and history graph, which updates automatically as changes are made to the document. </p>
+        <b>Showing and hiding merge lines</b>
+        <p>To make the Versions and history graph easier to visualize, toggle the Show/Hide merges and Show/Hide automatic versions buttons as needed:</p>
+        <p>
+            <img src="Resources/Images/history/merge-lines-shown-01.png" alt="Merge lines in the Versions and history graph in a document with many branches" title="" class="RoundedCorners" /> </p>
+        <p class="caption">A Versions and history graph with merge lines and automatic versions shown (above).</p>
+        <p>
+            <img src="Resources/Images/history/merge-lines-merges-hidden-01.png" alt="Merge lines in the Versions and history graph in a document with many branches" title="" class="RoundedCorners" />
+        </p>
+        <p class="caption">A Versions and history graph with merges hidden (above).</p>
+        <p>
+            <img src="Resources/Images/history/merge-lines-auto-versions-hidden-01.png" alt="Merge lines in the Versions and history graph in a document with many branches" title="" class="RoundedCorners" />
+        </p>
+        <p class="caption">A Versions and history graph with automatic versions hidden (above).</p>
+        <b>Merge lines example</b>
+        <p>The example below shows a complex Versions and history graph with several branches. Each branch was created from the Main workspace, and then individual work was done on each branch. As work on each branch was completed, the branches were merged back into Main. The flow of lines to and from the Main branch shows the merging workflow, making it easy to see which changes were merged when. </p>
+        <p>
+            <img src="Resources/Images/history/merge-lines-chess-ex.png" alt="Merge lines in the Versions and history graph in a document with many branches" title="" class="RoundedCorners" />
+        </p>
+    </body>
+</html>

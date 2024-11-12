@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" EnableCropRectangle="true" ExportFormat="png" DPI="96" medium_print_ExportFormat="png" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Green accept checkmark icon" CropRectangle="0,0,18,16" ComputedWidth="18" ComputedHeight="16" Format="tiff">SUkqAIIBAACAARKAR/gCDQeEQmFQuGQ2HQ+DpQAQWIRWLReLJWJxiORCKAAAx0ARqPyKRPyDx+QwYCReSSaOSgAA8Bg8AH8dn8AItlosAOd8ueDAKHy+IPmDgODy2HTIAP6DKomKoAFUSFUAJZqpYAGteGuWQeVwmjSmDvuDEoQEoAN53N4ANh4tiDAeDv2DvqDKMmqMAFwTFwANV3tUAEBWEAAOx7uyww6ywaZCUJCW4lu6AIA0QQqIQgBwOpwQaVrgrrgAEcOEcAOR6uQAB1MB2hwe7RmNwioAACgECgBCjpCgA6jE6gByvRygAhrAhgArCUrABBDdBABzPVzAAiLAiABrulrwYESLIwndgB5wY9j09gBCDxCAB+P6UAQBS10PZ0AAbFKGwAHGeZxvImCDPOhiPnggxEiURIADsGI7ISEZRBGtp1rgAAEwOsjcou9KDj2GT3madBmgAXBvtQADytJDyEQTEKDqchADRiosQRzHiXR3HsgMhH8gyIhCAgAQAP4ABAABAAAAAAAAAAABBAABAAAAEgAAAAEBBAABAAAAEAAAAAIBAwAEAAAASAIAAAMBAwABAAAABQAAAAYBAwABAAAAAgAAABEBBAABAAAACAAAABUBAwABAAAABAAAABYBBAABAAAAEAAAABcBBAABAAAAeQEAABoBBQABAAAAUAIAABsBBQABAAAAWAIAABwBAwABAAAAAQAAACgBAwABAAAAAgAAAD0BAwABAAAAAgAAAFIBAwABAAAAAgAAAAAAAAAIAAgACAAIAMDUAQDoAwAAwNQBAOgDAAA=</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

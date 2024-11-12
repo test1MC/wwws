@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Move curve boundary icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBzZQ7bsJAEEBtSEFJKoQoAuICDp86wAUIJyCuKCEnwJwAp0KiibgBnABS8/MNAhWULlPwyRtnjQChBBKKjLTMenf2zezMLJp2ZdEvMTYMIxwMBssy3Ttf3m631mQyafgL58LiwPpM4wBctKvretzfH4/HHitwLhCYJTAgeaK5ZSSYf0Wl9EWSSqWm6XS6+5Pd2REiPUYxm80aVwFuNhub3M3Q/Uwmk/sz0HEcF1heCsLok4L6KbugdoEsl0s3Eol0AoFAlELUotGotlgs3n4NVNAPIN1YLCZtYh1Dvd6R8MUjU3e9Xue53uwcOFW3UVVppdFoNJA1L4cCA5TgKiXVvDuR14HDJoe3jL58+3s0sxcEOa35azfyI9VDhYfDocNhlyo2V6tVA3iO9VfZU44P8qUKE+b83QGQgyZKKifPycDAYE36ba5gA25gHqcCW0vpXW96V5bIuK7JhsNnRxnZQCyJ/hSs3W5XSYEP3j09fS/0R0aPzaq6xgv6QXmXPNnyj9JqtXJEX+c7R192QqFQzTRN9wCIp3eiuJfmlTkQU6qm/mEsTMrKflYoFErJZPIJm2mlUuloR7IDop7xKhGFqZ55lHwBFKUoOLK1b8QDyoMnfOmnOdW1JVLtv8gnUyPsOGRvzsEAAAAASUVORK5CYII=</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Face blend icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF5SURBVHgBzZQ9isJAFIBfklVBRAQrtbHSVtRW1gsI7gl0K4+heww77bbcPcFOegULIVUgTX4IBNKmSfa9gcS4GjUhC36QQGaYb97PZACegX6/v0yakyADzWaTNRoNME1T/jsnQkZardbqVqSpGAwGga7rwWQyCXKRkpDITRoKc5H2er1aXBhKaYzmUzdFFMVpp9M5G8Oun+YhBRhdWxCEJQm22+31DeFBhsPhWJKkH0ytTREahnFV+gLJ0dQKhULb9/1X/JxWKpUxAnSgiXq9Hklns9lJiDuvsK4XHSqVSlAsFrmg2+1GojhxaSTc7XYrlNKC5Xq95gs3mw39VnzBPUJpCK8hSVHwsVgsuGg+n3Ox4zjwCJQJ4tIruhxwF1atVgXGGK/VaDQCVVXBtm0ol8s3hcfjkQL5xOf77LbJIt3v95Shhs17tyzLvbi+7kk9zwPXdUFRFJBlGTRNYyh7OxwOGq0XktJI6j6OUa00POAyPl8YHYP/5BeUpt8PUkP3YQAAAABJRU5ErkJggg==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

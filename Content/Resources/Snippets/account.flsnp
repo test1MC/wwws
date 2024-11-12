@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The Account menu is located  in the upper-right corner of the interface. The icon for the Account menu may look like this: <img src="../Images/icons/account.png" alt="User account icon" title="" class="InlineImage" />, with your user name to the right. From this menu you can access:</p>
+        <ul>
+            <li><b>My account</b>
+				- Manage and maintain your Onshape account, set preferences, notifications settings, security, and more. See <a href="../../Plans/my_account_settings.htm">My account settings</a> for detailed information.
+			</li>
+            <li><b>Company/Classroom/Enterprise settings</b>
+				- View the account settings for your company/classroom/enterprise. See <a href="../../Plans/company_enterprise_settings.htm">Company/Classroom/Enterprise settings</a> for more information.
+			</li>
+            <li><b>View support tickets</b>
+				- View any support tickets you have submitted. If you want to submit a support ticket, look in the Help menu (the icon to the right of your name in the upper-right corner of the interface).
+			See <a href="../../contactus_And.htm#view_support_ticket">Viewing support tickets</a> for more information.</li>
+            <li><b>View in dark mode </b>
+                <img src="../Images/icons/beta-overlay@1x.png" style="font-weight: bold;" /> - Toggles the dark mode theme on. Dark mode is a low luminance color scheme mainly featuring light elements on dark backgrounds. Dark mode is a limited feature mainly available in Part Studios and Assemblies. It is currently not available in Drawings, Render Studio, PCB Studio and Enterprise analytics, though the toolbars and menus surrounding the main graphics area are displayed in dark mode.
+				<p>When toggled off, the color scheme returns to the default light mode  featuring dark elements on light backgrounds.</p><p>View in dark mode is session-specific. The toggle resets to the original light mode theme after signing out. To have the dark mode theme persist after signing out, apply it via My account &gt;&#160;Preferences &gt;&#160;<a href="../../Plans/preferences.htm#theming">Theming</a>.</p></li>
+            <li><b>Sign out</b>
+				- Sign out of and close your Onshape session.
+			</li>
+        </ul>
+    </body>
+</html>

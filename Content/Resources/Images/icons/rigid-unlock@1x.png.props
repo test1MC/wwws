@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Rigid unlock icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFYSURBVHgBtVQ7coMwEBWfkoIbxGmo+fV2DsAZnIo+J4h8gvgGgRskN/ABgCEtTaigdHIAICsbeRaCFMjYb0ZIK+k9Pe0ChFwZCnt4ntfxiTRNlQX8X1wdB2xxSpzPjeMx9yYOJxeWAnP1vzbIMHUbXbQ5DMNBXBQFMQyDUEpPse/7kzxVdtpcYK5O/glFUXau675A/wihCf0+SZKniyDL2wKXZdu2JYi8MmEYs5xTOOBb6JDlDKOqKmJZFg8/uq7bgNg7uKJswnGce1VV7wYvNhZgBcBgYqgQR3J+h49kBKFDXs0eX9DeUHyA9jDFm5PDMgiCqK7rFZrbwPXWPW8LvBhSEDVNI3bIrwcbY8gVJWLsocV5nh8GDjHGTsHFMx/zqqJDTLxX7Qkd7iU4VTXLsh0Z5vSCWb8vhLVt26t+bEsFx/88AUxN0z4l62fBGV9IDG0rWItw8AOOW6OIHn8DPgAAAABJRU5ErkJggg==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

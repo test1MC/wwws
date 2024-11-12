@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet Comment="My set of condition tags">
+    <ConditionTag BackgroundColor="#ebee38" Name="Hide" Comment="don't show in final output" OriginalName="Hide" />
+    <ConditionTag BackgroundColor="#ff0000" Name="HideFromLingo" Comment="don't show in Lingo output" />
+</CatapultConditionTagSet>

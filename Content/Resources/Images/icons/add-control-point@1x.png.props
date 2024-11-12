@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Add bezier control point icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGHSURBVHgBxZRPSwJBGMZndnWh217qvEFQ0KFRP4D5DXYh8NafT+Alb4IbpB4qKugedpOI7BPYJ5AJOhQd3G4RBJ6CcN3pGUkxbXQNxQeW2Zn33R/v+z7DEjJPxeNxVz6jcjQygYQQFpbm1ICU0g1N0ziZhhhjFtptjMuLkJDSdd1FheVxeaFaTiQSGcwv6fv+2WCsUCiwiYCA7QDmBkGQ4pz/MqRUKmWw1FzXNbtnypYxMxMG5AGzf2Bef7xYLJ7i3G61WjEAm0NACYhGoxaSktjaADEAz9FmzLPy5uIyrVFCNhHj2+svJAi+HmSsH9YDoi18L5rtdtvD4DneywA79Xq9kyxh2fQay6ZXyXHliV3c+Pz1emuX/FdLTlX0S+5VuaFcXoj4/Kjy3HlHhXJRXm46CiTdMwzj8uPTMK8eV0xKCROC3OtE7L1VHa9b6fut3eMoXcaVkAbVMNe7k8N9h4QUVVUGxxsY10Eulxu6zKoZyko1BVC6m/oLNlPJSgernej3NRd9A+DnueuB6VyqAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

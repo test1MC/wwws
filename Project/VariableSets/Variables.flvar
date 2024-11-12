@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet conditions="Doc.HideFromLingo">
+    <Variable Name="NewDateTimeVariable" Comment="" Type="DateTime" LastUpdated="2016-04-26T09:23:43.2835927-04:00" EvaluatedDefinition="&quot;Last Updated:&quot; MMMM dd, yyyy">"Last Updated:" MMMM dd, yyyy</Variable>
+    <Variable Name="NewDateTimeVariable" Comment="" Type="DateTime" LastUpdated="2019-08-28T10:05:00.6864900-04:00" EvaluatedDefinition="&quot;August 2019&quot;">"August 2019"</Variable>
+</CatapultVariableSet>

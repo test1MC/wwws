@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <p>You can use the bezier control points with dimensions:</p>
+        <p>
+            <img src="../Images/sketch-tools/bezier-02.png" alt="Bezier control points used with dimensions" title="" class="RoundedCorners" />
+        </p>
+        <p>You can use bezier control points with constraints. For example, the two orange highlighted points in the image below are vertically constrained:</p>
+        <p>
+            <img src="../Images/sketch-tools/bezier-03.png" alt="Bezier control points used with constraints" title="" class="RoundedCorners" />
+        </p>
+    </body>
+</html>

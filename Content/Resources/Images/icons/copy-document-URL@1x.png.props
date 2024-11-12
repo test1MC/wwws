@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Copy document URL icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFDSURBVHgB5ZPLbYNAEIaXl8SREuggdJBQQUpwcuEhDrErSDqwc0AIhIRdSeIO6CCU4CMSr/yD1hJgwHD2SCN2l+Xbf+ZnGXu4ENZs9n3fUBRl3zTNC6YZ8su27VN3j7iQ1cJkWf4BTEd+Y+mCPIZhuO3uk9fACFLXtem6bkbrURTRAR8YHhYrnIJRVFV1xkNfrDAIAl0UxVEYf7fBMO1+M6tQEATqj0YwpEYlDg7SyrJ8vwukMpMk0dAfDdOMlAFgkLvcBJ3DTM/z5hVee5bnOQFosx7H8QbQI8Gh+klV1XQM1lY1BmOdnlGZRVHsoPCC/KNfxnGcLZuInkLAEjYwwLIsk8PagwA8sJkYlmwAdhpx82pAz+klwEySpOcp2FjPhtHrIXdwj0xR2hkGvK6B3QC5qjeo+sSQ7uwvbsNuKexB4x8SwMzlkMkq3AAAAABJRU5ErkJggg==</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

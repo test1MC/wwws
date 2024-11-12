@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head />
+    <body>
+        <p>When you are releasing drawings of an assembly and the drawings of its parts, the release dialog includes a listing of all the parts involved in all the drawings. This results in a release candidate dialog with parts repeated. These parts are not being released multiple times, they are simply listed for reference. For example, Part 1 in the example below is in both the drawing of the assembly and its own drawing, so it is listed twice:</p>
+        <p>
+            <img src="../Images/release/drawings-parts-list-in-candidate.png" class="RoundedCorners" alt="Create Release candidate dialog with part listing" />
+        </p>
+    </body>
+</html>

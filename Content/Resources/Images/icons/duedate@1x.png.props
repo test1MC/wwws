@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Priority and Dates icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgBtVPLbYQwEDWsxTnpwHSA4MIxW8JWkO0gpIJNOtjtIFSCckNCIHcQl5Az4pM3KxxZrPkEbd7BY88bP4/HY8b+G1EUfW3hNFyLT8zEz3FXcONkUZal0/e9Gny9GWjhFHw+m8hQ0BCG4amqKp/sONDCCWaBY8tmLShrK7FFcGqPOw4yA5fWi4J3w9Ya2sD/EhwEwYPrui+YHh3HEbAKrfTRdd1FSvlNMatrSGKc8wxCj57n7SH0DvED1j5sRvyN4BwoM4hItEqS57mC0KkoClpTtp/gk5srj/vKXGPTsW3bg+0w+M+73S7D9I2b12MTGIQF6iRNv95DPObiN0P6o0ORrRjqo2BJVBmHaD7Q//wqSH+ULQB/OMWj0Au/jjlcN0FCKc0dthJDy9ArS9gLPUgcx6KuazrkCa2zp9ZZLahFkWWCzc9UIromxNOmac66D++OHx67sVx0OoULAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

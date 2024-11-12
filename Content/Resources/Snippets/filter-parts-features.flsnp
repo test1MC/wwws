@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        The filter
+				<img src="Resources/Images/icons/filter-results-button@1x.png" alt="Feature filter icon" class="InlineImage" />
+				and search bar enable you to filter your search by name, type, folder, or part. Click
+				<img src="Resources/Images/icons/filter-results-button@1x.png" alt="Feature filter icon" class="InlineImage" />
+				to open a dropdown menu with various filter options:
+			<p><img src="Resources/Images/feature-tools/feature-list-filters-01.png" alt="Available options for filtering features and parts" class="RoundedCorners" /></p><p>Enter a partial part/feature name or type to show matching parts and features. Use a special command (prefixed with a colon <b style="font-size: 14pt;">:</b>) for further control:</p><ul><li><b>:part</b> search string
+- 					Show matching parts and features that directly affect those parts.			</li><li><b>:type</b> <span style="font-style: normal; font-weight: normal;">search string</span>	- 				Show parts and features with matching type 			</li><li><b>:name</b> <i style="font-style: normal; font-weight: normal;">search string</i>
+- 						Show parts and features with matching name			</li><li><b>:errors</b> <i style="font-style: normal; font-weight: normal;">search string</i>
+- Show parts and features with errors</li><li><b>:folder</b> <i style="font-style: normal; font-weight: normal;">search string</i>
+- Show Part Studio folders with matching name</li><li><b>:variable</b> <i style="font-style: normal; font-weight: normal;">search string</i>- 
+Show features that use or change a variable&#160;(case-sensitive)</li><li><b>:suppressed</b> <i style="font-style: normal; font-weight: normal;">search string</i>
+- Show suppressed features</li><li><b>:hidden</b> <i style="font-style: normal; font-weight: normal;">search string</i>
+- Show hidden content</li><li><b>:shown</b> <i style="font-style: normal; font-weight: normal;">search string</i>
+- Show non-hidden content</li></ul><p>
+				For example,
+				<b>:part <i style="font-weight: bold; font-style: normal;">part 1</i></b>
+				will display Part 1, Part 10, Part 11, Part 12, etc., and all features that directly affect those parts.<![CDATA[				]]></p></body>
+</html>

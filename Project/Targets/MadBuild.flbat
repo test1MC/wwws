@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget Version="1" Comment="New Batch Target" Guid="65a921ad-9611-43cf-a9b1-e1c600319d57">
+    <Targets>
+        <Target Icon="System.Drawing.Bitmap" Name="de_DE" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T11:37:38.3401210-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="en_US" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T13:44:26.9848672-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="es" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T11:41:52.0837367-04:00" LastPublished="2021-08-16T11:41:57.9169677-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="fr_FR" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T11:42:10.9556907-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="it_IT" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T11:45:42.2441525-04:00" LastPublished="2021-08-16T11:54:36.3074274-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="ja_JP" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T11:46:13.3611750-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="ko_KR" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T11:49:26.0538711-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="zh_CN" Type="HTML5" Build="true" Publish="true" LastBuilt="2021-08-16T11:53:33.1446599-04:00" />
+        <Target Icon="System.Drawing.Bitmap" Name="zh_TW" Type="HTML5" Build="true" Publish="true" />
+    </Targets>
+</CatapultBatchTarget>

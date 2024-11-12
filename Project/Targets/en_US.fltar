@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="2" Comment="OnshapeWebTarget" Type="WebHelp2" Destinations="" MasterToc="/Project/TOCs/CombinedHelp.fltoc" MasterStylesheet="/Content/Resources/Stylesheets/RA-Lighter-Blue-v2.css" MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp" OutputFile="index.htm" MoveOutputContentToRoot="false" ConditionTagExpression="exclude[Default.PrintOnly or Doc.Hide], @media web[&quot;Doc.Browser/Tab only&quot;], @media tablet[&quot;Doc.Browser/Tab only&quot;], @media mobile[&quot;Doc.Mobile only&quot;]" ExcludeUnreferencedContent="false" EnableSitemap="true" SitemapWebUrl="https://cad.onshape.com/help/" PreMergeSearchDatabase="false" TargetLanguage="en" ChunkGlossary="true" ExcludeIndexEntriesFromSearch="false" AutoSizeCaptureCaptions="false" PartialWordSearch="true" EquationsOutputType="PNG" OutputFolder="C:\FlareOutput" Skin="/Project/Skins/RA-Lighter-Blue-v2.flskn" DefaultUrl="/Content/EnterpriseHelp/Content/home.htm" AliasFile="/Project/Advanced/CSH/AliasFile.flali" IncludeGlossarySearchResults="false" SearchResultsSkin="/Project/Skins/SearchResults.flskn" TopNavTocPath="true" DisableAutoSync="true" PreCompileScaledImages="false" ReplaceSpacesWithUnderscores="true" SearchEngine="MadCapSearch" GoogleSearchContextKey="008055398644063948084:wgmizksgu5c" GenerateWebSafeImages="true" WebSafeFileExtension="png" SearchDatabaseChunkSize="1000000" IncludeImportance="true">
+    <PrintedOutput CollapseMargins="true" GenerateTOCProxy="true" GenerateIndexProxy="true" GenerateGlossaryProxy="true" OutputFormat="doc" />
+    <Destinations>
+        <Destination Link="/Project/Destinations/3dFitSpline.fldes" Publish="true" IsResource="false" />
+        <Destination Link="/Project/Destinations/OnshapeHelpDestination.fldes" Publish="true" IsResource="false" />
+    </Destinations>
+    <Glossaries />
+</CatapultTarget>

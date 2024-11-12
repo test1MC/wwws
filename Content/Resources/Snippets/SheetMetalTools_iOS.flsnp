@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <img src="../Images/icons/flange-button@1x.png" class="InlineImage" alt="Flange icon" /> <a href="../../sheetmetalflange.htm">Flange</a> - Create a wall for each edge selected, connected to the selected edge with a bend.</li>
+            <li>
+                <img src="../Images/icons/sheet-metal-tab-button@1x.png" class="InlineImage" alt="Tab icon" /> <a href="../../sheetmetaltab.htm">Tab</a> - Add a tab to a sheet metal flange.</li>
+            <li>
+                <img src="../Images/icons/makeJoint-button@1x.png.png" class="InlineImage" alt="Make joint icon" /> <a href="../../sheetmetalmakejoint.htm">Make joint</a> - Convert the intersection of two walls into a joint feature, either a bend (walls joined by cylindrical geometry) or a rip (small gap between two walls).</li>
+            <li>
+                <img src="../Images/icons/circularRelief-button@1x.png.png" class="InlineImage" alt="Corner icon" /> <a href="../../sheetmetalcorner.htm">Corner</a> - Modify a corner type and relief scale.</li>
+            <li>
+                <img src="../Images/icons/bend-relief-button@1x.png.png" class="InlineImage" alt="Bend relief icon" /> <a href="../../sheetmetalbendrelief.htm">Bend relief</a> - Modify a bend relief (the small cut made where the bend end meets the free edge), depth and relief width.</li>
+            <li MadCap:conditions="Doc.Hide">
+                <a href="../../sheetmetaljoint.htm">
+                    <img src="../Images/icons/bend-button@1x.png.png" class="InlineImage" alt="Modify joint icon" /> Modify joint</a> - Make changes to an existing joint, such as converting a bend to a rip. Currently available through the flat view table.</li>
+            <li MadCap:conditions="Doc.Hide">
+                <img src="../Images/icons/smtable-button@1x.png" class="InlineImage" alt="Sheet metal table and flat view icon" />
+                <a href="../../sheetmetaltable.htm"> Sheet metal table and flat view</a> - Open and close the Rip/Bend tables and the visualization of the sheet metal model flat pattern. Use this table to convert rips to bends and vice versa. </li>
+            <li>
+                <img src="../Images/icons/endsheetmetal-button@1x.png" class="InlineImage" alt="Finish sheet metal model icon" /> <a href="../../finishsheetmetalmodel.htm">Finish sheet metal model</a> - Closes (deactivates) the Sheet metal model; creates a feature in the Feature list.</li>
+        </ul>
+    </body>
+</html>

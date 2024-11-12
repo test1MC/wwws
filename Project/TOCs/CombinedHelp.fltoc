@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" conditions="">
+    <TocEntry Title="What's New" Link="/Content/whats_new.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false" />
+    <TocEntry Title="Welcome to Onshape Help" Link="/Content/EnterpriseHelp/Content/home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ReplaceMergeNode="false" FrameName="">
+        <TocEntry Title="Hardware and Graphics Recommendations" Link="/Content/webgl.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/error_messages.htm" />
+        </TocEntry>
+        <TocEntry Title="Performance Considerations" Link="/Content/performance.htm">
+            <TocEntry Title="Performance Panel" Link="/Content/performance_panel.htm" />
+        </TocEntry>
+        <TocEntry Title="Things to Know" Link="/Content/thingstoknow.htm" FrameName="" ReplaceMergeNode="false">
+        </TocEntry>
+        <TocEntry Title="Product Data Management (PDM)&#160;in Onshape" Link="/Content/pdm.htm" />
+        <TocEntry Title="Onshape Primer" Link="/Content/Primer/onshape_primer.htm">
+            <TocEntry Title="Setting Preferences" Link="/Content/Primer/setting_preferences.htm" />
+            <TocEntry Title="Creating a Sketch" Link="/Content/Primer/creating_a_sketch.htm" />
+            <TocEntry Title="Creating Parts" Link="/Content/Primer/creating_parts.htm" />
+            <TocEntry Title="Defining and Constraining Sketches" Link="/Content/Primer/defining_constraining.htm">
+            </TocEntry>
+            <TocEntry Title="Viewing, Selecting, and Shortcuts" Link="/Content/Primer/viewing_and_selecting.htm" />
+            <TocEntry Title="Importing and Editing a Part" Link="/Content/Primer/importing_and_editing.htm" />
+            <TocEntry Title="Measuring and Mass Properties" Link="/Content/Primer/mass_properties_measure.htm" />
+            <TocEntry Title="Working with Versions" Link="/Content/Primer/versions.htm">
+            </TocEntry>
+            <TocEntry Title="Working with Branches" Link="/Content/Primer/branching.htm" />
+            <TocEntry Title="Merging Branches" Link="/Content/Primer/merging.htm" />
+        </TocEntry>
+        <TocEntry Title="Onshape Documents" Link="/Content/introduction.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Document Tabs" Link="/Content/elementtabs.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Document Panel" Link="/Content/document_panel.htm" />
+            <TocEntry Title="Document Menu and Toolbar" Link="/Content/document_menu.htm" />
+            <TocEntry Title="Setting Default Units" Link="/Content/setdefaultunits.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="Onshape Publications" Link="/Content/publications.htm" />
+        <TocEntry Title="Documents Page" Link="/Content/documentspage.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Creating and Using Labels" Link="/Content/labels.htm" />
+            <TocEntry Title="Creating and Using Folders" Link="/Content/folders.htm" />
+            <TocEntry Title="Using Onshape Filters" Link="/Content/filters.htm" />
+            <TocEntry Title="Advanced Search" Link="/Content/advanced_search.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="User Interface Basics" Link="/Content/ui-basics.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Keyboard Shortcuts and Hotkeys" Link="/Content/shortcut_keys.htm" />
+            <TocEntry Title="View Navigation and Viewing Parts" Link="/Content/moving.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Named Views " Link="/Content/named_views.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" />
+            <TocEntry Title="Searching for Tools " Link="/Content/searching_tools.htm" />
+            <TocEntry Title="Selection" Link="/Content/selection.htm" FrameName="" ReplaceMergeNode="false">
+                <TocEntry Title="Create Selection" Link="/Content/createselection.htm" FrameName="" ReplaceMergeNode="false" />
+                <TocEntry Title="Select Other" Link="/Content/select-other.htm" FrameName="" ReplaceMergeNode="false" />
+            </TocEntry>
+            <TocEntry Title="Triad Manipulator" Link="/Content/triad.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Dialogs" Link="/Content/dialogs.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Numeric Fields" Link="/Content/numeric-fields.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Context Menus" Link="/Content/contextmenus.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="Colors" Link="/Content/colors.htm" />
+            <TocEntry Title="Error Indicators" Link="/Content/errorindicators.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Printing" Link="/Content/print.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="Error Codes and Descriptions" Link="/Content/Error-codes-and-descriptions.htm" conditions="Doc.Hide" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry Title="Part Studios" Link="/Content/sketch.htm" FrameName="" ReplaceMergeNode="false">
+        <TocEntry Title="Customizing Appearance" Link="/Content/appearance_editor.htm" FrameName="" ReplaceMergeNode="false">
+        </TocEntry>
+        <TocEntry Title="Feature and Part Lists" Link="/Content/feature_list.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Customizing Materials" Link="/Content/material_library.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Isolating Parts" Link="/Content/isolatingparts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="Making Parts Transparent" Link="/Content/transparent_parts.htm" />
+        <TocEntry Title="Measure Tool" Link="/Content/measure-ps.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Analysis Tools" Link="/Content/analysis_tools.htm" />
+        <TocEntry Title="Mass Properties Tool" Link="/Content/massprops-ps.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Configurations" Link="/Content/configurations.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Mixed Modeling" Link="/Content/mixedmodeling.htm" ReplaceMergeNode="false" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" />
+        <TocEntry Title="Custom Tables" Link="/Content/custom_tables.htm" />
+        <TocEntry Title="Variable Table (Part Studio)" Link="/Content/variable_table.htm" StartSection="Unchecked" ComputeToc="Unchecked" ReplaceMergeNode="Unchecked" />
+        <TocEntry Title="Hole Table" Link="/Content/hole_table_ps.htm" />
+        <TocEntry Title="Surface Modeling" Link="/Content/surfacing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="Sketch Basics" Link="/Content/sketch_basics.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Sketch Tools" Link="/Content/sketch-tools.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Line" Link="/Content/sketch-tools-linesegment.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Corner Rectangle" Link="/Content/sketch-tools-rectangle_two_corners.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Center Point Rectangle" Link="/Content/sketch-tools-rectangle_center.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="Aligned Rectangle" Link="/Content/sketch-tools-rectangle_aligned.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Center Point Circle" Link="/Content/sketch-tools-circle_center_radius.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="3 Point Circle" Link="/Content/sketch-tools-circle_perimeter.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Ellipse" Link="/Content/ellipse.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="3 Point Arc" Link="/Content/sketch-tools-arc_start_end_radius.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Tangent Arc" Link="/Content/sketch-tools-arc_tangent.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Center Point Arc" Link="/Content/sketch_tools_center_arc.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Elliptical Arc" Link="/Content/sketch_tools_elliptical_arc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Conic" Link="/Content/conic.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Inscribed Polygon" Link="/Content/sketch-tools-inscribed_polygon.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Circumscribed Polygon" Link="/Content/sketch-tools-circumscribed_polygon.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="Spline" Link="/Content/sketch-tools-spline.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Bezier" Link="/Content/sketch-tools-bezier.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        FrameName=""
+        ReplaceMergeNode="false" /&gt;
+      <TocEntry Title="Spline Control Point" Link="/Content/sketch-tools-splinepoint.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Point" Link="/Content/sketch-tools-point.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Text" Link="/Content/text-sketch.htm" FrameName="" ReplaceMergeNode="false"></TocEntry><TocEntry Title="Use" Link="/Content/sketch-tools-use.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Intersection" Link="/Content/sketch-tools-intersection.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Construction" Link="/Content/sketch-tools-construction.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Fillet (Sketch)" Link="/Content/sketch-tools-fillet.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Trim" Link="/Content/sketch-tools-trim.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Extend" Link="/Content/sketch-tools-extend.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Sketch Split" Link="/Content/sketch-tools-split.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Offset" Link="/Content/sketch-tools-offset.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Slot" Link="/Content/sketch-tools-slot.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Mirror (Sketch)" Link="/Content/sketch-tools-mirror.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Linear Sketch Pattern" Link="/Content/sketch-tools-sketch-pattern.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Circular Sketch Pattern" Link="/Content/sketch-tools-circularsketch-pattern.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Transform Sketch" Link="/Content/transform-sketch.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Insert DXF or DWG" Link="/Content/insertdwgordxf.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Insert Image" Link="/Content/sketch-image.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Dimension" Link="/Content/sketch-tools-dimension.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Coincident" Link="/Content/sketch-tools-coincident.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Concentric" Link="/Content/sketch-tools-concentric.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Parallel" Link="/Content/sketch-tools-parallel.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Tangent" Link="/Content/sketch-tools-tangent.htm" ReplaceMergeNode="false" FrameName="" /><TocEntry Title="Horizontal" Link="/Content/sketch-tools-horizontal.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Vertical" Link="/Content/sketch-tools-vertical.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Perpendicular" Link="/Content/sketch-tools-perpendicular.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Equal" Link="/Content/sketch-tools-equal.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Midpoint" Link="/Content/sketch-tools-midpoint.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Normal" Link="/Content/sketch-tools-normal.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Pierce" Link="/Content/sketch-tools-pierce.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Symmetric" Link="/Content/symmetrical.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Fix" Link="/Content/sketch-tools-fix.htm" FrameName="" ReplaceMergeNode="false"></TocEntry><TocEntry Title="Curvature" Link="/Content/sketch_tools_equal_curvature.htm" /><TocEntry Title="Automatic Inferencing" Link="/Content/inferencing.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Working with Constraints" Link="/Content/constraints.htm" FrameName="" ReplaceMergeNode="false" /><TocEntry Title="Troubleshooting Sketch Geometry" Link="/Content/troubleshooting.htm" FrameName="" ReplaceMergeNode="false" /></TocEntry>
+        <TocEntry Title="Feature Basics" Link="/Content/feature-basics.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Feature Tools" Link="/Content/featuretools.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Extrude" Link="/Content/extrude.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="Revolve" Link="/Content/revolve.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="Sweep" Link="/Content/sweep.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Loft" Link="/Content/loft.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Thicken" Link="/Content/thicken.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Enclose" Link="/Content/enclose.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Fillet" Link="/Content/fillet.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Face Blend" Link="/Content/face-blend.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Chamfer" Link="/Content/chamfer.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Draft" Link="/Content/draft.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Body Draft" Link="/Content/body-draft.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MarkAsNew="false" />
+            <TocEntry Title="Rib" Link="/Content/rib.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Shell" Link="/Content/shell.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Hole" Link="/Content/hole.htm" BreakType="chapter" StartSection="false" PageNumberReset="continue" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" FrameName="" />
+            <TocEntry Title="External Thread" Link="/Content/external_thread.htm" />
+            <TocEntry Title="Linear Pattern" Link="/Content/linearpattern.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Circular Pattern" Link="/Content/circularpattern.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Curve Pattern" Link="/Content/curvepattern.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Mirror" Link="/Content/mirror.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Boolean" Link="/Content/booleanparts.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Split" Link="/Content/splitpart.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Transform" Link="/Content/transform.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Wrap" Link="/Content/wrap.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Decal" Link="/Content/decal.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Delete Part" Link="/Content/deleteparts.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Modify Fillet" Link="/Content/modifyfillet.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Delete Face" Link="/Content/deleteface.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Move Face" Link="/Content/moveface.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Replace Face" Link="/Content/replaceface.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Offset Surface" Link="/Content/offset_surface.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Boundary Surface" Link="/Content/boundary_surface.htm" ReplaceMergeNode="false" />
+            <TocEntry Title="Fill" Link="/Content/fill.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Move Boundary" Link="/Content/move-boundary.htm" />
+            <TocEntry Title="Ruled Surface" Link="/Content/ruled-surface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Mutual Trim" Link="/Content/mutual_trim.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" />
+            <TocEntry Title="Plane" Link="/Content/cplane.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Helix" Link="/Content/helix.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Projected Curve" Link="/Content/projectedcurve.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="3D Fit Spline" Link="/Content/3d_fit_spline.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Bridging Curve" Link="/Content/bridgingcurve.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Composite Curve" Link="/Content/compositecurve.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Intersection Curve" Link="/Content/intersectioncurve.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Trim Curve" Link="/Content/trim_curve.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            </TocEntry>
+            <TocEntry Title="Isocline" Link="/Content/isocline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Offset Curve" Link="/Content/offset_curve.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Isoparametric Curve" Link="/Content/isoparametriccurve.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MarkAsNew="true" />
+            <TocEntry Title="Mate Connector" Link="/Content/mateconnector.htm" ReplaceMergeNode="false" FrameName="" />
+            <TocEntry Title="Derived" Link="/Content/derived.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Variable" Link="/Content/variable.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Composite Part" Link="/Content/composite_part.htm" />
+            <TocEntry Title="Frame" Link="/Content/frame.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false">
+                <TocEntry Title="Frame Profiles" Link="/Content/frame_profiles.htm" />
+            </TocEntry>
+            <TocEntry Title="Frame Trim" Link="/Content/frame_trim.htm" />
+            <TocEntry Title="Gusset" Link="/Content/frame_gusset.htm" />
+            <TocEntry Title="End cap" Link="/Content/endcap.htm" />
+            <TocEntry Title="Cut List" Link="/Content/frame_cut_list.htm" />
+            <TocEntry Title="Tag Profile" Link="/Content/frame_tag_profile.htm" />
+            <TocEntry Title="Sheet Metal Model" Link="/Content/sheetmetal.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Sheet Metal Flange" Link="/Content/sheetmetalflange.htm" StartSection="false" ReplaceMergeNode="false" FrameName="" />
+            <TocEntry Title="Sheet Metal Hem" Link="/Content/sheetmetalhem.htm" />
+            <TocEntry Title="Sheet Metal Tab" Link="/Content/sheetmetaltab.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Sheet Metal Bend" Link="/Content/sheet_metal_bend.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Sheet Metal Make Joint" Link="/Content/sheetmetalmakejoint.htm" ReplaceMergeNode="false" FrameName="" />
+            <TocEntry Title="Sheet Metal Corner" Link="/Content/sheetmetalcorner.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Sheet Metal Bend Relief" Link="/Content/sheetmetalbendrelief.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Sheet Metal Modify Joint" Link="/Content/sheetmetaljoint.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Sheet Metal Table and Flat View" Link="/Content/sheetmetaltable.htm" StartSection="false" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Finish Sheet Metal Model" Link="/Content/finishsheetmetalmodel.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Add Custom Features" Link="/Content/customfeature.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Assemblies" Link="/Content/assembly.htm" FrameName="" ReplaceMergeNode="false">
+        <TocEntry Title="Insert Parts and Assemblies" Link="/Content/insertpartorassembly.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Linking Documents" Link="/Content/linked-documents.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="Updating References " Link="/Content/updating-references.htm" />
+        <TocEntry Title="Assembly List" Link="/Content/featurelistassembly.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Managing Assemblies" Link="/Content/managingassemblies.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Standard Content" Link="/Content/standard_content.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Standard Content Appendix" Link="/Content/standard_content_appx.htm" />
+        </TocEntry>
+        <TocEntry Title="Assembly Configurations" Link="/Content/assembly_configurations.htm" />
+        <TocEntry Title="Bill of Materials" Link="/Content/bill_of_material.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Mate Connector" Link="/Content/mateconnector_a.htm" ReplaceMergeNode="false" FrameName="" />
+        <TocEntry Title="Mates" Link="/Content/mate.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Fastened Mate" Link="/Content/mate-fastened.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Revolute Mate" Link="/Content/mate-revolute.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Slider Mate" Link="/Content/mate-slider.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Planar Mate" Link="/Content/mate-planar.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Cylindrical Mate" Link="/Content/mate-cylindrical.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Pin Slot Mate" Link="/Content/mate-pin_slot.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Ball Mate" Link="/Content/mate-ball.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Parallel Mate" Link="/Content/parallelmate.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Tangent Mate" Link="/Content/mate-tangent.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="Group" Link="/Content/mategroup.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Snap Mode" Link="/Content/snap-mate.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Show Mates Mode" Link="/Content/show-mates.htm" />
+        <TocEntry Title="Replicate" Link="/Content/replicate.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Replace Instance" Link="/Content/replace_part.htm" />
+        <TocEntry Title="Assembly Linear Pattern" Link="/Content/assemblylinearpattern.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Assembly Circular Pattern" Link="/Content/assemblycircularpattern.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Relations" Link="/Content/relations.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Gear Relation" Link="/Content/materelation-gear.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Rack and Pinion Relation" Link="/Content/materelation-rackandpinion.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="Screw Relation" Link="/Content/screw_relation.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Linear Relation" Link="/Content/linear_relation.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="Named Positions" Link="/Content/named-positions.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Display States" Link="/Content/display-states.htm" />
+        <TocEntry Title="Create Part Studio in Context" Link="/Content/createpart-incontext.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Simulation" Link="/Content/simulation.htm" Class="TOCBeta2">
+            <TocEntry Title="Modal Simulation" Link="/Content/modal_simulation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" Class="TOCBeta2" />
+        </TocEntry>
+        <TocEntry Title="Assembly Measure Tool" Link="/Content/measurement-assembly.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Mass Properties Tool" Link="/Content/massprops-asmb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Creating Exploded Views" Link="/Content/exploded_views.htm" />
+        <TocEntry Title="Variable Table (Assembly)" Link="/Content/variable_table_assembly.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry Title="Modeling in Context" Link="/Content/in-context.htm" FrameName="" ReplaceMergeNode="false">
+    </TocEntry>
+    <TocEntry Title="Viewing Models with Augmented Reality" Link="/Content/viewing_models_with_ar.htm">
+        <TocEntry Title="Viewing Models with AR View" Link="/Content/augmented_reality.htm" ReplaceMergeNode="false" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" />
+        <TocEntry Title="Viewing Models with Apple Vision Pro" Link="/Content/vision_pro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry Title="Drawings" Link="/Content/drawings.htm" FrameName="" ReplaceMergeNode="false">
+        <TocEntry Title="Drawing Basics" Link="/Content/drawings-basics.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Creating a Drawing" Link="/Content/drawings-create.htm" FrameName="" ReplaceMergeNode="false">
+            </TocEntry>
+            <TocEntry Title="Custom Templates" Link="/Content/templates-custom.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Understanding Drawing and Sheet Properties" Link="/Content/drawing_view_properties.htm" />
+        </TocEntry>
+        <TocEntry Title="Measure Tool" Link="/Content/drawings_measuretool.htm" />
+        <TocEntry Title="Sheets" Link="/Content/drawings-sheets.htm" FrameName="" ReplaceMergeNode="false">
+        </TocEntry>
+        <TocEntry Title="Styles" Link="/Content/drawings-styles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="Properties" Link="/Content/drawings-properties.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Views" Link="/Content/drawings-views.htm" FrameName="" ReplaceMergeNode="false">
+        </TocEntry>
+        <TocEntry Title="Dimensions" Link="/Content/drawings-dimensions.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Hole/Thread Callout" Link="/Content/hole_callout.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Datum" Link="/Content/drawings-datum.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Geometric Tolerance" Link="/Content/drawings-gdt.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Surface Finish" Link="/Content/surfacefinish.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Weld Symbol" Link="/Content/welds.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Note" Link="/Content/drawings-textnotes.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Callout (Balloon)" Link="/Content/balloon.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Table" Link="/Content/drawings-table.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Insert BOM" Link="/Content/drawings-bom.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Cut List Table" Link="/Content/drawings-cutlist.htm" />
+        <TocEntry Title="Hole Table" Link="/Content/drawings-holetable.htm" />
+        <TocEntry Title="Revision Table" Link="/Content/drawings-revision-table.htm" />
+        <TocEntry Title="Drawing Tools" Link="/Content/draw-tools.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Insert DWG/DXF" Link="/Content/drawings-insertdwg.htm" StartSection="false" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Insert Image" Link="/Content/insertimage.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Format Painter" Link="/Content/drawings-formatpainter.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="Inspection Item" Link="/Content/inspection_item.htm" StartSection="false" />
+        <TocEntry Title="Updating a Drawing" Link="/Content/drawings-updating.htm" StartSection="false" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Dangling Entities" Link="/Content/dangling_entities.htm" FrameName="" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="Importing a Drawing" Link="/Content/Importing a Drawing.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Exporting a Drawing" Link="/Content/drawings-exporting.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Printing a Drawing" Link="/Content/Printing a Drawing.htm" FrameName="" ReplaceMergeNode="false" />
+    </TocEntry>
+    <TocEntry Title="Variable Studios" Link="/Content/variable_studio.htm" />
+    <TocEntry Title="Feature Studios" Link="/Content/featurestudios.htm" FrameName="" ReplaceMergeNode="false">
+    </TocEntry>
+    <TocEntry Title="Render Studios" Link="/Content/render-studio.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry Title="Render Studio Basics" Link="/Content/render-studio-basics.htm" Class="default" />
+        <TocEntry Title="Render Studio Interface" Link="/Content/render-studio-interface.htm" ReplaceMergeNode="false" Class="default" />
+        <TocEntry Title="Render Studio Examples and Resources" Link="/Content/render-studio-resources.htm" Class="default" />
+        <TocEntry Title="Render Studio Libraries" Link="/Content/render-studio-libraries.htm" Class="default" />
+    </TocEntry>
+    <TocEntry Title="PCB Studios" Link="/Content/pcbstudio.htm" ComputeToc="false" StartSection="false" ReplaceMergeNode="false" Class="TOCBeta2" />
+    <TocEntry Title="CAM&#160;Studio" Link="/Content/camstudio.htm" ReplaceMergeNode="false" conditions="Doc.Hide" />
+    <TocEntry Title="CAM&#160;Studio Tool Tips" Link="/Content/camtooltips.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" conditions="Doc.Hide" />
+    <TocEntry Title="Importing &amp; Exporting Files" Link="/Content/export.htm" FrameName="" ReplaceMergeNode="false">
+        <TocEntry Title="Supported File Formats" Link="/Content/translation.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Importing Files" Link="/Content/uploadfiles.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Working with Imported CAD" Link="/Content/using_importedCAD.htm" />
+        </TocEntry>
+        <TocEntry Title="Exporting Files" Link="/Content/exporting-files.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Downloading Files" Link="/Content/downloadfiles.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Importing a Lidar&#160;Scan" Link="/Content/import-scan.htm" />
+    </TocEntry>
+    <TocEntry Title="Sharing and Collaboration" Link="/Content/realtimecollaboration.htm" FrameName="" ReplaceMergeNode="false">
+        <TocEntry Title="Share Documents" Link="/Content/sharedocuments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="Collaboration" Link="/Content/collaboration.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Comments in Workspaces and Versions" Link="/Content/comments_on_workspaces.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Follow Mode" Link="/Content/follow_mode.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Using the View Only Toolbar" Link="/Content/viewonlytoolbar.htm" />
+        <TocEntry Title="Transfer Ownership" Link="/Content/transfer-ownership.htm" FrameName="" ReplaceMergeNode="false" />
+    </TocEntry>
+    <TocEntry Title="Document Management" Link="/Content/docmanagement.htm" FrameName="" ReplaceMergeNode="false">
+        <TocEntry Title="Versions, Branches, and History" Link="/Content/versionmanager.htm" FrameName="" ReplaceMergeNode="false">
+            <TocEntry Title="Comparing" Link="/Content/compare.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Repairing" Link="/Content/repair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Merging" Link="/Content/merge.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Restoring" Link="/Content/restore.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" Class="TOCNew" />
+            <TocEntry Title="Workspace Protections" Link="/Content/protections.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MarkAsNew="false" ReplaceMergeNode="false" />
+        </TocEntry>
+        <TocEntry Title="Where Used" Link="/Content/where_used.htm" StartSection="false" />
+    </TocEntry>
+    <TocEntry Title="Release Management" Link="/Content/release_management.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false">
+        <TocEntry Title="Setting Up Release Management" Link="/Content/release_setup.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Specifying Approvers" Link="/Content/specifying_approvers.htm" ReplaceMergeNode="false" FrameName="" />
+        <TocEntry Title="Typical Release Workflow" Link="/Content/relmgmt_workflow.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Selecting Parts for a Release Candidate" Link="/Content/selecting_parts.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Reviewing, Approving, Rejecting Candidates" Link="/Content/review_candidate.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Cloning a Release Package" Link="/Content/clone_releasepackage.htm" />
+        <TocEntry Title="Viewing History and Obsoleting Parts" Link="/Content/obsolete_part.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Releasing Configurations" Link="/Content/release_configuration.htm" FrameName="" ReplaceMergeNode="false" />
+    </TocEntry>
+    <TocEntry Title="Managing Your Onshape Plan" Link="/Content/managing_accounts.htm">
+        <TocEntry Title="Subscriptions and Payment FAQs" Link="/Content/plansfaqs.htm" FrameName="" ReplaceMergeNode="false" />
+        <TocEntry Title="Free Subscription" Link="/Content/managefreeaccount.htm" />
+        <TocEntry Title="Student Subscription" Link="/Content/manage_student_account.htm" />
+        <TocEntry Title="Standard Subscription" Link="/Content/managestandardaccount.htm" />
+        <TocEntry Title="Professional Trial" Link="/Content/manage_pro_trial.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="Professional Subscription" Link="/Content/manage_procompany_account.htm" />
+        <TocEntry Title="Educator Subscription" Link="/Content/manage_educator_account.htm">
+            <TocEntry Title="Educator Concepts and Terminology" Link="/Content/educator_concepts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Educator Interface" Link="/Content/educator_interface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Educator Classes" Link="/Content/educator_classes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Educator Assignments" Link="/Content/educator_assignments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry Title="Enterprise Subscription" Link="/Content/manage_enterprise_acc.htm">
+            <TocEntry Title="Getting Started as an Enterprise User" Link="/Content/EnterpriseHelp/Content/gs_enterprise_user.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Getting Started as a Light User" Link="/Content/Light_user.htm">
+            </TocEntry>
+            <TocEntry Title="Getting Started as an Enterprise Admin" Link="/Content/EnterpriseHelp/Content/gs_enterprise_admin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false">
+                <TocEntry Title="Adding and Administering Users" Link="/Content/EnterpriseHelp/Content/users.htm" FrameName="" ReplaceMergeNode="false" />
+                <TocEntry Title="Two-factor Authentication for Enterprise" Link="/Content/ent-twofactorauthentication.htm" FrameName="" ReplaceMergeNode="false" />
+                <TocEntry Title="Understanding and Administering Project Roles and Permission Schemes" Link="/Content/EnterpriseHelp/Content/permission_schemes.htm" FrameName="" ReplaceMergeNode="false" />
+                <TocEntry Title="Understanding and Managing Projects" Link="/Content/EnterpriseHelp/Content/projects.htm" FrameName="" ReplaceMergeNode="false">
+                </TocEntry>
+                <TocEntry Title="Integrating with Identity Providers" Link="/Content/EnterpriseHelp/Content/integration.htm" ReplaceMergeNode="false" FrameName="">
+                    <TocEntry Title="Integrating with Okta" Link="/Content/okta.htm" ReplaceMergeNode="false" Skin="/Project/Skins/OnshapeHelpSideNav.flskn">
+                    </TocEntry>
+                    <TocEntry Title="Integrating with OneLogin" Link="/Content/integrating_onelogin.htm" />
+                    <TocEntry Title="Setting Up Single Sign On with Google" Link="/Content/google_sso.htm" />
+                    <TocEntry Title="Integrating with Microsoft Azure AD" Link="/Content/MS_AzureAD.htm" />
+                    <TocEntry Title="Integrating with Microsoft ADFS" Link="/Content/MS_ADFS.htm" />
+                    <TocEntry Title="Integrating with PingOne" Link="/Content/Ping_One.htm" />
+                    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/classlink.htm" />
+                    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/custom_sso.htm" />
+                </TocEntry>
+                <TocEntry Title="Creating a Customized Release Workflow" Link="/Content/custom_workflow.htm" />
+                <TocEntry Title="Designing Release Management Processes" Link="/Content/relmgmt_custom.htm" />
+            </TocEntry>
+            <TocEntry Title="Monitoring User Activity" Link="/Content/EnterpriseHelp/Content/activity_view.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Monitoring Releases and Tasks" Link="/Content/monitoring_releases_tasks.htm" />
+            <TocEntry Title="Accessing Analytics" Link="/Content/EnterpriseHelp/Content/reports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false">
+                <TocEntry Title="My Analytics Reports" Link="/Content/my_analytics.htm" />
+                <TocEntry Title="Action Items Reports" Link="/Content/action_items.htm" ReplaceMergeNode="false" />
+                <TocEntry Title="Audit Reports" Link="/Content/audit_reports.htm" />
+                <TocEntry Title="Document Reports" Link="/Content/document_reports.htm" />
+                <TocEntry Title="Permissions Reports" Link="/Content/permissions_reports.htm" />
+                <TocEntry Title="Project Reports" Link="/Content/reports_project.htm" />
+                <TocEntry Title="Release Reports" Link="/Content/reports_release.htm" />
+                <TocEntry Title="Resource Reports" Link="/Content/reports_resource.htm" />
+                <TocEntry Title="User Reports" Link="/Content/reports_users.htm" />
+                <TocEntry Title="Scheduled Reports" Link="/Content/scheduled-reports.htm" MarkAsNew="false" ReplaceMergeNode="false" />
+            </TocEntry>
+            <TocEntry Title="Public Documents and FeatureScript" Link="/Content/enterprise-publicdocsfs.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Understanding Teams" Link="/Content/teams-enterprise.htm" FrameName="" ReplaceMergeNode="false" />
+            <TocEntry Title="Understanding Aliases" Link="/Content/aliases-enterprise.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" StartSection="false" />
+            <TocEntry Title="The Onshape Arena Connection" Link="/Content/onshape_arena_connection.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                <TocEntry Title="Configuring Arena and Onshape" Link="/Content/configure_arena_and_onshape.htm" Class="default" />
+                <TocEntry Title="Syncing Parts, Assemblies, and BOMs" Link="/Content/syncing_parts_assemblies_boms.htm" />
+                <TocEntry Title="Syncing Release Management" Link="/Content/syncing_relmgmt.htm" />
+                <TocEntry Title="Glossary" Link="/Content/Glossary/glossary1.htm" Class="default" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="EDU&#160;Enterprise Subscription" Link="/Content/edu_enterprise.htm" ReplaceMergeNode="false">
+            <TocEntry Title="Concepts and Terminology" Link="/Content/onshape_classroom.htm" />
+            <TocEntry Title="EDU Enterprise Interface" Link="/Content/edu_interface.htm" />
+            <TocEntry Title="Administering Classes" Link="/Content/edu_classes.htm" />
+            <TocEntry Title="Administering Assignments" Link="/Content/edu_assignments.htm" />
+            <TocEntry Title="EDU&#160;Dashboards" Link="/Content/edu_dashboards.htm" />
+            <TocEntry Title="Administering Onshape EDU" Link="/Content/administering_onshape_edu.htm" />
+        </TocEntry>
+        <TocEntry Title="Account Menu" Link="/Content/Plans/account_menu.htm">
+            <TocEntry Title="My Account Settings" Link="/Content/Plans/my_account_settings.htm">
+                <TocEntry Title="Profile" Link="/Content/Plans/profile.htm" />
+                <TocEntry Title="Emails" Link="/Content/Plans/emails.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Preferences" Link="/Content/Plans/preferences.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Notifications" Link="/Content/Plans/notifications.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Security" Link="/Content/Plans/security.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Devices" Link="/Content/Plans/devices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Applications" Link="/Content/Plans/applications.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Integrations" Link="/Content/Plans/integrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Early Visibility" Link="/Content/Plans/early_visibility.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Subscriptions" Link="/Content/Plans/subscription.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Payment Option" Link="/Content/Plans/payment_options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Payment History" Link="/Content/Plans/payment_history.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Teams" Link="/Content/Plans/teams.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            </TocEntry>
+            <TocEntry Title="Action Items" Link="/Content/Plans/action_items.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry Title="Company/Classroom/Enterprise Settings" Link="/Content/Plans/company_enterprise_settings.htm">
+                <TocEntry Title="Users" Link="/Content/Plans/users.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Teams" Link="/Content/Plans/teams_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Aliases" Link="/Content/Plans/aliases.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Global Permissions" Link="/Content/Plans/global_permissions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false" />
+                <TocEntry Title="Authentication" Link="/Content/Plans/authentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Project Roles" Link="/Content/Plans/project_roles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Permission Schemes" Link="/Content/Plans/permission_schemes_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Properties/Custom&#160;Properties" Link="/Content/Plans/custom_properties.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Categories" Link="/Content/Plans/categories.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Items" Link="/Content/Plans/items.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Applications" Link="/Content/Plans/applications_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Numbering Schemes" Link="/Content/Plans/numbering_schemes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Release Management" Link="/Content/Plans/release_management_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Preferences" Link="/Content/Plans/preferences_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Integrations" Link="/Content/Plans/integrations_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Webhooks" Link="/Content/Plans/webhooks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Details" Link="/Content/Plans/details.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                <TocEntry Title="Arena" Link="/Content/Plans/arena.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="App Store" Link="/Content/app_store.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry Title="App Store FAQs" Link="/Content/app_store_faqs_And.htm" FrameName="" ReplaceMergeNode="false" />
+    </TocEntry>
+    <TocEntry Title="Onshape Mobile Videos" Link="/Content/Videos_And.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry Title="Glossary" Link="/Content/Glossary/glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry Title="Contact Support / Contact Us" Link="/Content/contactus_And.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" FrameName="" ReplaceMergeNode="false">
+    </TocEntry>
+</CatapultToc>

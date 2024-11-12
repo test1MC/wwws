@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Open metadata properties icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEnSURBVHgB7ZTtUYNAEIbvgALSgZRwAv+lE7UDrUCswFCBpgM7SBoAzwrEDmIBgM864Fxm0Fw+fuRH3pmd26/b23cHVqkjQ49KmqbXHHNkpnZDgxRVVS3EiJxA0bbtpbW2UTvAGBOHYfiGutgI0GGv9oR7N1BHRqS2vPgfmJv2KjiV6Isz5cNx+pQjn6Th93pGzZF13/fzuq4fp3InZyiURxHbKXaHWK11kWVZPua7jHwp58gKf8kjn2J3XRcnSXIzxGPsF1ksXpRd0J1QFnWG/oQuHctILvDdupTXMqs/6kiRnz0pnckZBMHHECsROyb+dsiFe5KWUNooKvSJlXTxQGyJy2A37M53ulLOfSNL2vvzkHlR9Ar1i2IyL4uvoOgrtsEf09DqG9USiFC1H4ruAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

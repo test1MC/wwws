@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Intersection curve icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK2SURBVHgBrVTLS2JxFD4+qCGKLrSqzbipNhVBbWrlol0UDNGiIGbc9FjNQH+Atm8xA0XoRmfhY+PGB6IbFURmoYS4EN14RVAQlUDFB+qdcw4oenNsiA5c7v09zvc75/u+3wX44FC8teHp6UmjUqnM+Cn2er27m5sb8V2AZrNZ6HQ6+pmZmR87OzswOzsLsVgMGo2GZRrwRECTyfRdkiTDxsaGMACjqNVqEI/HIZPJEJjh6urq91RAbE+rVCrNy8vLGq1WCwsLC5POY+BoNAq5XE6UAytHNyJYEFucCkZBa1tbW0B7cWgZw5Bv3t/fB7fbDaFQiCuRR7vd5jW/3w97e3uv1l8Brq2twdHREVfh8XiYs0HQt8Ph4LWzszNYX1+HSqUylj/k8PHxcTsSiTxfXl4CtUwxEKFYLPJ4fn4eRukoFApwenoKFxcXdwMc1QBsbm4umEgkPjmdTq6MEpeWlkCj0XAV9H1wcDBUHJUGnU4HgiDA+fm5Fu2k7Xa7opKMq1arg9im4HK5QK/XcwK1jfYZijAAorDb7YDK8rzRaORDsRs2vur4+JhuwXapVAJ6SJSTkxOoVqucSLGysjIEfnh44IM2NzcZDJUGn88HeAl019fXf8Y4xEqfiScCIEMTICWTmtRyOBxmXm9vb1kUURR5rtls6vDmWOQC04kSBV4xyWazSdlsVqI5BOcHBZPS6bTUarUkNLZktVp5fRRDLQclsqk64oW8Rja6v7/ndmk+mUyydVZXV5meQCAwlq8aHRweHuJtym2Xy2WBAMlnxGU+n4d6vQ6pVApwDXZ3d3kOXSH2+/0vXq9XBLkPRwOV/4bXUI/Vaagqqpq4o0OINxy/4LY7VPqnPPefvy+yE74Mi4uLX0lJCqoS+fuFFjKgB18m5f3XD5aAFQrFZ9RL99YP9sPjL+ksXOx9gWrAAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

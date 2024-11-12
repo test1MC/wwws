@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="bmp" ImageScaleFactor="1.5" ComputedWidth="30" ComputedHeight="30" DPI="120" medium_print_ExportFormat="bmp" medium_print_DPI="96" medium_tablet_ExportFormat="bmp" medium_mobile_ExportFormat="bmp" medium_screen_ExportFormat="bmp">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAAH6ji2bAAAABGdBTUEAALGPC/xhBQAAAQZJREFUOBFjYKAUMIIMkCnd8x9m0JNuF0awoImJyff///9zwCSw0yCtMO0wGqtKRmNjY7glcBXogiA+2HaYCtmyPW0MjEz/H3c6VcPYDP//cTzucilmgimC0///ITQD2SBFcDmiGdjchKwZXR5ZjkpsmbK9n2FGyZbuvQNiy5TufQATQ4kxuCCUgTUakE2EsWXK9txC10wHvqWlJScdrBlYK5AjAZhufyqVHlQF0ciuAvFl+o5xwsTlyw5qIuvDTN/IupHYwKTRDuOyvf4rC2M/7LK/DmMPDRqefamRyc6ePcuIEoYgAWA4/IPSDIRoJSUlFlC4wdShhCEhFxIrT3Uvo7iSGhwAhEx1YnhDsJwAAAAASUVORK5CYII=</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

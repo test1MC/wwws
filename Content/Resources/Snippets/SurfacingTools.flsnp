@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>This lists the collection of surface feature tools. This is not an exhaustive list. Additional <a href="../../featuretools.htm">Feature tools</a> may be used when modeling surfaces. See <a href="../../surfacing.htm">Surfacing</a> for additional information.</p>
+        <ul>
+            <li>
+                <img src="../Images/icons-master/thicken-button@1x.png" class="InlineImage" /> <a href="../../thicken.htm">Thicken</a> - Add depth to a surface. Create a new part or modify an existing one by giving thickness to a surface and converting it to a solid, adding or removing material from an existing part or surface, or intersecting parts in its path.</li>
+            <li>
+                <img src="../Images/icons-master/enclose-button@1x.png" class="InlineImage" /> <a href="../../enclose.htm">Enclose</a> - Create a part by selecting all boundaries surrounding an empty space to form a solid. Use any set of surfaces and solids (including planes and faces) that intersect each other or connect at a boundary to create a volume.</li>
+            <li>
+                <img src="../Images/icons-master/fillet-button@1x.png" class="InlineImage" /> <a href="../../fillet.htm">Fillet</a> - Round sharp interior and exterior edges and define as a standard constant radius, more stylized conic, or variable by selecting Edge fillet. Optionally apply a Full round fillet to create a seamless blend of one or more faces between two opposing sides.</li>
+            <li>
+                <img src="../Images/icons/face-blend-button@1x.png" alt="Face blend icon" title="" class="InlineImage" />
+                <a href="../../face-blend.htm">Face blend</a> - Round sharp connected or disconnected interior and exterior faces to create a seamless blend between the faces or detach the blend to create new faces, defining a radius or constant width. Further define the blend cross section (rolling ball or swept profile), symmetry, control, trim, constraints, and limits.</li>
+            <li>
+                <img src="../Images/icons-master/delete-face-button@1x.png" class="InlineImage" /> <a href="../../deleteface.htm">Delete face</a> - Remove geometry from a part. Select whether to heal the surrounding faces (by extending until they intersect), cap the void, or leave the void open. This Direct Editing tool is especially convenient if you don't have the parametric history of the part, as is often the case with an imported part.</li>
+            <li>
+                <img src="../Images/icons-master/move-face-button@1x.png" class="InlineImage" /> <a href="../../moveface.htm">Move face</a> - Translate, rotate, or offset one or more selected faces. This Direct Editing tool is especially convenient if you don't have the parametric history of the part, as is often the case with an imported part.</li>
+            <li>
+                <img src="../Images/icons-master/replace-face-button@1x.png" class="InlineImage" /> <a href="../../replaceface.htm">Replace face</a> - Trim a face or extend a face to a new surface. This Direct Editing tool is especially convenient if you don't have the parametric history of the part, as is often the case with an imported part.</li>
+            <li>
+                <img src="../Images/icons-master/offset-surface-button@1x.png" class="InlineImage" /> <a href="../../offset_surface.htm">Offset surface</a> - Create a new surface by offsetting an existing face, surface, or sketch region. Set offset distance to 0 to create a copy in place.</li>
+            <li>
+                <img src="../Images/icons/boundary-surface-button@1x.png" class="InlineImage" alt="Loft feature icon" /> <a href="../../boundary_surface.htm">Boundary surface</a> - Create or add a surface specified by its boundary profiles.</li>
+            <li>
+                <img src="../Images/icons-master/fill-button@1x.png" class="InlineImage" /> <a href="../../fill.htm">Fill</a> - Create a surface (or a part from surfaces) by defining boundaries and refine the surface with boundary conditions (instead of requiring the use of reference surfaces).</li>
+            <li>
+                <img src="../Images/icons-master/extend-surface-button@1x.png" class="InlineImage" /> <a href="../../move-boundary.htm">Move boundary</a> - Move boundary edges of a surface in order to extend or trim it.</li>
+            <li>
+                <img src="../Images/icons-master/ruled-surface-button@1x.png" class="InlineImage" /> <a href="../../ruled-surface.htm">Ruled surface</a> - Create a new or additional ruled surface from an existing edge or multiple edges of a sketch region.</li>
+            <li>
+                <img src="../Images/icons-master/mutual-trim-button@1x.png" class="InlineImage" /> <a href="../../mutual_trim.htm">Mutual trim</a> - Trim two adjacent surfaces by extending intersections to complete the trim.</li>
+        </ul>
+    </body>
+</html>

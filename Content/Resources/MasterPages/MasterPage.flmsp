@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Doc.HideFromLingo">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NLJ5875');</script>
+        <!-- End Google Tag Manager -->
+        <!-- This script is the library required to perform the H2 Heading copy to clipboard functionality.
+        Note that the script that binds the anchors to the page URL has to be located at the bottom of the master
+        page. So look at the bottom of the page for that code and ensure it is left at the bottom of page. -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js">
+        </script>
+        <!-- End of script for Copy to clipboard functionality -->
+        <link rel="shortcut icon" href="/favicon.png">
+        </link>
+        <link href="../Stylesheets/MEstyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLJ5875" height="0" width="0" style="display:none;visibility:hidden">
+            </iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <MadCap:breadcrumbsProxy />
+        <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Home ToggleNavigationPane Back Forward Print;" data-mc-skin="/Project/Skins/OBS-TopicToolBar.flskn" />
+        <MadCap:bodyProxy />
+        <!-- yes/no button script
+		<div class="ScreenOnly">
+            <p>Was this article helpful?</p>
+            <div class="helpful-button-class">
+                <button class="helpful-button" id="countPositive" value="yes" onclick="ga('send', 'event', 'rating', 'yes-click', 'Helpful'); updateClient('positive')">Yes</button>
+                <button class="helpful-button" id="countNegative" value="no" onclick="ga('send', 'event', 'rating', 'no-click', 'Not Helpful'); updateClient('negative')">No</button><span id="feedback_msg" style="color:#1651B0" padding="3px"></span><span id="positive_answer" hidden="true">Thank you!</span><span id="negative_answer" hidden="true">Thank you - please use the Feedback button to provide additional details.</span>
+            </div>
+        </div>
+        <script>
+            function updateClient(resp) {
+                if (resp == 'positive') {
+                    document.getElementById("feedback_msg").innerText = document.getElementById("positive_answer").innerText;
+                } else {
+                    document.getElementById("feedback_msg").innerText = document.getElementById("negative_answer").innerText;
+                }
+                document.getElementById("countPositive").disabled = true;
+                document.getElementById("countNegative").disabled = true;
+            };
+        </script>-->
+        <h6 style="margin-top: 15px;">
+            <MadCap:variable name="Variables.NewDateTimeVariable" />
+        </h6>
+        <!-- usersnap code     -->
+        <script type="text/javascript">
+            /*
+            <![CDATA[*/
+            const locale = 'en_US';
+            const localeMap = {
+                'de_DE': 'de',
+                'en_US': 'en',
+                'es': 'es',
+                'fr_FR': 'fr',
+                'it_IT': 'it',
+                'ja_JP': 'ja',
+                'ko_KR': 'ko',
+                'zh_CN': 'zh-CH',
+                'zh_TW': 'zh-TW'
+            }
+
+            function getLocaleCode(locale) {
+                return localeMap[locale];
+            }
+
+            async function init() {
+                const request = new Request(`${document.location.origin}/api/users/session`);
+                const response = await fetch(request);
+                if (response.status !== 200) {
+                    return;
+                }
+                const uinfo = await response.json();
+
+                if (uinfo && uinfo.email && (window.location === window.parent.location)) {
+                    const ulocale = getLocaleCode(locale);
+                    loadUserSnap(uinfo, ulocale)
+                }
+            }
+
+            function loadUserSnap(uinfo, ulocale) {
+                if (!uinfo.email || !uinfo.id || !ulocale) {
+                    return;
+                }
+
+                window.onUsersnapCXLoad = function (api) {
+                    api.init({
+                        user: {
+                            email: uinfo.email,
+                            userId: uinfo.id
+                        },
+                        locale: ulocale
+                    });
+                }
+                var script = document.createElement('script');
+                script.defer = 1;
+                const userSnapId = '080c9559-9a36-4733-979e-4ee15165c69d';
+                script.src = `https://widget.usersnap.com/global/load/${userSnapId}?onload=onUsersnapCXLoad`;
+                document.getElementsByTagName('head')[0].appendChild(script);
+            }
+
+            function isProduction() {
+                return document.location.hostname.includes('.onshape.com') && !document.location.hostname.includes('.dev.onshape.com');
+            }
+
+            if (document.location.hostname.includes('.onshape.com')) {
+                // Only initialize if we are on a .onshape.com domain
+                init();
+            }
+            /*]]>
+            */
+        </script>
+        <!-- end of usersnap code     -->
+        <!-- script code to download Help PDF on Android     -->
+        <script>
+            function MakeMenuLinksOpenInSameWindow() {
+                var links = document.getElementsByTagName("a");
+                for (var link of links) {
+                    if (~link.href.indexOf("PDF")) {
+                        link.target = "_self";
+                    }
+                }
+            }
+            var regex = new RegExp("android|kindle|silk|iphone|ipad");
+            var userAgent = navigator.userAgent.toLowerCase();
+            if (regex.test(userAgent)) {
+                MakeMenuLinksOpenInSameWindow();
+            }
+        </script>
+        <!-- script code to load Wistia videos more quickly     -->
+        <script type="text/javascript">
+            (function () {
+                var script = document.createElement('script');
+                var head = document.getElementsByTagName('head')[0];
+                var scheme = location.protocol.indexOf('file:') === 0 ? 'http:' : '';
+
+                script.src = scheme + '//fast.wistia.com/assets/external/E-v1.js';
+                var first = document.getElementsByTagName('script')[0];
+                if (first) {
+                    first.parentNode.insertBefore(script, first);
+                } else {
+                    head.appendChild(script);
+                }
+            }());
+        </script>
+        <!-- end of script code to load Wistia videos more quickly, see Noah Feldman with questions -->
+        <!-- Screen reader Accessibility for inks that open in a new tab -->
+        <script type="text/javascript">
+            function addNewTabMessage(link) {
+                if (!link.querySelector('.sr-only')) {
+                    link.insertAdjacentHTML('beforeend', '<span class="sr-only">(opens in a new tab)</span>');
+                }
+            }
+
+            document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
+                addNewTabMessage(link);
+            });
+        </script>
+        <!-- End Screen reader script -->
+        <!-- Start of code to copy H2 headings to clipboard -->
+        <script type="text/javascript">
+			document
+			.querySelectorAll('a.imgcopy')
+			.forEach(function(aTag) {
+			const copySpan = document.createElement('span');
+			copySpan.setAttribute('class','tooltiptext');
+			copySpan.textContent = 'Copy link';
+
+			aTag.appendChild(copySpan);
+			});
+		</script>
+        <script type="text/javascript">
+			const clipboard = new ClipboardJS('a.imgcopy, a.imgcopy1', {
+			text: function(trigger) {
+			const origin = window.location.origin;
+			const pathname = window.location.pathname;
+			const anchor = trigger.getAttribute('name');
+			return new URL(`${origin}${pathname}#${anchor}`).href;
+			}
+			});
+
+			clipboard.on('success', function(e) {
+			$(e.trigger).addClass('greencheck');
+			$(e.trigger).prop('disabled', true );
+
+			setTimeout(function() {
+			$(e.trigger).removeClass('greencheck');
+			$(e.trigger).prop('disabled', false );
+			}, 4000);
+			});
+		</script>
+        <!-- End of code to copy H2 headings to clipboard -->
+        <!-- load page Header elements after page load to prevent awkward viewing experience with jumpy elements. This also sets the search field to have focus so the user can start typing a search term. -->
+        <script type="text/javascript">
+            window.onload = function () {
+                try {
+			document.getElementsByClassName("topicToolbarProxy")[0].style.display = "block";
+			document.getElementsByClassName("MCBreadcrumbsBox_0")[0].style.display = "block";
+			document.querySelector('input.search-field.needs-pie')?.focus();
+                } catch (error) {
+                    // do nothing
+                }
+            };
+        </script>
+        <!-- End Header element loading script -->
+    </body>
+</html>

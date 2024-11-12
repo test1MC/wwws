@@ -1,0 +1,3017 @@
+/*<meta conditions="Doc.HideFromLingo" />*/
+
+/* importing corporate Flama fonts */
+
+@font-face 
+{
+	font-family: 'flamabook';
+	src: url('../fonts/Flama-Book.otf');
+	src: url('../fonts/Flama-Book.svg');
+	src: url('../fonts/Flama-Book.woff');
+}
+
+@font-face 
+{
+	font-family: 'flamasemibold';
+	src: url('../fonts/Flama-Semibold.otf');
+	src: url('../fonts/Flama-Semibold.svg');
+	src: url('../fonts/Flama-Semibold.woff');
+}
+
+/* importing corporate PTCRaleway fonts */
+
+@font-face 
+{
+	font-family: 'PTCRaleway';
+	src: url('../fonts/PTCRaleway.ttf');
+	src: url('../fonts/PTCRaleway.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Black';
+	src: url('../fonts/PTCRaleway-Black.ttf');
+	src: url('../fonts/PTCRaleway-Black.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-BlackItalic';
+	src: url('../fonts/PTCRaleway-BlackItalic.ttf');
+	src: url('../fonts/PTCRaleway-BlackItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Bold';
+	src: url('../fonts/PTCRaleway-Bold.ttf');
+	src: url('../fonts/PTCRaleway-Bold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-BoldItalic';
+	src: url('../fonts/PTCRaleway-BoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-BoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraBold';
+	src: url('../fonts/PTCRaleway-ExtraBold.ttf');
+	src: url('../fonts/PTCRaleway-ExtraBold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraBoldItalic';
+	src: url('../fonts/PTCRaleway-ExtraBoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-ExtraBoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraLight';
+	src: url('../fonts/PTCRaleway-ExtraLight.ttf');
+	src: url('../fonts/PTCRaleway-ExtraLight.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ExtraLightItalic';
+	src: url('../fonts/PTCRaleway-ExtraLightItalic.ttf');
+	src: url('../fonts/PTCRaleway-ExtraLightItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Italic';
+	src: url('../fonts/PTCRaleway-Italic.ttf');
+	src: url('../fonts/PTCRaleway-Italic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Light';
+	src: url('../fonts/PTCRaleway-Light.ttf');
+	src: url('../fonts/PTCRaleway-Light.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-LightItalic';
+	src: url('../fonts/PTCRaleway-LightItalic.ttf');
+	src: url('../fonts/PTCRaleway-LightItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Medium';
+	src: url('../fonts/PTCRaleway-Medium.ttf');
+	src: url('../fonts/PTCRaleway-Medium.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-MediumItalic';
+	src: url('../fonts/PTCRaleway-MediumItalic.ttf');
+	src: url('../fonts/PTCRaleway-MediumItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-SemiBold';
+	src: url('../fonts/PTCRaleway-SemiBold.ttf');
+	src: url('../fonts/PTCRaleway-SemiBold.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-SemiBoldItalic';
+	src: url('../fonts/PTCRaleway-SemiBoldItalic.ttf');
+	src: url('../fonts/PTCRaleway-SemiBoldItalic.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-Thin';
+	src: url('../fonts/PTCRaleway-Thin.ttf');
+	src: url('../fonts/PTCRaleway-Thin.ttf?#iefix') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'PTCRaleway-ThinItalic';
+	src: url('../fonts/PTCRaleway-ThinItalic.ttf');
+	src: url('../fonts/PTCRaleway-ThinItalic.ttf?#iefix') format('truetype');
+}
+
+/* Begin Stylings -------------------- */
+
+body
+{
+	font-family: PTCRaleway;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	margin-left: 8px;
+	margin-top: 0px;
+	max-width: auto;
+	color: #333333;
+}
+
+a:link
+{
+	color: #0000EE;
+}
+
+a:visited
+{
+	color: #551A8B;
+}
+
+a:active
+{
+	color: #EE0000;
+}
+
+a.footermaster:visited
+{
+	color: #ffffff;
+}
+
+a.footermaster:hover
+{
+	color: #BED230;
+}
+
+a.footermasterurls:visited
+{
+	color: #ffffff;
+}
+
+a.footermasterurls:hover
+{
+	color: #bed230;
+}
+
+a.MCBreadcrumbsLink
+{
+	text-decoration: none;
+	color: #5d82ab;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: darkgray;
+}
+
+blockquote
+{
+	background-color: #e1e1e1;
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-bottom: none;
+	border-left-color: #b3b3b3;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #b3b3b3;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #b3b3b3;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-family: 'Century Gothic';
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 18px;
+	margin: 0;
+	padding-bottom: 0px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 12px;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+	font-family: PTCRaleway;
+	font-weight: bold;
+	color: #1651B0;
+}
+
+h2,
+h3
+{
+	margin: 24px 0px 16px 0px;
+}
+
+h1
+{
+	font-family: PTCRaleway-SemiBold;
+	width: 100%;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	padding-top: 2px;
+}
+
+h2
+{
+	font-family: PTCRaleway-SemiBold;
+	font-size: 1.3em;
+}
+
+h3
+{
+	font-size: 1.2em;
+}
+
+h4
+{
+	font-size: 1.1em;
+}
+
+img.ReduceButtonSize
+{
+	max-height: 20px;
+	max-width: 20px;
+}
+
+li
+{
+	orphans: 2;
+	widows: 2;
+	font-size: 12pt;
+	margin-bottom: 9px;
+	margin-top: 9px;
+	font-family: PTCRaleway;
+	border-left: -20;
+	line-height: 23px;
+	color: #333333;
+}
+
+MadCap|conceptLink
+{
+	color: #404040;
+	font-size: 0.8em;
+	font-weight: bold;
+	mc-label: 'SEE ALSO';
+	padding-top: 8px;
+	text-decoration: none;
+}
+
+MadCap|conceptLink:hover
+{
+	color: #BED230;
+	font-weight: bold;
+}
+
+MadCap|dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-closed-image: url('../Images/icons/DropDownClosed.png');
+	mc-disabled: false;
+	mc-open-image: url('../Images/icons/DropDownOpen.png');
+}
+
+MadCap|dropDownBody
+{
+	margin-bottom: 10px;
+	mc-disabled: false;
+}
+
+MadCap|dropDownHead,
+MadCap|dropDownHead.h2
+{
+	mc-disabled: false;
+	margin-bottom: 4px;
+	margin-top: 16px;
+	color: #1651B0;
+	font-size: 1.3em;
+	font-family: PTCRaleway-SemiBold;
+	font-weight: bold;
+}
+
+MadCap|dropDownHead.h3
+{
+	mc-disabled: false;
+	margin-bottom: 0px;
+	margin-top: 8px;
+	font-family: PTCRaleway;
+	font-size: 12pt;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #1651B0;
+	font-weight: bold;
+	mc-disabled: false;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	color: #404040;
+}
+
+MadCap|dropDownHotspot:focus
+{
+	/*color: #1651B0;*/
+	outline: none;
+}
+
+MadCap|dropDownHotspot.Footer:hover
+{
+	color: #BED230;
+}
+
+MadCap|popup
+{
+	color: #2D8DCC;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+MadCap|popup:focus
+{
+	color: #2D8DCC;
+}
+
+MadCap|popup:hover
+{
+	color: #2D8DCC;
+}
+
+MadCap|popupHead
+{
+	color: #2D8DCC;
+	font-weight: bold;
+}
+
+MadCap|xref
+{
+	color: #1651B0;
+	font-weight: normal;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+/* Remove space above and below list */
+
+ol,
+ul
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ol ol
+{
+	list-style-type: lower-alpha;
+	margin-left: -16px;
+}
+
+ol ol ol
+{
+	list-style-type: lower-roman;
+}
+
+p
+{
+	font-size: 12pt;
+	line-height: 23px;
+	font-style: normal;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-family: PTCRaleway;
+	color: #333333;
+}
+
+span.SeeAlsoIndexTerms
+{
+	font-style: italic;
+}
+
+span.SeeIndexTerms
+{
+	font-style: italic;
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+}
+
+th
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* ul
+{
+	list-style-position: outside;
+	list-style-image: url('Images/steel-bullet-01.png');
+} */
+
+ul.FirstLevelLessIndentation
+{
+	margin-left: -10px;
+}
+
+ul ul
+{
+	list-style-image: none;
+	list-style-type: circle;
+}
+
+ul ul ul
+{
+	list-style-type: square;
+}
+
+ol ul
+{
+	list-style-type: disc;
+}
+
+ol ul ul
+{
+	list-style-type: circle;
+}
+
+/* This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help. */
+
+div.threeCells
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.threeCells::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.threeCells::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.threeCells > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.threeCells > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.threeCells > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+div.threeCells > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+/* This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help. */
+
+div.fourCells
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.fourCells::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.fourCells::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.fourCells > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.fourCells > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.fourCells > div:nth-child(2)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.fourCells > div:nth-child(3)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.fourCells > div:nth-child(4)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+span.SearchHighlight
+{
+	background: #ffde7e;
+}
+
+/* This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help. */
+
+div.NewRowClass1
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.NewRowClass1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.NewRowClass1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.NewRowClass1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.NewRowClass1 > div:nth-child(1)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.NewRowClass1 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.primer-2::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.primer-2::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.primer-2 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.primer-2 > div:nth-child(1)
+{
+	margin-left: 0%;
+	width: 25%;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top: solid 1px #1651b0;
+	padding-top: 3px;
+	padding-right: 5px;
+	border-left: solid 0px #1651b0;
+	border-top-width: 0px;
+}
+
+div.primer-2 > div:nth-child(2)
+{
+	margin-left: 0%;
+	width: 65%;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-top: solid 1px #1651b0;
+	border-left: solid 0px #1651b0;
+	padding-top: 3px;
+	border-top-width: 0px;
+}
+
+@media non-print
+{
+	h2
+	{
+		font-style: normal;
+		font-size: 1.40em;
+	}
+
+	h3
+	{
+		font-size: 1.40em;
+		font-style: normal;
+	}
+
+	h1
+	{
+		font-size: 1.50em;
+	}
+
+	body
+	{
+		font-size: 1.0em;
+		line-height: 1.5em;
+	}
+
+	MadCap|topicToolbarProxy
+	{
+		margin-left: 28%;
+		float: right;
+	}
+
+	MadCap|dropDownHead
+	{
+		font-size: 12pt;
+		color: #1651B0;
+		text-decoration: underline;
+	}
+
+	p.Note1
+	{
+		color: #333333;
+		/* #134E96 */
+		background-color: #DEF1FB;
+		/* #fff8dc */
+		font-style: italic;
+		padding-left: 8px;
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom-color: #1651B0;
+		border-bottom: dashed 1px #1651B0;
+		border: dashed 1px #1651B0;
+		padding: 0px;
+		background-color: #cfdbe5;
+		padding-left: 6px;
+	}
+
+	MadCap|dropDownHotspot.Footer:hover
+	{
+		color: #1651B0;
+	}
+
+	MadCap|dropDownHotspot:hover
+	{
+		color: #1651B0;
+	}
+
+	MadCap|dropDownHotspot.Footer:focus
+	{
+		color: #1651B0;
+	}
+
+	MadCap|dropDownHotspot:focus
+	{
+		color: #1651B0;
+	}
+
+	img
+	{
+		padding-bottom: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+
+	p
+	{
+		line-height: 40px;
+	}
+}
+
+/* This is the styling for the keyboard shortcut line */
+
+p.shortcut
+{
+	font-family: PTCRaleway-SemiBold;
+	font-size: 0.9em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+b
+{
+	font-family: PTCRaleway-SemiBold;
+	font-weight: bold;
+	font-style: normal;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: right;
+}
+
+.MCTopicPopupHotSpot_.MCTopicPopup_Closed
+{
+	background-image: none;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.MCTopicPopup_Open.MCTopicPopupHotSpot_
+{
+	background-image: none;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* makes glossary topic popup larger than default 100px. % makes mobile proportionally larger than browser */
+
+.MCTopicPopupContainer
+{
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	bottom: 5%;
+}
+
+/* removes tacky close-arrow icon and padding from glossary text links */
+
+.MCTextPopupHotSpot_.MCTextPopup_Closed
+{
+	background-image: none;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* removes tacky close-arrow icon and padding from glossary text links */
+
+.MCTextPopup_Open.MCTextPopupHotSpot_
+{
+	background-image: none;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* use this for the early visibility program topics */
+
+p.EVP
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	color: #ffffff;
+	background-color: #1651B0;
+	text-align: center;
+	border: solid 1px;
+	border-color: #1651B0;
+	font-size: 14pt;
+	padding: 3px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+MadCap|dropDownHead.h2
+{
+	font-weight: bolder;
+}
+
+p.caption
+{
+	font-family: PTCRaleway;
+	font-size: .9em;
+	margin: 10px 0px 30px 30px;
+	font-style: italic;
+	text-indent: 0px;
+	line-height: 11pt;
+	color: #333333;
+}
+
+@media tablet
+{
+	img
+	{
+		padding-top: 5px;
+	}
+
+	div.threeCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	body
+	{
+		
+	}
+
+	div.fourCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+}
+
+@media mobile
+{
+	div.threeCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.threeCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.fourCells > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.primer-2 > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.primer-2 > div:nth-child(2)
+	{
+		width: 100%;
+		border-top-width: 0px;
+	}
+}
+
+div.footer-links
+{
+	color: #ffffff;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+p.centered
+{
+	font-size: 12pt;
+	line-height: 23px;
+	font-style: normal;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-family: PTCRaleway;
+	text-align: center;
+}
+
+h1.centered
+{
+	margin-bottom: 8px;
+	margin-top: 0px;
+	width: 100%;
+	color: #1651B0;
+	background-image: none;
+	border-bottom-width: 2px;
+	border-bottom-color: #1651B0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none 0px;
+	border-bottom: solid 0px;
+	text-decoration: none;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-family: PTCRaleway-SemiBold;
+	font-weight: bold;
+	text-align: center;
+	font-weight: 700;
+}
+
+/* to ask questions or post review comments */
+
+h2#review
+{
+	margin-bottom: 4px;
+	margin-top: 20px;
+	color: #1651B0;
+	font-size: .8em;
+	font-style: italic;
+	font-family: PTCRaleway;
+	font-weight: normal;
+}
+
+button
+{
+	cursor: pointer;
+	background-color: #EAEAEA;
+	width: 40px;
+	height: 40px;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #13357a;
+	padding: 10px 10px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+button:hover
+{
+	cursor: pointer;
+	background-color: #c4e2f3;
+}
+
+/*  "was this helpful" button at the bottom of each help page, below */
+
+div.helpful-button-class
+{
+	height: 30px;
+}
+
+.helpful-button
+{
+	font-size: 1.1em;
+	cursor: default;
+	width: 52px;
+	height: 100%;
+	text-align: center;
+	border: 1px solid #1651B0;
+	border-radius: 5px;
+	color: #333333;
+	box-shadow: 3px 3px 3px #ccc;
+	margin: 0px 8px;
+	padding: 0px;
+	transition: .5s;
+	background-color: #ffffff;
+}
+
+.helpful-button:hover
+{
+	cursor: pointer;
+	color: #1651B0;
+	background-color: #DCF0FC;
+}
+
+.helpful-button[disabled]:hover
+{
+	cursor: not-allowed;
+	background-color: #ffffff;
+}
+
+p.twothirdrightcolumn
+{
+	vertical-align: text-top;
+	font-color: #333333;
+	border-bottom-width: 0px;
+}
+
+p.onethirdleftcolumn
+{
+	vertical-align: text-top;
+	margin-right: 10px;
+	font-family: PTCRaleway-SemiBold;
+	font-weight: bold;
+	border-left: none 0px transparent;
+	color: #1651B0;
+	margin-top: 9px;
+	line-height: 18px;
+}
+
+/* Prevent hover from hiding border */
+/* for emphasis */
+
+b.italic
+{
+	font-style: italic;
+}
+
+.g_btn
+{
+	border: solid 2px #ffc20e;
+	cursor: pointer;
+	font-color: #0a3aa1;
+	font-size: 20px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	color: white;
+	border-top-style: none;
+	background-color: #d7d7d7;
+	border-radius: 2px;
+	padding: 12px 30px;
+}
+
+div.divider
+{
+	display: inline-block;
+	width: 2px;
+	height: inherit;
+}
+
+/* Additional Styles
+------------------------------------------- */
+
+code
+{
+	margin-left: 20px;
+}
+
+/* alternate ToolIconLarge next to H1. No need for a blank paragraph, just add the icon image next to the H1 -- inside the H1 -- and voila! Instant icon in the H1 tag sized the same as the H1, with no need for a blank <p> tag and only 2 lines of CSS code */
+
+h1 img
+{
+	height: 30px;
+	margin: 0px 12px -3px 0px;
+}
+
+.dropDownHotspot img,
+img.MiniToolIcon
+{
+	height: 20px;
+	margin-bottom: -3px;
+	margin-left: 0px;
+	padding-left: 4px;
+}
+
+/* legacy border edges for dialog box images - can be removed once all our images are converted to new edges borders - see below */
+
+img.grey
+{
+	border: 3px solid #9AA5AF;
+}
+
+/* rounded edges and shadow for search bar - what can't be styled with the skin */
+
+div.search-bar
+{
+	border-radius: 24px;
+	box-shadow: 6px 6px 5px #ccc;
+	transition: .5s;
+}
+
+/* rounded edge for images and videos */
+
+.RoundedCorners,
+.noborders
+{
+	border: 2px solid #769FCC;
+	border-radius: 10px;
+	margin: 12px 0px 8px 30px;
+	box-shadow: 5px 5px 5px #ccc;
+	max-width: 85%;
+}
+
+.RoundedCorners-table
+{
+	border: 2px solid #769FCC;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #ccc;
+	max-width: 85%;
+	margin: 0px 10px;
+}
+
+.noborders
+{
+	border: 0;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+/* square edges for dialog box images */
+
+.DialogBoxes
+{
+	border: none;
+	margin: 12px 0px 8px 30px;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 25%);
+	max-width: 85%;
+}
+
+/* Simple black edges for some dialog boxes, mostly in Enterprise settings */
+
+.SimpleEdges
+{
+	border: 1px solid #333333;
+	margin: 12px 0px 8px 30px;
+	border-radius: 6px;
+	max-width: 85%;
+}
+
+/* grey hard edge corners to accomodate toolbars mostly */
+
+.GreyEdges
+{
+	border: 2px solid #9AA5AF;
+	margin: 12px 0px 8px 30px;
+	max-width: 85%;
+}
+
+/* context menu border style */
+
+.ContextMenu
+{
+	border-radius: 4px;
+	box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+	border: 1px solid #9AA5AF;
+	margin: 12px 0px 8px 30px;
+	max-width: 85%;
+}
+
+/* images for tables */
+
+.GreyEdges-table
+{
+	border: 2px solid #9AA5AF;
+	margin: 0px 10px;
+}
+
+/* UI entity coloring */
+
+span.UIEntity,
+input#placeholder
+{
+	font-family: PTCRaleway-Semibold;
+	color: #763834;
+}
+
+/* Note Stylings */
+
+p.Note1 span.UIEntity,
+div.Note1 span.UIEntity,
+p.warning span.UIEntity,
+p.resources span.UIEntity,
+p.troubleshooting span.UIEntity
+{
+	color: #C20935;
+}
+
+/* blockquote notes */
+
+p.Note1,
+div.Note1,
+p.warning,
+p.resources,
+p.troubleshooting,
+div.resources
+{
+	color: #333333;
+	text-align: left;
+	border: 0;
+	border-radius: 0;
+	border-left: 3px solid #90CEF1;
+	font-family: PTCRaleway;
+	font-size: 12pt;
+	font-style: italic;
+	overflow: hidden;
+	padding: 13px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #DEF1FB;
+	/* #eef5f8 */
+}
+
+/* different note colors */
+
+/* p.Note1,
+div.Note1
+{
+	color: #134E96;
+} */
+
+p.resources,
+div.resources
+{
+	border-color: #007A3E;
+	background-color: #eafae0;
+}
+
+div.resources ul,
+div.resources p
+{
+	line-height: .6em;
+}
+
+div.resources li > p
+{
+	margin-top: .2em;
+	margin-bottom: .2em;
+}
+
+p.warning
+{
+	border-color: #FAB601;
+	background-color: #FFF8E6;
+	/* #fff5e2 */
+}
+
+p.troubleshooting
+{
+	border-color: #DD5228;
+	background-color: #F8E8E4;
+	/* #fee4e4; */
+}
+
+/* separated image from note paragraph */
+
+div.resources-img,
+div.warning-img,
+div.Note1-img,
+div.troubleshoot-img
+{
+	float: left;
+	padding: 6px 10px 6px 4px;
+}
+
+div.Note1-img
+{
+	content: url(Images/help-tip@4x.png);
+	max-height: 50px;
+}
+
+div.resources-img
+{
+	content: url(Images/help-learning-center@4x.png);
+	max-height: 50px;
+	border-color: #1651B0;
+}
+
+div.warning-img
+{
+	content: url(Images/performance-warning@4x.png);
+	max-height: 50px;
+	border-color: #FAB601;
+}
+
+div.troubleshoot-img
+{
+	content: url(Images/help-troubleshoot@4x.png);
+	max-height: 50px;
+	border-color: #912F46;
+}
+
+/* multi-paragraph blockquote */
+
+div.Note1
+{
+	border-radius: 1px;
+}
+
+/* indented paragraph blockquote */
+/* Header bottom border */
+
+nav.title-bar
+{
+	border-bottom: 3px solid #999999;
+}
+
+nav.sidenav-wrapper
+{
+	border-right: 3px solid #999999;
+	resize: horizontal;
+}
+
+/* spacing to have the logo along same horizontal level with the search bar */
+
+a.logo
+{
+	margin-top: -6px;
+}
+
+table.TableStyle-Sidehead
+{
+	margin-bottom: 20px;
+}
+
+td.TableStyle-Sidehead-BodyG--
+{
+	padding-left: 30px;
+}
+
+td.TableStyle-Sidehead-BodyI--
+{
+	padding: 7px 28px 7px 14px;
+	border-right: 2px solid #769FCC;
+	/* #0EAFBA; */
+}
+
+hr,
+hr.PageEnd hr.rule2
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #769FCC;
+	margin: 20px 0px 20px 0px;
+}
+
+hr.rule1
+{
+	margin-top: -1em;
+	margin-bottom: 0px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #1651B0;
+	color: #1651B0;
+	background-color: #1651B0;
+	box-shadow: 4px 4px 3px #ccc;
+}
+
+hr.PageEnd
+{
+	margin-top: 2.5em;
+}
+
+hr.primer
+{
+	border: none;
+	border-bottom: 1px solid #1651B0;
+}
+
+ol li,
+ul li > ul li
+{
+	margin-left: 0px;
+}
+
+ul li,
+ol li > ol li
+{
+	margin-left: 4px;
+}
+
+ul li > ul li,
+ol li > ul li
+{
+	margin-left: -20px;
+}
+
+ol li > ul li > ol li,
+ol li > ol li > ul li,
+ol li > ol li > ol li,
+ul li > ol li > ul li,
+ul li > ul li > ol li,
+ul li > ul li > ul li
+{
+	margin-left: -6px;
+}
+
+.dropDownHotspot,
+MadCap|dropDownHotspot
+{
+	font-family: PTCRaleway-SemiBold;
+	color: #1651B0;
+}
+
+a.dropDownHotspot:link,
+a.dropDownHotspot:link > span,
+span.dropDownHead > a
+{
+	font-family: PTCRaleway-Bold;
+	color: #1651B0;
+}
+
+td > p.onethirdleftcolumn,
+.dropDownHotspot
+{
+	color: #1651B0;
+}
+
+/* Helpful Tips paragraph in Primer section to add a light blue background color */
+
+p.SideTip
+{
+	background-color: #eef5f8;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+/* primer topic buttons - however, we may not be using them. But let's keep them around all the same, in case we go back. */
+
+a.btn
+{
+	font-family: PTCRaleway-SemiBold;
+	cursor: pointer;
+	color: #333333;
+	font-size: 16px;
+	border: 2px solid #1651B0;
+	border-radius: 10px;
+	box-shadow: 4px 4px 3px #ccc;
+	text-decoration: none;
+	background-color: #ffffff;
+	padding: 10px 20px;
+}
+
+a.btn:hover
+{
+	color: #1651b0;
+	cursor: pointer;
+	background-color: #DCF0FC;
+	border: 2px solid #1651B0;
+	border-radius: 10px;
+	box-shadow: 4px 4px 3px #ccc;
+	transition: .5s;
+}
+
+/* chevron adjustments */
+
+img.chevron
+{
+	margin: 0px 8px -2px 8px;
+	height: 14px;
+}
+
+/* copy heading url style */
+
+a.imgcopy::after,
+a.imgcopy1::after
+{
+	content: url(Images/copy-button-small.png);
+	cursor: pointer;
+}
+
+.greencheck
+{
+	content: url(Images/greencheck.png);
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	padding-left: 6px;
+}
+
+/* copy heading url tooltip styling */
+/* Tooltip container */
+
+.imgcopy,
+.imgcopy1
+{
+	position: relative;
+	display: inline-block;
+	padding-left: 6px;
+}
+
+/* Tooltip text */
+
+.imgcopy .tooltiptext,
+.imgcopy1 .tooltiptext
+{
+	font-family: flamabook;
+	visibility: hidden;
+	font-size: 14px;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 12px;
+	line-height: 1.2;
+	width: 64px;
+	background-color: #CFDBE5;
+	color: #333333;
+	text-align: center;
+	padding: 4px;
+	padding-bottom: 6px;
+	position: absolute;
+	box-shadow: 1px -1px 2px #ccc;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.imgcopy:hover .tooltiptext,
+.imgcopy1:hover .tooltiptext
+{
+	visibility: visible;
+	top: -20px;
+	left: 100%;
+}
+
+/* imgcopy1 is used because <h3> headings that fall directly beneath <h2> headings will cut off the copy link tooltip due to having the <h3> heading contained in a <div> with an overflow:hidden setting. So to circumvent this, you can use imgcopy1 in the HTML to slightly move the "copy link" tooltip down and to the right of the icon. This is the least obtrusive way to circumvent a problem that happens under very specific circumstances. */
+
+.imgcopy1:hover .tooltiptext
+{
+	top: -4px;
+}
+
+/* Tooltip definitions */
+
+[tt]
+{
+	position: relative;
+	cursor: default;
+	display: inline-block;
+	border-top: 1px dashed #9CA5AE;
+	margin-top: -1px;
+	line-height: initial;
+}
+
+[tt]::after
+{
+	font-family: flamabook;
+	visibility: hidden;
+	opacity: 0;
+	bottom: 115%;
+	left: calc(50% - 100px);
+	font-size: 14px;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 12px;
+	line-height: 1.2;
+	width: 250px;
+	background-color: #CFDBE5;
+	color: #333333;
+	text-align: center;
+	padding: 4px;
+	padding-bottom: 6px;
+	position: absolute;
+	box-shadow: 1px -1px 2px #ccc;
+	content: attr(tt);
+}
+
+[tt]:hover::after
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+[tt]:hover
+{
+	border-top: 0;
+}
+
+/* End Tooltip definitions */
+/* software button styling to replace images */
+
+.SWButton
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #ffffff;
+	background-color: #1651b0;
+	overflow: visible;
+}
+
+.swButtonGrey
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #333333;
+	background-color: #cccccc;
+	overflow: visible;
+}
+
+.swButtonblue
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #ffffff;
+	background-color: #85B4DD;
+	overflow: visible;
+}
+
+.swButtongreen
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #ffffff;
+	background-color: #28A745;
+	overflow: visible;
+}
+
+.swButtonred
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #ffffff;
+	background-color: #BD3039;
+	/* old red: #DD5228; */
+	overflow: visible;
+}
+
+.swButtonwhite
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid #D9D9D9;
+	border-radius: 4px;
+	color: #333333;
+	background-color: #FAFAFA;
+	overflow: visible;
+}
+
+.swButtonpink
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid #D9D9D9;
+	border-radius: 4px;
+	color: #333333;
+	background-color: #dec0df;
+	overflow: visible;
+}
+
+.swButtonsand
+{
+	font-family: flamabook;
+	display: inline-block;
+	padding: .25em 9px;
+	margin: .25em 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-image: none;
+	border: 1px solid #D9D9D9;
+	border-radius: 4px;
+	color: #333333;
+	background-color: #ecdaad;
+	overflow: visible;
+}
+
+span.swButtonSketch
+{
+	font-family: flamabook;
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 16px;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-image: none;
+	color: #333333;
+	background-color: #FAFAFA;
+	overflow: visible;
+}
+
+span.swButtonSketch::before
+{
+	content: url(Images/sketch.png);
+	padding-right: 5px;
+	Vertical-align: middle;
+}
+
+.btnnew::after
+{
+	content: 'New';
+	border-radius: 12px;
+	color: #eee;
+	background-color: #1650AD;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: .8em;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: 1px 7px 2px 7px;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: 6px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+/* adding plan buttons */
+
+.btnfree::after
+{
+	content: 'FREE';
+	border-radius: 18px;
+	color: #333;
+	background-color: #D2D2D2;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btnstd::after
+{
+	content: 'STD';
+	border-radius: 18px;
+	color: #fff;
+	background-color: #666;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btnedu::after
+{
+	content: 'EDU';
+	border: 2px solid #666;
+	border-radius: 18px;
+	color: #666;
+	background-color: #fff;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btnpro::after
+{
+	content: 'PRO';
+	border-radius: 18px;
+	color: #fff;
+	background-color: #1651B0;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btnent::after
+{
+	content: 'ENT';
+	border-radius: 18px;
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btneduent::after
+{
+	content: 'EDU ENT';
+	border: 2px solid #333;
+	border-radius: 18px;
+	color: #333;
+	background-color: #fff;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btnatlent::after
+{
+	content: 'Atlas ENT';
+	border-radius: 18px;
+	color: #333;
+	background-color: #64BC4F;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btnatlpro::after
+{
+	content: 'Atlas PRO';
+	border-radius: 18px;
+	color: #333;
+	background-color: #64BC4F;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btnstu::after
+{
+	content: 'Student';
+	border: 2px solid #666;
+	border-radius: 18px;
+	color: #666;
+	background-color: #fff;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btneducator::after
+{
+	content: 'Educator';
+	border: 2px solid #1651B0;
+	border-radius: 18px;
+	color: #1651B0;
+	background-color: #fff;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+.btneducatorent::after
+{
+	content: 'Educator ENT';
+	border: 2px solid #333;
+	border-radius: 18px;
+	color: #333;
+	background-color: #fff;
+	text-align: center;
+	font-family: flamasemibold;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: .25em .75em;
+	Vertical-align: middle;
+	display: inline-block;
+	margin-bottom: .3em;
+	margin-left: .5em;
+	text-align: center;
+	white-space: nowrap;
+	overflow: visible;
+	flex-shrink: 0;
+}
+
+/* adding div indents */
+
+div.indent1,
+div.indent2,
+div.indent3,
+div.indent4
+{
+	font-size: 12pt;
+	line-height: 23px;
+	font-style: normal;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-family: PTCRaleway;
+	color: #333333;
+}
+
+div.indent1
+{
+	margin-left: 15px;
+}
+
+div.indent2
+{
+	margin-left: 30px;
+}
+
+div.indent3
+{
+	margin-left: 45px;
+}
+
+div.indent4
+{
+	margin-left: 60px;
+}
+
+img.InlineImage
+{
+	margin: 0px 2px 0px 2px;
+	line-height: 1em;
+}
+
+img.rightpad
+{
+	padding-right: 20px;
+}
+
+/* additional skin style overrides  */
+
+li.tree-node-selected a.selected:hover
+{
+	font-family: PTCRaleway-SemiBold;
+	color: #1651b0;
+}
+
+a.selected:hover
+{
+	font-family: PTCRaleway-SemiBold;
+}
+
+div.search-bar input:focus
+{
+	outline: none;
+}
+
+/* Glossary.CSS sheet Overrides */
+
+ul#wordList
+{
+	list-style-type: none;
+}
+
+/* primer extra stylings */
+
+div.primer-2
+{
+	border-top: solid 1px #1651b0;
+}
+
+div.primer-2 h3
+{
+	margin-top: 8px;
+	line-height: 1.5em;
+	vertical-align: text-top;
+}
+
+div.primer-2 ol li,
+div.primer-2 ul li,
+div.primer-2 ol li > ol li
+{
+	margin-left: -2px;
+}
+
+div.primer-2 ol li > ul li
+{
+	margin-left: -16px;
+}
+
+/* Wistia Closed Caption style overrides */
+
+p.w-captions-line
+{
+	width: max-content;
+}
+
+div.w-captions
+{
+	text-align: left !important;
+}
+
+/* Styling for the toolbar buttons along the top right of the screen, and the fixed header, which comprises the H1 and HR beneath it */
+
+html.searchTopic div.body-container
+{
+	margin-top: 0;
+	padding-top: 90px;
+}
+
+div.body-container
+{
+	margin-top: 90px;
+	padding-top: 0px;
+}
+
+div#searchPane
+{
+	margin-top: -80px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	display: none;
+	position: fixed;
+	width: 55vw;
+	color: gray;
+	margin: 0px;
+	mc-breadcrumbs-prefix: '';
+	padding: 1em 0px 30px 0px;
+	font-size: 0.9em;
+	display: block;
+	background-color: #ffffff;
+	border-bottom-width: 0px;
+	z-index: 2;
+	padding-bottom: 10px !important;
+}
+
+div.MCBreadcrumbsBox_0
+{
+	margin-top: -90px;
+}
+
+div.topicToolbarProxy
+{
+	display: none;
+	position: fixed;
+	padding: .5em 1em .65em 1em;
+	margin-right: -8px !important;
+	right: 25px;
+	background-color: #ffffff;
+	z-index: 3;
+	margin-top: -90px;
+}
+
+div#stickyheader,
+div.stickyheader
+{
+	position: fixed;
+	top: 83px;
+	background-color: #ffffff;
+	z-index: 1;
+	width: 73%;
+	/* 100%; */
+	padding-top: 27px;
+}
+
+div.stickyheader2
+{
+	position: sticky;
+	top: -1px;
+	background-color: #ffffff;
+	padding-top: 1px;
+	z-index: 1;
+}
+
+/* end header css */
+
+p.tooltip
+{
+	font-family: flamasemibold;
+	font-size: 14px;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 12px;
+	line-height: 1.2;
+	background-color: #CFDBE5;
+	color: #333333;
+	text-align: center;
+	padding: 4px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 6px;
+	box-shadow: 1px -1px 2px #ccc;
+	border: 0px;
+}
+
+/* Video icon that shows up next to the Video example dropdowns */
+
+img.VideoIcon
+{
+	padding-right: 2px;
+	height: 25px;
+}
+
+/* Start adding beta flag to TOC Render Studio entry */
+
+.TOCBeta a::after
+{
+	content: url(Images/beta.png);
+	height: 25px;
+	padding-left: 5px;
+}
+
+.default a::after,
+li.js-drilldown-back a::after
+{
+	visibility: hidden;
+}
+
+.TOCBeta2 a::after,
+.TOCNew a::after
+{
+	content: "beta";
+	font-size: .8em;
+	color: #EEEEEE;
+	margin-left: 6px;
+	padding: 1px 7px 2px 7px;
+	border-radius: 12px;
+	background-color: #1650AD;
+	vertical-align: super;
+}
+
+.TOCNew a::after
+{
+	content: "new";
+}
+
+/* End adding beta flag to TOC Render Studio entry */
+/* styling for image slides */
+
+.slide-wrap
+{
+	position: relative;
+	height: 440px;
+	margin-bottom: -85px;
+}
+
+.slide-wrap iframe
+{
+	position: absolute;
+	top: -85px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.mySlides
+{
+	display: none;
+}
+
+.slideshow-container
+{
+	max-width: 400px;
+	position: relative;
+	padding: 4px;
+}
+
+.slideshow-container img
+{
+	display: block;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #769FCC;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #ccc;
+	padding-top: 0;
+}
+
+/* Next and previous buttons */
+
+.prev,
+.next
+{
+	cursor: pointer;
+	position: absolute;
+	top: 140px;
+	width: auto;
+	padding: 11px;
+	margin-top: -22px;
+	color: #808080;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 6px 0 0 6px;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next
+{
+	right: 5px;
+	border-radius: 0 6px 6px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover
+{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+.text
+{
+	font-family: PTCRaleway;
+	font-size: .9em;
+	font-style: italic;
+	color: #333333;
+	width: 100%;
+	text-align: center;
+	padding: 8px 0 4px 0;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext
+{
+	font-family: PTCRaleway;
+	font-size: .8em;
+	color: #333333;
+	padding: 8px 12px;
+	position: absolute;
+	top: 4px;
+	right: 40px;
+}
+
+/* The dots/bullets/indicators */
+
+.dotframe
+{
+	max-width: 400px;
+	text-align: center;
+	padding-top: 4px;
+}
+
+.dot
+{
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 4px 2px;
+	background-color: #999999;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover
+{
+	background-color: #111111;
+}
+
+/* Fading animation */
+
+.fade
+{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1s;
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+} 
+
+@keyframes fade {
+	
+	from {
+		opacity: .4
+	}
+	
+	to {
+		opacity: 1
+	}
+} 
+
+/* Mobile resize */
+
+@media only screen and (max-width: 900px)
+{
+	.slide-wrap
+	{
+		height: 388px;
+	}
+
+	.slideshow-container
+	{
+		max-width: 320px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+
+	.slideshow-container img
+	{
+		width: 80%;
+		height: 80%;
+	}
+
+	.prev,
+	.next
+	{
+		padding: 9px;
+		top: 112px;
+	}
+
+	.dotframe
+	{
+		max-width: 320px;
+		text-align: center;
+	}
+
+	.text
+	{
+		bottom: -6px;
+	}
+
+	.numbertext
+	{
+		right: 35px;
+	}
+}
+
+/* end styling for image slides */
+/* what's new - changelog page iframe */
+
+.frame-wrap
+{
+	position: relative;
+	height: 615px;
+	width: 100%;
+}
+
+.frame-wrap iframe
+{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* End what's new - changelog page iframe */
+/* hiding screen reader text for links opening in new tab */
+
+.sr-only
+{
+	position: absolute;
+	width: 1px;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/* end hiding screen reader text */
+/* Open link in new tab icon */
+
+a[target="_blank"]::after
+{
+	content: url(Images/open-external-page.png);
+	display: inline-block;
+	margin-left: 0.2em;
+}
+
+/* tooltip container */
+
+.newtab
+{
+	position: relative;
+	display: inline-block;
+	padding-left: 6px;
+}
+
+/* Tooltip text */
+
+.newtab .tooltiptext
+{
+	font-family: flamabook;
+	visibility: hidden;
+	font-size: 14px;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 12px;
+	line-height: 1.2;
+	width: 110px;
+	background-color: #CFDBE5;
+	color: #333333;
+	text-align: center;
+	padding: 2px;
+	padding-bottom: 6px;
+	position: absolute;
+	box-shadow: 1px -1px 2px #ccc;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.newtab:hover .tooltiptext
+{
+	visibility: visible;
+	top: -24px;
+	left: 77%;
+}
+
+/* end new tab icon */
+/* if you want to hide anything, use this class */
+
+.hide
+{
+	visibility: hidden;
+}
+
+/* end hide class */
+/* color swatches */
+
+.swatch
+{
+	height: 18px;
+	width: 18px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #999;
+	margin-left: 8px;
+	margin-bottom: -3px;
+}
+
+/* end color swatches */
+/* Hidden styles from style dropdown in Flare */
+
+abbr,
+acronym,
+big,
+cite,
+em,
+ins,
+kbd,
+label,
+nav.sidenav-wrapper,
+nav.title-bar,
+q,
+samp,
+small,
+span.boolean,
+span.state,
+strong,
+tt,
+var,
+address,
+div.body-container,
+div.footer-links,
+div.helpful-button-class,
+div.Note1,
+div.w-captions,
+fieldset,
+h1.centered,
+h5,
+h6,
+h2#review,
+P.EVP,
+p.onethirdleftcolumn,
+p.twothirdrightcolumn,
+p.w-captions-line,
+button,
+img.chevron,
+img.grey,
+img.miniToolicon,
+img.ReduceButtonSize
+{
+	mc-hidden: hidden;
+}
+
+/* Edit TOC nav icons */
+/* Remove the topicToolbarProxy from search page */
+
+html.searchTopic div.topicToolbarProxy
+{
+	visibility: hidden;
+}
+
+/* Start size-specific screen css rules */
+/* Styles to remove the fixed header from tablet and mobile */
+
+@media tablet
+{
+	div.topicToolbarProxy
+	{
+		position: static;
+		padding: 1em .5em 2em 0px;
+		margin-top: -2em;
+		margin-right: -1em;
+	}
+
+	div.MCBreadcrumbsBox_0
+	{
+		position: static;
+		padding: 1em 0px 0px 5px;
+	}
+
+	div#stickyheader,
+	div.stickyheader
+	{
+		position: static;
+	}
+}
+
+@media mobile
+{
+	div.MCBreadcrumbsBox_0
+	{
+		padding-left: 5px;
+	}
+
+	js.drilldown-back
+	{
+		z-index: 5;
+	}
+
+	li.tree-node
+	{
+		z-index: 4;
+	}
+
+	div#stickyheader,
+	div.stickyheader
+	{
+		position: static;
+	}
+}
+
+/* End Styles to remove the fixed header from tablet and mobile */
+
+@media only screen and (max-width: 1279px)
+{
+	div#mc-main-content
+	{
+		margin-top: 0px;
+	}
+
+	div#searchPane
+	{
+		margin-top: 0px;
+	}
+
+	div.topicToolbarProxy
+	{
+		margin-top: -5px;
+		padding-bottom: 18px;
+	}
+
+	hr.rule1
+	{
+		margin-bottom: 1.4em;
+	}
+
+	div#stickyheader,
+	div.stickyheader
+	{
+		position: static;
+		width: 100%;
+	}
+	
+	div.MCBreadcrumbsBox_0, div.topicToolbarProxy
+	{
+		position: relative;
+	}
+
+}
+
+@media only screen and (min-width: 1550px)
+{
+	div.topicToolbarProxy
+	{
+		padding: .5em .45em .75em 2em;
+		right: 25px;
+	}
+
+	div.MCBreadcrumbsBox_0
+	{
+		width: 60vw;
+	}
+}
+
+@media only screen and (min-width: 1279px)
+{
+	div.MCBreadcrumbsBox_0
+	{
+		height: 1.2em;
+	}
+}
+
+/* end size-specific screen css rules */
+/* Print output styles */
+
+@media print
+{
+	.ScreenOnly,
+	div#wordList-nav,
+	div.ln-letters,
+	div.MCBreadcrumbsBox_0,
+	div.slide-wrap
+	{
+		display: none;
+	}
+
+	body
+	{
+		margin: .15in;
+		padding: .15in;
+		font-size: 12pt;
+		line-height: 1.2em;
+	}
+
+	p.Note1,
+	div.Note1,
+	p.warning,
+	p.resources,
+	p.troubleshooting
+	{
+		margin-left: 50px;
+	}
+
+	div#stickyheader,
+	div.stickyheader
+	{
+		position: static;
+		width: 100%;
+	}
+
+	div#mc-main-content,
+	div.body-container
+	{
+		margin-top: 0px;
+	}
+
+	div.MCBreadcrumbsBox_0
+	{
+		visibility: hidden;
+	}
+
+	nav.title-bar
+	{
+		display: none;
+	}
+}
+
+/* End Print output styles */
+/* Side Navigation skin overrides */
+
+.is-accordion-submenu-parent > a span.submenu-toggle-container
+{
+	left: 2px;
+	outline: none;
+	transform: rotate(-90deg);
+}
+
+.submenu-toggle-container[aria-expanded='true'] > span.submenu-toggle
+{
+	transform: rotate(90deg);
+}
+
+.off-canvas-accordion .is-accordion-submenu-parent > a
+{
+	padding-left: 42px;
+}
+
+ul.sidenav ul > li > a
+{
+	margin-left: 23px;
+}
+
+ul.sidenav ul ul > li > a
+{
+	margin-left: 45px;
+}
+
+ul.sidenav ul ul ul > li > a
+{
+	margin-left: 68px;
+}
+
+ul.sidenav ul ul ul ul > li > a
+{
+	margin-left: 90px;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	.menu.vertical
+	{
+		padding-top: 10px;
+	}
+
+	.menu.vertical > li
+	{
+		margin-top: -10px;
+	}
+
+	.menu.vertical > li:nth-child(2)
+	{
+		padding-top: 10px;
+	}
+
+	ul.off-canvas-list li a
+	{
+		margin-top: -10px;
+	}
+
+	ul.off-canvas-list li
+	{
+		margin-top: -10px;
+	}
+
+	.is-drilldown-submenu.slide-in-left.is-active
+	{
+		padding-top: 10px;
+	}
+
+	.off-canvas ul.off-canvas-list li.is-drilldown-submenu-parent > a:after
+	{
+		float: left !important;
+		padding-right: 4px !important;
+	}
+}
+
+/* End Side Navigation Skin overrides */
+

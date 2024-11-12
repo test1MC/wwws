@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="72" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Mate connector icon" ComputedWidth="20" ComputedHeight="20" Format="png">iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK5SURBVHgBnVQ7TyJRFD4gWvhIiI00JrNqsZ0TH8lGix0b3VhN/ANKqY3ZROt1K7PVYqOxILhQ2QAGGqCALSAkQBxCAwUJS8OjYCkoloTHfucmQ4DwcPdLJjNz77nfPec7DwNNgSzL5tnZWanb7ZoNBkM9kUhok+xN40iMRuMlPtXFxUV5ZWWF8KZGo0GdTqeOdW+73f6qaVph+KxheGFnZ0eBN47Dw0MJD21ubg7sVyoVSqfT5HQ6qVqt2lqtFhPX9f2ZfuPt7e3ThYUF7+3trfnk5EQcDoVC5PF4aHV1lZaXl4Wn6+vrxJc1m80P2Wz2EyJ4LpfLfwYIEaa0tLQUeXx8JA7RbreTzWarZzKZb8ViUVIUxWyxWHqXz83N0e7uLstgyeVy70ul0jOvG3uuzsyELy4uBNnV1RW53e4f0OtdMpm8wXaBxoDPwGOVpeoRIlQVWgnNWJt8Pu9NpVJn/dpMwvn5OUH3L/0enjIZZ9HlchEy+Jn+AZw4aKuwbIIQ7BILzdkDXkaVwzTs7e0RSk0RhChYmQkRKpNr9B9g7QHJ9NYDnKhx4NLSoRMWUHMS3wJvPw4fQIIORhFxZtfW1sL8zdEh5FcRMsrjZzQapf39fUItyiwuvQGQ54zP6IToml+CEDX4FIvFRBeoqmrG//dpZHwrIhLVwclEp2iMngFqMezz+bq1Wq1rtVq7+HeM85RDxf5vv98v7I+Pj9n+lPd6wwFtJM/Pz78+PDwQt9j9/T33cAFbETwvPLoQIk8KFZ4p19fXov7YHl31BJ2tA4SMra2tM5A5dGMeDoFAQK9PcRHXGzxn/QQZ9jXk4EDvqpHjCwaOo6OjkeOLuykYDLJXfOEduuqmv0UNNAbsLV6XPGA3NjbEGoTnp47wI3juMDgiw+fGEurg6W0ymWT+xrsQj8cLk+z/AmmTSJYW7L3rAAAAAElFTkSuQmCC</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

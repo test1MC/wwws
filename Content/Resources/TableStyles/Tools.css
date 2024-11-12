@@ -1,0 +1,503 @@
+/*<meta conditions="Doc.HideFromLingo" Version="9" />*/
+
+/* MadCap Table Style: */
+
+mcTableStyle
+{
+	name: Tools;
+	border-collapse: collapse;
+	max-id: 6;
+	margin-left: 0px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-spacing-y: 5;
+	border-spacing-x: 5;
+	cell-padding-left: 5px;
+	cell-padding-right: 5px;
+	cell-padding-top: 5px;
+	cell-padding-bottom: 5px;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	id: 5;
+	name: Header1;
+	font-size: 12pt;
+	color: #696969;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 6;
+	name: Body1;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+/* Cell Styles: */
+
+.TableStyle-Tools
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	margin-left: 0px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	border-spacing: 5px 5px;
+}
+
+.TableStyle-Tools-Head-Header1
+{
+	
+}
+
+.TableStyle-Tools-HeadI--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadI--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadE--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadE--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadF--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadF--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadH--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadH--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadD--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadD--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadC--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadC--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadB--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadB--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadA--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadA--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-HeadG--Header1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #696969;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+	background-color: #ffc20e;
+}
+
+.TableStyle-Tools-HeadG--Header1 p
+{
+	color: #696969;
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-FootI--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootI-- p
+{
+	
+}
+
+.TableStyle-Tools-FootE--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootE-- p
+{
+	
+}
+
+.TableStyle-Tools-FootF--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootF-- p
+{
+	
+}
+
+.TableStyle-Tools-FootH--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootH-- p
+{
+	
+}
+
+.TableStyle-Tools-FootD--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootD-- p
+{
+	
+}
+
+.TableStyle-Tools-FootC--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootC-- p
+{
+	
+}
+
+.TableStyle-Tools-FootB--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootB-- p
+{
+	
+}
+
+.TableStyle-Tools-FootA--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootA-- p
+{
+	
+}
+
+.TableStyle-Tools-FootG--
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-Tools-FootG-- p
+{
+	
+}
+
+.TableStyle-Tools-Body-Body1
+{
+	
+}
+
+.TableStyle-Tools-BodyI--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyI--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyE--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyE--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyF--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyF--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyH--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyH--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyD--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyD--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyC--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyC--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyB--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyB--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyA--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyA--Body1 p
+{
+	font-size: 12pt;
+}
+
+.TableStyle-Tools-BodyG--Body1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: top;
+}
+
+.TableStyle-Tools-BodyG--Body1 p
+{
+	font-size: 12pt;
+}
+

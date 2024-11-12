@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay Profile="C:\Users\damad\Documents\My Profiles\dialog.capro" ProfileHash="b7fe9f7e45917b49ac09ab86f46399f10e179411" ScreenRectangle="828,344,16,18">
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" Border="none" BorderWidth="3" BorderColor="#9aa5af" PaddingLeft="1" PaddingBottom="1" PaddingRight="1" PaddingTop="1" ExportFormat="png" AutoAdjust="true" EnableGrayScaleFormat="false" DPI="96" medium_print_ExportFormat="bmp" ComputedWidth="18" ComputedHeight="20" Format="tiff">SUkqAMQAAACAMyBP86QUAPOEACFQuGQ2HQ+IRENRMAH+LAAfxl/pqOAATR+IyGRSOFtqTAA5ykADOWP+BMySTGZSIaTWVy2XzOdTuFTUaTcZy6BQ2fTydzmGUWWUGkUanSGlTih0+qQ+o0ypwui1WR02ezal0KYVyyACr2Ky2Sz16zTa0xC2Wus2+nXKx3S62CpXevz+8Q243qsXy/zq7YWjUUmYt/o3HR6QYiQsDKACOJoALLNRuOufPZKQx8TSiVQEABAA/gAEAAEAAAAAAAAAAAEEAAEAAAAQAAAAAQEEAAEAAAASAAAAAgEDAAQAAACKAQAAAwEDAAEAAAAFAAAABgEDAAEAAAACAAAAEQEEAAEAAAAIAAAAFQEDAAEAAAAEAAAAFgEEAAEAAAASAAAAFwEEAAEAAAC7AAAAGgEFAAEAAACSAQAAGwEFAAEAAACaAQAAHAEDAAEAAAABAAAAKAEDAAEAAAACAAAAPQEDAAEAAAACAAAAUgEDAAEAAAACAAAAAAAAAAgACAAIAAgAAHcBAOgDAAAAdwEA6AMAAA==</OriginalImage>
+        <Shapes />
+        <Variables />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

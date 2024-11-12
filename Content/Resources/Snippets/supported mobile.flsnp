@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3>Supported Android versions<a name="SupportedAndroidVersions" class="imgcopy"></a></h3>
+        <ul>
+            <li>Lollipop (5.0, 5.1)</li>
+            <li>Marshmallow (6.0)</li>
+            <li>Nougat (7.0)</li>
+            <li>Oreo (8.0)</li>
+            <li>Pie (9.0)</li>
+            <li>Android 10</li>
+        </ul>
+        <p>Onshape minimally requires Lollipop (5.0).</p>
+        <p>To check what version of Android your device has installed, go to your settings and check the About or General section.</p>
+        <h3>Graphics Performance<a name="GraphicsPerformance" class="imgcopy"></a></h3>
+        <p>Devices with older GPUs and older implementations of OpenGL ES 2.0 sometimes lack the necessary capabilities to run Onshape's 3D graphics. This most often happens on devices with a Mali 400 GPU.</p>
+        <p>When using devices with older GPUs or implementations of OpenGL ES 2.0 an error message will alert you when you open a Part Studio or an Assembly. The error message offers a link to more information as well as a link to continue. </p>
+        <div class="Note1-img">
+        </div>
+        <p class="Note1">If you elect to proceed after receiving the error message, you will likely notice graphics glitches or a blank, white screen. Eventually, the app may crash.</p>
+        <h3>Why doesn't it work?<a name="WhyDoesntItWork" class="imgcopy"></a></h3>
+        <p>The Onshape graphics library uses Vertex Array Objects (VAOs). VAOs are supported natively in OpenGL ES 3.0 and above, but are not supported in the OpenGL ES&#160;2.0 library. Often, implementations of OpenGL ES 2.0 contain extensions that support VAOs, but the support of these extensions is not guaranteed by Android and depend on the service of the manufacturer.</p>
+        <div class="Note1-img">
+        </div>
+        <p class="Note1">By default, Onshape allows a device with&#160;OpenGL ES 2.0 or higher to install the application but it is not until the app is running on a device that it can detect if the device has the necessary capabilities or extensions.</p>
+        <h3>How can I&#160;fix this?<a name="HowCanIFixThis" class="imgcopy"></a></h3>
+        <p>Use a device that supports, at the very least, OpenGL ES 2.0 with Vertex Array Object extensions.</p>
+        <p>A device running the latest version of Android does not necessarily support OpenGL ES 3.0. We recommend that you avoid running Onshape on devices with a Mali 400 or Mali 450 GPU, as these are unable to render 3D graphics properly. </p>
+        <p>It is recommended that you use a device that runs OpenGL ES 3.</p>
+        <h3>How do I&#160;find out what GPU I have?<a name="WhatMyGPU" class="imgcopy"></a></h3>
+        <p>The most direct way to find out what GPU&#160;your device uses is to search for your device  and/or serial number on the Internet. For example; you might try browsing or searching for your device on a website such as gsmarena.com or phonearena.com.</p>
+        <h3>Supported iOS versions<a name="EarliestiOS" class="imgcopy"></a></h3>
+        <p>Onshape minimally requires the latest version of iOS 16 or iPadOS 16.</p>
+        <p>To check what version of iOS your device has installed, go to Settings &gt; General &gt; About &gt;&#160;Version.</p>
+        <h3>Supported iOS devices<a name="OptimaliOS" class="imgcopy"></a></h3>
+        <ul>
+            <li>iPhone 8 and above</li>
+            <li>
+                <p>iPhone SE (2nd generation and above)</p>
+            </li>
+            <li>iPad Mini (5th generation and above)</li>
+            <li>iPad Air (3rd generation and above)</li>
+            <li>iPad Pro (1st generation and above)</li>
+        </ul>
+        <p>If you'd like to bookmark Help pages on the iOS&#160;platform, you can use your app settings on your iOS&#160;device and set Open Help in browser&#160;to on. When you access the help via Onshape, it will then open in a browser, where you can create bookmarks of specific topics or pages.</p>
+        <div class="Note1-img">
+        </div>
+        <p class="Note1">Onshape supports keyboard shortcuts and mouse support when using peripherals.</p>
+    </body>
+</html>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>&#160;</p>
+        <p>
+            <img src="../Images/Light user/view-only-part-studio-01.png" class="GreyEdges" alt="Part Studio view only toolbar" />
+        </p>
+        <p class="caption">Toolbar as typically seen in a Part Studio, above</p>
+        <p>
+            <img src="../Images/Light user/ios-view-only.png" class="GreyEdges" alt="iOS and Android view only toolbar" />
+        </p>
+        <p class="caption">Toolbar as typically seen on an iOS device, above<br /></p>
+        <p>
+            <img src="../Images/Light user/android-viewonlymenu.png" alt="Screenshot of the Light user view only menu as seen on an Android device" class="GreyEdges" />
+        </p>
+        <p class="caption">Toolbar as typically seen on an Android device, above</p>
+        <p>
+            <img src="../Images/Light user/toolbar-02.bmp" alt="Assembly view only toolbar" class="GreyEdges" />
+        </p>
+        <p class="caption">Toolbar as typically seen in an Assembly, above</p>
+        <ul>
+            <li>
+                <b>Home -</b>
+                <a href="../Images/icons/lightuser-home@1x (1).png">
+                    <img src="../Images/icons/lightuser-home@1x (1).png" alt="Light user home icon" class="InlineImage" style="width: 29px;height: 29px;" />
+                </a> Click the Home icon to automatically restore the initial view of your document. </li>
+            <li>
+                <b>Rotate -</b>
+                <img src="../Images/rotateicon@1x.png" alt="Light user rotate icon" class="InlineImage" style="width: 39px;height: 39px;" />Click the Rotate icon, then click and drag your cursor in the direction you want your document to rotate.</li>
+            <li>
+                <b>Pan -</b>
+                <img src="../Images/pan-icon@1x.png" alt="Light user pan icon" class="InlineImage" />Click the Pan icon, then click and drag your cursor in the direction you want  to pan your document. </li>
+            <li>
+                <b>Zoom to fit -</b>
+                <img src="../Images/Light user/zoom-to-fit@1x.png" alt="Light user Zoom to fit toolbar icon" class="InlineImage" />Click the Zoom to fit icon to automatically zoom your image to fit the middle of the screen. Click the dropdown menu arrow to the right of the icon to see the following features:<ul><li><b>Zoom to window -</b><img src="../Images/Light user/zoom-to-window@1x.png" alt="Light user Zoom to window toolbar icon" class="InlineImage" />Click Zoom to window, then drag your cursor to create your zoom bounding box around the part of the entity you wish to zoom in on; your image zooms accordingly</li><li><b>Zoom -</b><img src="../Images/zoom-icon@1x.png" alt="Light user icon Zoom to fit icon" class="InlineImage" />Click Zoom, then click and drag your cursor up and down or left and right to zoom in and out.</li></ul><div class="Note1-img"></div><p class="Note1">While using the Onshape application on a desktop, you can scroll up or down with your mouse at any time to zoom in or out.</p><p>On Windows machines with a standard 3-button mouse, Onshape provides the following scheme for manipulating the 3D model in Part Studios and Assemblies:</p><p><b>3D Rotate:</b> Right-mouse-button-click+drag</p><p><b>Zoom in and out:</b> Scroll up and scroll down, respectively</p><p><b>2D pan:</b> Ctrl+right-mouse-button+drag (middle button click+drag)</p><p>For more information on customizing your view manipulation in Onshape, see <a href="../../moving.htm">View Navigation and Viewing Parts</a>.</p></li>
+            <li>
+                <p>
+                    <b>Section view -</b>
+                    <img src="../Images/section-view-icon@1x.png" alt="Light user section view icon" class="InlineImage" /> Click the Section view icon to open the Section view manipulator:</p>
+                <p>
+                    <img src="../Images/Light user/Section view manipulator.png" alt="Section view dialog with manipulator" class="DialogBoxes" />
+                </p>
+                <p> Select the plane, planar face, or mate connector that you want to view, then click the checkmark <img src="../Images/icons/greencheck.png" alt="Accept checkmark icon" class="InlineImage" /> in the top right corner of the Section view manipulator to finalize your decision. </p>
+            </li>
+            <li>
+                <b>Properties - </b>
+                <img src="../Images/icons/lightuser-properties@1x.png" alt="Properties icon" class="InlineImage" style="width: 39px;height: 39px;" /> When you are in a Part Studio, click the Properties icon to open a Properties dialog where you will have the ability to edit your Part Studio's name, description, part number, state, and more:<p><img src="../Images/Light user/Assembly properties dialog.png" alt="Properties dialog" class="SimpleEdges" /></p><p> To see the properties of a <i>specific</i> part on an entity, click the specific part and then click the Properties icon.</p><p>In an Assembly, click the Properties icon to open a Properties dialog.</p><div class="Note1-img"></div><p class="Note1">Light users and full users who lack write permissions do not have the ability to edit properties. </p></li>
+            <li>
+                <p>
+                    <b>Appearance panel</b> - <img src="../Images/icons/lightuser-appearances@1x.png" class="InlineImage" style="width: 39px;height: 39px;" alt="Appearance panel icon" /> This tool appears only when a Part Studio tab is selected. Click to open the Appearance panel from the right side of the UI.</p>
+                <p>You can see the color associated with a particular part or face. For more information about assigning colors, see <a href="../../appearance_editor.htm">Customizing Parts and Faces: Appearance</a>.</p>
+            </li>
+            <li>
+                <p>
+                    <b>Display states</b> - <img src="../Images/icons/display-states-button@3x.png" style="width: 37px;height: 37px;" class="InlineImage" alt="Cut list icon" /> This tool appears only when an Assembly is selected. Click to open the Display states dialog. See <a href="../../display-states.htm">Display States</a> for more information.</p>
+            </li>
+            <li>
+                <p>
+                    <b>Cut list</b> - <img src="../Images/icons/cutlist-button@2x.png" style="width: 39px;height: 39px;" class="InlineImage" alt="Cut list icon" /> This tool appears only when a Part Studio tab is selected and Frames are used. Click to open the Cut list panel from the right side of the UI. See <a href="../../frame_cut_list.htm">Cut List</a> for more information.</p>
+            </li>
+            <li>
+                <p>
+                    <b>Custom tables</b> - <img src="../Images/icons/lui-featurescript-table-button@1x.png" class="InlineImage" alt="Custom tables panel icon" /> This tool appears only when a Part Studio tab is selected. Click to open the Custom tables panel from the right side of the UI. If a custom table has been added to the document, it opens:</p>
+                <p>
+                    <img src="../Images/Light user/view-only-custom-tabe.png" class="RoundedCorners" alt="Custom tables panel" />
+                </p>
+            </li>
+            <li>
+                <b>Configuration panel -</b>
+                <img src="../Images/Light user/configuration-table-button@2x.png" alt="Configuratoin panel icon" class="InlineImage" /> Click the Configuration table icon to open the Configured part properties panel <i>(note that this icon appears only when your assembly or Part Studio contains configured properties)</i>:<p><img src="../Images/Light user/configured part props panel.png" alt="Screenshot of Light user Configured part properties panel" class="RoundedCorners" /></p><p>To learn more about the Configuration panel, see <a href="../../configurations.htm">Configurations.</a></p></li>
+        </ul>
+        <ul>
+            <li>
+                <b>Bill of Materials</b> - <img src="../Images/icons/lightuser-bOM@1x.png" class="InlineImage" alt="Bill of materials icon" /> Click the BOM&#160;icon to open the BOM&#160;panel, or close the BOM&#160;panel.<p><img src="../Images/Light user/bom-panel.png" class="RoundedCorners" alt="BOM panel" MadCap:conditions="Doc.Hide" /></p></li>
+            <li>
+                <b>Exploded views</b> - <img src="../Images/Light user/explode-icon.png" class="InlineImage" alt="Exploded views panel icon" /> Click the Exploded views icon to open the panel in order to select an Exploded view to display.<p><img src="../Images/Light user/explode-panel.png" class="RoundedCorners" alt="Exploded views panel" MadCap:conditions="Doc.Hide" /></p><p><i>This tool only appears when an Assembly is selected.</i></p></li>
+            <li>
+                <p MadCap:conditions="Doc.Hide">
+                    <b>Comments panel - </b>
+                    <img src="../Images/icons/lui-comment-new@1x.png" alt="Comments icon" class="InlineImage" style="width: 39px;height: 39px;" />Click the Comments icon to toggle the comments panel <i>(note that this icon appears only when the user has permission to comment)</i>: </p>
+                <p MadCap:conditions="Doc.Hide">
+                    <img src="../Images/Light user/LUI-Comments panel.png" alt="Light user Comments panel" class="DialogBoxes" />
+                </p>
+                <p style="font-weight: normal;" MadCap:conditions="Doc.Hide">To learn more about the Comments panel, see <a href="../../comments_on_workspaces.htm">Comments on Workspaces</a>. </p>
+            </li>
+            <li>
+                <p>
+                    <b>Follow a user... -</b>
+                    <img src="../Images/Light user/follow-icon@1x.png" alt="light user Follow a user icon" class="InlineImage" /> Click the Follow a user icon to open a menu with a list of users that are currently in the document <i>(note that this icon only appears if there are multiple users in a document)</i>: </p>
+                <p>
+                    <img src="../Images/Light user/follow user example.png" alt="Follow a user screenshot example" class="RoundedCorners" />
+                </p>
+                <p>Click a user you wish to follow, and your Onshape window will adjust to show you their document view in real time, as shown below: </p>
+                <p>
+                    <img src="../Images/Light user/following user example.png" alt="Screenshot example of a user following another user in Light user collaborative viewer" class="RoundedCorners" />
+                </p>
+                <p>To stop following a user, re-click the Follow a user icon in the toolbar. To learn more about following a user, see <a href="../../follow_mode.htm">Follow Mode</a>.</p>
+            </li>
+            <li>
+                <b>Export tab - </b>
+                <img src="../Images/export-icon@1x.png" alt="Light user Export tab icon" class="InlineImage" />Click the Export icon to open the Export dialog. Here, you can edit your document's name and export options.<p><img src="../Images/Light user/Export dialog.png" alt="Light user Export dialog" class="SimpleEdges" MadCap:conditions="Doc.Hide" /></p><ul><li><b>Export selected - </b><img src="../Images/Light user/select-export.png" alt="Export selected icon" class="InlineImage" /> Click the Export selected icon to export all selected geometry <i>(note that this icon appears only when exportable geometry is already selected).</i> An Export dialog like the one above appears; edit your file name, format, version, and export options, and click the Export button to finalize your decisions.</li><li><b>Select and export... -</b><img src="../Images/Light user/select-export.png" alt="Select and export icon" class="InlineImage" /> To export a specific assembly or part, click the dropdown menu arrow to the right of the Export icon and click Select and export...<i>(note that this icon only appears if there no exportable geometry is selected)</i>. This opens an Export manipulator; click the part or assembly  you want to export, then click the checkmark <img src="../Images/icons/greencheck.png" alt="Accept checkmark icon" class="InlineImage" /> in the top right corner. This opens the same Export dialog as shown above. Choose your export settings and click the Export button to finalize your decisions.</li></ul></li>
+            <li>
+                <p>
+                    <b>Print -</b>
+                    <img src="../Images/icons/lui-print@1x.png" alt="Light user print icon" /> Click the Print icon to open the Print setup dialog: </p>
+                <p>
+                    <img src="../Images/Light user/print setup menu.png" alt="Print setup menu" class="RoundedCorners" />
+                </p>
+                <p>Here, you have the ability to edit your print settings. When you are ready to print, click the checkmark <img src="../Images/icons/greencheck.png" alt="Accept checkmark icon" class="InlineImage" /> in the top right corner. This opens a print-preview of your document, with options to choose more printer-specific  settings. </p>
+            </li>
+            <li>
+                <p>
+                    <b>Measure -</b>
+                    <img src="../Images/measure-icon@1x.png" alt="Light user measure icon" class="InlineImage" style="width: 38px;height: 38px;" />Hold your cursor over the Measure icon to read how the Measure tool functions:</p>
+                <p>
+                    <img src="../Images/Light user/Measure tool info blurb.png" alt="Screenshot of Measure tool information" class="RoundedCorners" />
+                </p>
+                <p>The above message explains how the Measure tool is automatically shown in the lower right corner of the Onshape window whenever an entity or part is selected. Click on the Measure icon to see an animated example of the tool's functionality. </p>
+            </li>
+            <li>
+                <p>
+                    <b>Mass Properties -</b>
+                    <img src="../Images/mass-properties-icon@1x.png" alt="Light user mass properties icon" class="InlineImage" style="width: 39px;height: 39px;" />Click the Mass properties icon to open the Mass properties panel:</p>
+                <p>
+                    <img src="../Images/Light user/Mass props panel.png" alt="Screenshot of Mass properties panel " class="RoundedCorners" />
+                </p>
+                <p>In a Part Studio,  if there are no parts selected, the Mass properties panel displays the Part Studio properties. If there are parts selected, it displays only the properties for those selected parts. </p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport ImportFolder="Glossary" UseFirstHeadingAsTopicTitle="true" AutoFitTables="true" UseHeaderRows="true" LastImport="2021-04-02T10:51:06.1842574-04:00" PreserveMappedStyles="false" conditions="Doc.HideFromLingo">
+    <Files>
+        <Url Source="../../../../../../Work/Documentation/Glossary/Glossary.docx" AbsoluteSource="../../../../../../Work/Documentation/Glossary/Glossary.docx" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles />
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="../../Content/Glossary/Term.htm" TimeStamp="4/2/2021 10:50:29 AM" />
+        <Url Source="../TOCs/Glossary.fltoc" TimeStamp="4/2/2021 10:50:29 AM" />
+        <Url Source="../../Content/Resources/Stylesheets/Glossary.css" TimeStamp="4/2/2021 10:50:29 AM" />
+    </GeneratedFiles>
+    <ParagraphStyles />
+    <CharacterStyles>
+        <Map From="Hyperlink" To="a" Style="Flare" />
+    </CharacterStyles>
+    <NewTopicStyles />
+</MsWordImport>

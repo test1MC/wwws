@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="troubleshoot-img">
+        </div>
+        <p class="troubleshooting">Onshape signs all outgoing SAML certification requests. You are not required to upload any certificates (for example, a SAML signing certificate), except in the case of ADFS integration because ADFS validates incoming SAML requests.</p>
+    </body>
+</html>

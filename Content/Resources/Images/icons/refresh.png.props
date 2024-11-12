@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay Profile="C:\Users\damad\Documents\My Profiles\dialog.capro" ProfileHash="b7fe9f7e45917b49ac09ab86f46399f10e179411" ScreenRectangle="245,356,14,14">
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" Border="none" BorderWidth="3" BorderColor="#9aa5af" PaddingLeft="1" PaddingBottom="1" PaddingRight="1" PaddingTop="1" ExportFormat="png" AutoAdjust="true" ComputedWidth="16" ComputedHeight="16" EnableGrayScaleFormat="false" DPI="96" medium_print_ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_ExportFormat="png">SUkqAEIBAACAP+BP8AQWDQV5wkAKeGABgQ8ANqJAAGxUACaMAAZxsAFmPRSLQeDwOCQaHsAAIGVACEvORRgTSKJNqRRUGgA/zkAECeSKSScAHShSIzUUAUUzSKlQVTU0AJqoAB6VMAJmrRqOPKtP8nV2WQqmqaLxml2WZROkAAA2sALK3VWrP+oJqj0a02a8WawgBHX260mPFl/zMAMzDXnEYkADTGAAZY+sDN/zAAXvFZellrNABz53Iv/HjKn1HMaWDE3USIy6t/s7XYXD6aCoDaADaICzYwaY7ITk/v9acGcTrUE3S7oAcXhn/R3S5gA5dEAOXqVyvTa4JmxzHEciDzwgQ6IBnyZWnSRZ+mUyvsHP3AAmfHc43EVbtRsZgCSQf0rMAEbACQJu/r5t2xDlN8/SBrKlqIom/ECtK5SAgBAA/gAEAAEAAAAAAAAAAAEEAAEAAAAOAAAAAQEEAAEAAAAOAAAAAgEDAAQAAAAIAgAAAwEDAAEAAAAFAAAABgEDAAEAAAACAAAAEQEEAAEAAAAIAAAAFQEDAAEAAAAEAAAAFgEEAAEAAAAOAAAAFwEEAAEAAAA6AQAAGgEFAAEAAAAQAgAAGwEFAAEAAAAYAgAAHAEDAAEAAAABAAAAKAEDAAEAAAACAAAAPQEDAAEAAAACAAAAUgEDAAEAAAACAAAAAAAAAAgACAAIAAgAAHcBAOgDAAAAdwEA6AMAAA==</OriginalImage>
+        <Shapes />
+        <Variables />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

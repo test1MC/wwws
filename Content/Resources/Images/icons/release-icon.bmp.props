@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay Profile="C:\Users\damad\Documents\My Profiles\MyProfile.capro" ProfileHash="48a8431eb0c4d928a2e10e3988d9ee1c0e27d86e" ScreenRectangle="213,1031,18,20">
+        <OriginalImage AutoAdjust="true" Type="Image" ShapeTimeSpan="10000" ComputedWidth="18" ComputedHeight="14" Format="tiff" CropRectangle="0,3,18,14" EnableCropRectangle="true">SUkqALgAAACAP+BP8AQWDQeEQmFQuGQ2HQWBwSHxOKRWJxGLRmNRmMRuHseQQgcyOPQiOyWGG2VQhJy2UQaTy+CyBjgCVG2WS6RjmSzGZTcATSRSSWpOewOZUKgQ+igCdxykS+gUKH0+mxafRWlSuPU2nw+sxSpyGPVaXWCoxStziZQevSSF2GUyuqW2C2ajXG0wy13aHW+eQe5QexzW/Qy8Sa94fGQrB43GY/IX7JZO25XLS+AgABAA/gAEAAEAAAAAAAAAAAEEAAEAAAASAAAAAQEEAAEAAAAUAAAAAgEDAAQAAAB+AQAAAwEDAAEAAAAFAAAABgEDAAEAAAACAAAAEQEEAAEAAAAIAAAAFQEDAAEAAAAEAAAAFgEEAAEAAAAUAAAAFwEEAAEAAACvAAAAGgEFAAEAAACGAQAAGwEFAAEAAACOAQAAHAEDAAEAAAABAAAAKAEDAAEAAAACAAAAPQEDAAEAAAACAAAAUgEDAAEAAAACAAAAAAAAAAgACAAIAAgAAHcBAOgDAAAAdwEA6AMAAA==</OriginalImage>
+        <Shapes />
+        <Variables />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

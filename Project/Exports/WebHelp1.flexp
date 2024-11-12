@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultExportProjectFile DestinationType="ManualSelection" SourceProjectPath="C:\Users\randonie\Desktop\placeholder issue before update\WebHelp\WebHelp.flprj" DestinationName="WebHelp" DestinationPath="C:\Users\randonie\Desktop\SMALL11" ExportType="Files" TargetConvertVariables="false" TargetConvertSnippets="false">
+    <SelectedContentFiles>
+        <Url Source="3d_fit_spline.htm" />
+    </SelectedContentFiles>
+    <SelectedProjectFiles>
+        <Url Source="Glossaries" />
+        <Url Source="Glossaries/Glossary.flglo" />
+        <Url Source="VariableSets" />
+        <Url Source="VariableSets/TopNav" />
+        <Url Source="VariableSets/TopNav/NewSet.flvar" />
+        <Url Source="VariableSets/General.flvar" />
+        <Url Source="VariableSets/Variables.flvar" />
+    </SelectedProjectFiles>
+</CatapultExportProjectFile>

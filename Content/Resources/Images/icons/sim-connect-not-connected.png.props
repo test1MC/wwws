@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="120" medium_print_ExportFormat="png" medium_print_DPI="96" medium_screen_and__max_width__1279px__ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_screen_and__max_width__900px__ExportFormat="png" medium_screen_and__min_width__1550px__ExportFormat="png" medium_screen_and__min_width__1279px__ExportFormat="png" medium_screen_and__min_width__1280px__ExportFormat="png" medium_screen_ExportFormat="png" Alt="Simulation connection, not connected icon" ComputedWidth="46" ComputedHeight="30" Format="png">iVBORw0KGgoAAAANSUhEUgAAAC4AAAAeCAYAAABTwyyaAAAACXBIWXMAABJ0AAASdAHeZh94AAAAB3RJTUUH5goEEyUgBOYwzwAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVYdFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aHAAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tInAAABfElEQVRYhe3Vv0sCYRzH8bdxQ8Pj5mKbolctDjcGgnPQ0r+QguQSQiAESYSDNNSiFF1jQ4NL4L/h4JCcVzgE1X7P0HBgg3j4GzK5HuE+290Xjhffe77fJ9Tv9/usYTb+G7BsArjfCeB+J4D7nQDud0JvhzsrvTnjjc4qPzc3a9vxAP7XuI6kd/ewsN4pV3AdCYDmF2xRXEfSyhWQls33xxe7F2dz647VxbivqdFx++oGadkAfD436ZQrXm0UDSAtm/fHJzXgydMThJ7wnof4STRAJJMmlj9SZx26jqSVPUZ2X713Wlh4ZxpA6AkMs44WFmp0HAZIw6yPdX4eGhTaKjDAp66rM2up66qHBsXgriNpF0sza+1iaewPKAOfNYijkZZNK1fw8ErAZ6GFnmCv2Rg786N4JeAv55dTaMOss7kVnRpYadn0bk014PF8Fk0MBm9ye0xuG6EniOWzasDFdhLDrBHJpMfQwwzx0YN9r67MBfTbKNHxZRLA/c4P6Qyt5UDsgQsAAAAASUVORK5CYII=</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

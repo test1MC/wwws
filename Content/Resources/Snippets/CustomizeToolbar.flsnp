@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>You can <b>customize the Onshape toolbars</b> in Part Studios, Assemblies and Feature Studios - shown below in a Part Studio:</p>
+        <ul>
+            <li>Hover anywhere in the toolbar and right-click, then select Customize toolbar...<p><img src="../Images/concepts/customizeTB-2.png" alt="Example of hovering, right-clicking, and selecting Customize toolbar... in the toolbar" class="RoundedCorners" /></p><p>This activates the ability to edit the toolbar:</p><p><img src="../Images/concepts/customizeTB-1.png" alt="Example of editing toolbar" class="RoundedCorners" /></p></li>
+            <li>Tools are highlighted in tool sets within the toolbar; you can drag and drop these tool sets to new locations on the toolbar:<p><img src="../Images/concepts/customizeTB-3.png" alt="Example of dragging and dropping tool sets to new locations on the toolbar" class="RoundedCorners" /></p></li>
+            <li>Create a new tool set by dragging a tool icon to the New toolset box that appears when you begin to drag the icon:<p><img src="../Images/concepts/newtoolset.png" alt="Example of how to create a new tool set" class="RoundedCorners" /></p></li>
+            <li>Drag and drop an individual tool out of the toolbar to the Tools box to remove it from the toolbar (you can always drag and drop it back onto the toolbar). Shown below during the drag operation:</li>
+            <li>
+                <p>
+                    <img src="../Images/concepts/customizeTB-4.png" alt="Example of removing a tool from the toolbar " class="RoundedCorners" />
+                </p>
+                <p>After drag is completed:</p>
+                <p>
+                    <img src="../Images/concepts/customizeTB-5.png" alt="Example of removing a tool from the toolbar" class="RoundedCorners" />
+                </p>
+            </li>
+            <li>Click Save to save your changes, Cancel to close without saving, or Reset to default to undo all changes in that type of toolbar (Part Studio, Assembly, or Feature Studio) and restore the toolbar to Onshape original order and content.</li>
+        </ul>
+        <div class="Note1-img">
+        </div>
+        <p class="Note1">When tools are part of a group, you must move the entire group. Once an entire group is removed, you can select individual tools to move back to the toolbar, if desired. To reform the entire group, select Reset to default, which will reset the entire toolbar.</p>
+    </body>
+</html>
